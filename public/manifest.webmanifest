@@ -2,8 +2,8 @@
   "name": "هماتولوژی — دوره آموزشی",
   "short_name": "هماتولوژی",
   "description": "دوره آموزشی هماتولوژی دانشگاه علوم پزشکی گیلان",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/hematology-course/",
+  "scope": "/hematology-course/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f8fafc",
@@ -12,13 +12,13 @@
   "dir": "rtl",
   "icons": [
     {
-      "src": "/assets/favicon.svg",
+      "src": "/hematology-course/assets/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/assets/favicon.svg",
+      "src": "/hematology-course/assets/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable"

@@ -133,8 +133,8 @@ function SectionPlayer({ sessionId, sectionId, meta, session, section }) {
     };
   }, []);
 
-  // ---- Swipe gesture ----
-  const swipeStartRef = useRef(null);
+  // ---- Swipe visual state ----
+  const swipeAreaRef = useRef(null);
   const [dragX, setDragX] = useState(0);
   const [dragging, setDragging] = useState(false);
 
@@ -229,78 +229,135 @@ function SectionPlayer({ sessionId, sectionId, meta, session, section }) {
     if (index > 0) setIndex((i) => i - 1);
   }
 
-  // ---- Pointer handlers ----
-  function isInteractiveTarget(el) {
-    if (!el || !(el instanceof Element)) return false;
-    return Boolean(
-      el.closest('button, a, input, textarea, select, [role="button"]')
-    );
-  }
+  // Keep the latest callbacks in refs so the touch-effect can stay attached once.
+  const callbacksRef = useRef({ tryGoNext, goPrev });
+  callbacksRef.current.tryGoNext = tryGoNext;
+  callbacksRef.current.goPrev = goPrev;
 
-  function handlePointerDown(e) {
-    if (e.pointerType === 'mouse') return;
-    if (isInteractiveTarget(e.target)) return;
-    swipeStartRef.current = {
-      x: e.clientX,
-      y: e.clientY,
-      time: Date.now(),
-    };
-    setDragging(true);
-  }
+  // ---- Swipe via touch events ----
+  useEffect(() => {
+    const el = swipeAreaRef.current;
+    if (!el) return;
 
-  function handlePointerMove(e) {
-    const start = swipeStartRef.current;
-    if (!start) return;
+    // Skip if the browser doesn't support touch (desktop-only).
+    if (!('ontouchstart' in window)) return;
 
-    const dx = e.clientX - start.x;
-    const dy = e.clientY - start.y;
+    let state = null;
+    // state = { mode: 'undecided' | 'swipe' | 'scroll' | 'native', startX, startY, time }
 
-    if (Math.abs(dy) > Math.abs(dx) && Math.abs(dy) > 12) {
-      swipeStartRef.current = null;
-      setDragX(0);
+    function isInteractiveTarget(t) {
+      if (!t || !(t instanceof Element)) return false;
+      return Boolean(
+        t.closest('button, a, input, textarea, select, [role="button"]')
+      );
+    }
+
+    function isInsideHorizontalScroll(t) {
+      let node = t;
+      while (node && node !== document.body) {
+        if (node instanceof Element) {
+          const style = window.getComputedStyle(node);
+          const ox = style.overflowX;
+          if (
+            (ox === 'auto' || ox === 'scroll') &&
+            node.scrollWidth > node.clientWidth
+          ) {
+            return true;
+          }
+        }
+        node = node.parentElement;
+      }
+      return false;
+    }
+
+    function onStart(e) {
+      if (e.touches.length !== 1) {
+        state = null;
+        return;
+      }
+      const t = e.touches[0];
+
+      // Ignore touches that start on interactive controls or on a
+      // horizontally scrollable container (e.g. a wide table).
+      if (isInteractiveTarget(t.target) || isInsideHorizontalScroll(t.target)) {
+        state = { mode: 'native' };
+        return;
+      }
+
+      state = {
+        mode: 'undecided',
+        startX: t.clientX,
+        startY: t.clientY,
+        time: Date.now(),
+      };
+    }
+
+    function onMove(e) {
+      if (!state || state.mode === 'native') return;
+      if (e.touches.length !== 1) return;
+
+      const t = e.touches[0];
+      const dx = t.clientX - state.startX;
+      const dy = t.clientY - state.startY;
+      const absDx = Math.abs(dx);
+      const absDy = Math.abs(dy);
+
+      if (state.mode === 'undecided') {
+        if (absDx < 8 && absDy < 8) return;
+        if (absDx > absDy) {
+          state.mode = 'swipe';
+          setDragging(true);
+        } else {
+          state.mode = 'scroll';
+          return;
+        }
+      }
+
+      if (state.mode === 'swipe') {
+        // Prevent the browser from interpreting this as a pan.
+        if (e.cancelable) e.preventDefault();
+        const dampened = Math.sign(dx) * Math.min(absDx * 0.4, 90);
+        setDragX(dampened);
+      }
+    }
+
+    function onEnd(e) {
+      const s = state;
+      state = null;
       setDragging(false);
-      return;
-    }
-
-    if (Math.abs(dx) < 8) return;
-
-    const dampened = Math.sign(dx) * Math.min(Math.abs(dx) * 0.4, 90);
-    setDragX(dampened);
-  }
-
-  function handlePointerUp(e) {
-    const start = swipeStartRef.current;
-    swipeStartRef.current = null;
-    setDragging(false);
-
-    if (!start) {
       setDragX(0);
-      return;
+
+      if (!s || s.mode !== 'swipe') return;
+
+      const t = e.changedTouches?.[0];
+      if (!t) return;
+
+      const dx = t.clientX - s.startX;
+      const dy = t.clientY - s.startY;
+      const dt = Date.now() - s.time;
+
+      if (Math.abs(dx) < SWIPE_MIN_DISTANCE) return;
+      if (dt > SWIPE_MAX_DURATION) return;
+      if (Math.abs(dy) > Math.abs(dx) * 0.7) return;
+
+      // RTL: swipe right (dx > 0) → next, swipe left (dx < 0) → previous.
+      if (dx > 0) callbacksRef.current.tryGoNext();
+      else callbacksRef.current.goPrev();
     }
 
-    const dx = e.clientX - start.x;
-    const dy = e.clientY - start.y;
-    const dt = Date.now() - start.time;
+    el.addEventListener('touchstart', onStart, { passive: true });
+    el.addEventListener('touchmove', onMove, { passive: false });
+    el.addEventListener('touchend', onEnd, { passive: true });
+    el.addEventListener('touchcancel', onEnd, { passive: true });
 
-    setDragX(0);
-
-    if (Math.abs(dx) < SWIPE_MIN_DISTANCE) return;
-    if (dt > SWIPE_MAX_DURATION) return;
-    if (Math.abs(dy) > Math.abs(dx) * 0.7) return;
-
-    // RTL: swipe right (dx > 0) → next, swipe left (dx < 0) → previous.
-    if (dx > 0) {
-      tryGoNext();
-    } else {
-      goPrev();
-    }
-  }
-
-  function handlePointerCancel() {
-    swipeStartRef.current = null;
-    setDragX(0);
-    setDragging(false);
-  }
+    return () => {
+      el.removeEventListener('touchstart', onStart);
+      el.removeEventListener('touchmove', onMove);
+      el.removeEventListener('touchend', onEnd);
+      el.removeEventListener('touchcancel', onEnd);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
 
   const backLink = (
     <Link
@@ -548,13 +605,8 @@ function SectionPlayer({ sessionId, sectionId, meta, session, section }) {
         />
       )}
 
-      <div
-        className="touch-pan-y"
-        onPointerDown={handlePointerDown}
-        onPointerMove={handlePointerMove}
-        onPointerUp={handlePointerUp}
-        onPointerCancel={handlePointerCancel}
-      >
+      {/* Swipe-aware card area (touch events attached via ref) */}
+      <div ref={swipeAreaRef}>
         <div className={shakeActive ? 'animate-shake' : ''}>
           <div style={dragStyle}>
             {currentCard ? (

@@ -11,7 +11,7 @@ import NotFound from '../pages/NotFound.jsx';
 
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/hematology-course">
       <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />

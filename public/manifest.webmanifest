@@ -1,0 +1,27 @@
+{
+  "name": "هماتولوژی — دوره آموزشی",
+  "short_name": "هماتولوژی",
+  "description": "دوره آموزشی هماتولوژی دانشگاه علوم پزشکی گیلان",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#e11d48",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

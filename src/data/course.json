@@ -1,0 +1,46 @@
+{
+  "title": "هماتولوژی",
+  "description": "دوره آموزشی هماتولوژی",
+  "sessions": [
+    {
+      "id": "session-01",
+      "title": "جلسه 1",
+      "file": "session-01.json"
+    },
+    {
+      "id": "session-02",
+      "title": "جلسه 2",
+      "file": "session-02.json"
+    },
+    {
+      "id": "session-03",
+      "title": "جلسه 3",
+      "file": "session-03.json"
+    },
+    {
+      "id": "session-04",
+      "title": "جلسه 4",
+      "file": "session-04.json"
+    },
+    {
+      "id": "session-05",
+      "title": "جلسه 5",
+      "file": "session-05.json"
+    },
+    {
+      "id": "session-06",
+      "title": "جلسه 6",
+      "file": "session-06.json"
+    },
+    {
+      "id": "session-07",
+      "title": "جلسه 7",
+      "file": "session-07.json"
+    },
+    {
+      "id": "session-08",
+      "title": "جلسه 8",
+      "file": "session-08.json"
+    }
+  ]
+}

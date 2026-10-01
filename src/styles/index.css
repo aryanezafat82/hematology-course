@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  --color-primary: #e11d48;
+  --color-primary-hover: #be123c;
+  --color-primary-soft: #ffe4e6;
+
+  --color-success: #059669;
+  --color-success-soft: #d1fae5;
+  --color-warning: #d97706;
+  --color-warning-soft: #fef3c7;
+  --color-error: #dc2626;
+  --color-error-soft: #fee2e2;
+
+  --color-hard: #d97706;
+  --color-hard-soft: #fef3c7;
+  --color-review: #4f46e5;
+  --color-review-soft: #e0e7ff;
+}
+
+html, body {
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--color-surface-muted);
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: env(safe-area-inset-bottom);
+  transition: background-color 200ms ease-out, color 200ms ease-out;
+}
+
+.dark body {
+  background-color: #020617;
+  color: #f1f5f9;
+}
+
+p, li {
+  line-height: 1.9;
+}
+
+/* ===== Animations ===== */
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pop-in {
+  0%   { transform: scale(0.96); opacity: 0; }
+  60%  { transform: scale(1.02); opacity: 1; }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%      { transform: translateX(-3px); }
+  40%      { transform: translateX(3px); }
+  60%      { transform: translateX(-2px); }
+  80%      { transform: translateX(2px); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes expand-down {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes swipe-hint-right {
+  0%, 100% { transform: translateX(0);   opacity: 0.4; }
+  50%      { transform: translateX(4px); opacity: 1; }
+}
+
+@keyframes swipe-hint-left {
+  0%, 100% { transform: translateX(0);    opacity: 0.4; }
+  50%      { transform: translateX(-4px); opacity: 1; }
+}
+
+.animate-card-in         { animation: card-in 220ms ease-out both; }
+.animate-pop-in          { animation: pop-in 240ms ease-out both; }
+.animate-shake           { animation: shake 320ms ease-in-out both; }
+.animate-fade-in         { animation: fade-in 180ms ease-out both; }
+.animate-expand          { animation: expand-down 200ms ease-out both; }
+.animate-swipe-hint-right { animation: swipe-hint-right 1.4s ease-in-out infinite; }
+.animate-swipe-hint-left  { animation: swipe-hint-left  1.4s ease-in-out infinite; }
+
+/* ===== Reduced motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-card-in,
+  .animate-pop-in,
+  .animate-shake,
+  .animate-fade-in,
+  .animate-expand,
+  .animate-swipe-hint-right,
+  .animate-swipe-hint-left {
+    animation: none !important;
+  }
+}

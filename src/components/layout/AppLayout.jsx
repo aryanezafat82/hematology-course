@@ -3,6 +3,7 @@ import Sidebar from './Sidebar.jsx';
 import Header from './Header.jsx';
 import BottomNav from './BottomNav.jsx';
 import InstallPrompt from '../onboarding/InstallPrompt.jsx';
+import WelcomeTour from '../onboarding/WelcomeTour.jsx';
 
 export default function AppLayout() {
   return (
@@ -20,6 +21,7 @@ export default function AppLayout() {
       </div>
 
       <BottomNav />
+      <WelcomeTour />
       <InstallPrompt />
     </div>
   );

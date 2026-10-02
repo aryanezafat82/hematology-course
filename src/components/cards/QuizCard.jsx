@@ -38,9 +38,9 @@ export default function QuizCard({ card }) {
         </span>
       </header>
 
-      <h3 className="text-base font-semibold leading-7 text-slate-900 dark:text-slate-100">
+      <h2 className="text-base font-semibold leading-7 text-slate-900 dark:text-slate-100">
         {card.question}
-      </h3>
+      </h2>
 
       <ul className="mt-4 space-y-2">
         {options.map((option, i) => {

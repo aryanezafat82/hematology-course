@@ -13,9 +13,9 @@ export default function KeyPointCard({ card }) {
       </header>
 
       {card.title && (
-        <h3 className="text-base font-bold leading-7 text-amber-900 sm:text-lg dark:text-amber-100">
+        <h2 className="text-base font-bold leading-7 text-amber-900 sm:text-lg dark:text-amber-100">
           {card.title}
-        </h3>
+        </h2>
       )}
 
       {card.content && (

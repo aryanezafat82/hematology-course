@@ -8,11 +8,13 @@ import {
   PlayCircle,
   ArrowLeft,
   HelpCircle,
+  BookOpen,
+  Play,
 } from 'lucide-react';
 import { useReview } from '../context/ReviewContext.jsx';
 import { useHardPoints } from '../context/HardPointsContext.jsx';
 import { SectionSessionProvider } from '../context/SectionSessionContext.jsx';
-import { getSessionData } from '../data/loaders.js';
+import { getSessionData, getSessionMeta } from '../data/loaders.js';
 import EmptyState from '../components/common/EmptyState.jsx';
 import ReviewCard from '../components/review/ReviewCard.jsx';
 import ReviewProgress from '../components/review/ReviewProgress.jsx';
@@ -24,7 +26,6 @@ const VIEW = { DASHBOARD: 'dashboard', SESSION: 'session', SUMMARY: 'summary' };
 export default function Review() {
   const {
     getDueReviews,
-    getDueCount,
     getOverdueCount,
     getUpcomingCount,
     getTotalCount,
@@ -41,7 +42,9 @@ export default function Review() {
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState({ forgot: 0, partial: 0, easy: 0 });
   const [showGuide, setShowGuide] = useState(false);
+  const [activeSessionId, setActiveSessionId] = useState(null);
 
+  // ---- Due items (respect hardOnly filter) ----
   const dueItems = useMemo(() => {
     const list = getDueReviews();
     if (!hardOnly) return list;
@@ -50,11 +53,37 @@ export default function Review() {
     );
   }, [getDueReviews, hardOnly, isHardPoint]);
 
+  // ---- Group due items by session ----
+  const dueBySession = useMemo(() => {
+    const map = new Map();
+    for (const item of dueItems) {
+      if (!map.has(item.sessionId)) {
+        const data = getSessionData(item.sessionId);
+        const meta = getSessionMeta(item.sessionId);
+        map.set(item.sessionId, {
+          sessionId: item.sessionId,
+          title: data?.title ?? meta?.title ?? item.sessionId,
+          items: [],
+        });
+      }
+      map.get(item.sessionId).items.push(item);
+    }
+    return Array.from(map.values()).sort((a, b) =>
+      a.sessionId.localeCompare(b.sessionId)
+    );
+  }, [dueItems]);
+
+  const activeSessionTitle = useMemo(() => {
+    if (!activeSessionId) return null;
+    const data = getSessionData(activeSessionId);
+    const meta = getSessionMeta(activeSessionId);
+    return data?.title ?? meta?.title ?? activeSessionId;
+  }, [activeSessionId]);
+
   const totalCount = getTotalCount();
-  const dueCount = hardOnly ? dueItems.length : getDueCount();
+  const dueCount = dueItems.length;
   const overdueCount = getOverdueCount();
   const upcomingCount = getUpcomingCount();
-  const dueTodayOnly = Math.max(0, dueCount - overdueCount);
 
   const resolvedQueue = useMemo(() => {
     return queue
@@ -81,11 +110,22 @@ export default function Review() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [getAllItems, view]);
 
-  function startSession() {
+  function startAll() {
     if (dueItems.length === 0) return;
     setQueue([...dueItems]);
     setIndex(0);
     setResults({ forgot: 0, partial: 0, easy: 0 });
+    setActiveSessionId(null);
+    setView(VIEW.SESSION);
+  }
+
+  function startSession(sessionId) {
+    const items = dueItems.filter((it) => it.sessionId === sessionId);
+    if (items.length === 0) return;
+    setQueue([...items]);
+    setIndex(0);
+    setResults({ forgot: 0, partial: 0, easy: 0 });
+    setActiveSessionId(sessionId);
     setView(VIEW.SESSION);
   }
 
@@ -106,8 +146,10 @@ export default function Review() {
     setView(VIEW.DASHBOARD);
     setQueue([]);
     setIndex(0);
+    setActiveSessionId(null);
   }
 
+  // ================= SUMMARY =================
   if (view === VIEW.SUMMARY) {
     return (
       <div className="space-y-6">
@@ -126,6 +168,7 @@ export default function Review() {
     );
   }
 
+  // ================= SESSION =================
   if (view === VIEW.SESSION) {
     if (!currentEntry) {
       return (
@@ -153,12 +196,20 @@ export default function Review() {
       );
     }
 
+    const sessionLabel = activeSessionTitle
+      ? `مرور ${activeSessionTitle}`
+      : hardOnly
+        ? 'مرور کارت‌های سخت'
+        : 'مرور همه کارت‌ها';
+
     return (
-      <SectionSessionProvider key="review-session">
+      <SectionSessionProvider
+        key={`review-${activeSessionId ?? 'all'}-${resolvedQueue.length}`}
+      >
         <div className="space-y-6">
           <header className="flex items-center justify-between gap-3">
-            <h1 className="text-xl font-bold text-slate-900 sm:text-2xl dark:text-slate-100">
-              {hardOnly ? 'مرور کارت‌های سخت' : 'مرور امروز'}
+            <h1 className="text-base font-bold text-slate-900 sm:text-lg dark:text-slate-100">
+              {sessionLabel}
             </h1>
             <button
               type="button"
@@ -182,6 +233,39 @@ export default function Review() {
       </SectionSessionProvider>
     );
   }
+
+  // ================= DASHBOARD =================
+  const isAllEmpty = totalCount === 0 && !hardOnly;
+
+  if (isAllEmpty) {
+    return (
+      <div className="space-y-6">
+        <header>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
+            {hardOnly ? 'مرور کارت‌های سخت' : 'مرور'}
+          </h1>
+        </header>
+        <EmptyState
+          icon={Repeat}
+          title="هنوز کارتی برای مرور وجود ندارد."
+          description="با علامت‌زدن دکمه‌ی «مرور» روی کارت‌ها، آن‌ها به سیستم مرور اضافه می‌شوند و در بازه‌های مناسب دوباره به شما نشان داده می‌شوند."
+          action={
+            <Link
+              to="/sessions"
+              className="inline-flex items-center gap-2 rounded-lg bg-rose-600 px-4 py-2 text-sm font-medium text-white hover:bg-rose-700 dark:hover:bg-rose-500"
+            >
+              مشاهده جلسات
+              <ArrowLeft className="h-4 w-4" />
+            </Link>
+          }
+        />
+        <ReviewGuide variant="inline" />
+      </div>
+    );
+  }
+
+  const hasAnyDue = dueCount > 0;
+  const multiSession = dueBySession.length > 1;
 
   return (
     <div className="space-y-6">
@@ -207,26 +291,21 @@ export default function Review() {
         </button>
       </header>
 
-      {totalCount === 0 && !hardOnly ? (
+      {!hasAnyDue ? (
         <>
           <EmptyState
-            icon={Repeat}
-            title="هنوز کارتی برای مرور وجود ندارد."
-            description="با علامت‌زدن دکمه‌ی «مرور» روی کارت‌ها، آن‌ها به سیستم مرور اضافه می‌شوند و در بازه‌های مناسب دوباره به شما نشان داده می‌شوند."
-            action={
-              <Link
-                to="/sessions"
-                className="inline-flex items-center gap-2 rounded-lg bg-rose-600 px-4 py-2 text-sm font-medium text-white hover:bg-rose-700 dark:hover:bg-rose-500"
-              >
-                مشاهده جلسات
-                <ArrowLeft className="h-4 w-4" />
-              </Link>
+            icon={CalendarCheck}
+            title="مروری برای امروز ندارید 🎉"
+            description={
+              upcomingCount > 0
+                ? `${upcomingCount} کارت در روزهای آینده برای مرور زمان‌بندی شده است.`
+                : 'کارتی در صف مرور امروز نیست.'
             }
           />
-          <ReviewGuide variant="inline" />
         </>
       ) : (
         <>
+          {/* Summary card */}
           <section className="rounded-2xl border border-slate-200 bg-white p-6 transition-colors duration-200 dark:border-slate-800 dark:bg-slate-900">
             <div className="flex items-center justify-between">
               <h2 className="flex items-center gap-2 text-base font-semibold text-slate-900 dark:text-slate-100">
@@ -238,53 +317,62 @@ export default function Review() {
               </span>
             </div>
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">
-              {dueCount > 0
-                ? `${dueCount} کارت برای مرور دارید.`
-                : 'مروری برای امروز ندارید 🎉'}
+              {dueCount} کارت در {dueBySession.length}{' '}
+              {dueBySession.length === 1 ? 'جلسه' : 'جلسه'} آماده‌ی مرور است.
+              {overdueCount > 0 && (
+                <span className="text-rose-600 dark:text-rose-400">
+                  {' '}
+                  ({overdueCount} عقب‌افتاده)
+                </span>
+              )}
             </p>
 
-            {dueCount > 0 && (
+            {multiSession && (
               <div className="mt-4">
                 <button
                   type="button"
-                  onClick={startSession}
+                  onClick={startAll}
                   className="inline-flex items-center gap-2 rounded-lg bg-rose-600 px-4 py-2.5 text-sm font-medium text-white transition-all duration-150 hover:bg-rose-700 active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500 dark:hover:bg-rose-500"
                 >
                   <PlayCircle className="h-4 w-4" />
-                  شروع مرور
+                  مرور همه جلسات ({dueCount})
                 </button>
               </div>
             )}
           </section>
 
-          <section className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-            <div className="rounded-xl border border-slate-200 bg-white p-4 transition-colors duration-200 dark:border-slate-800 dark:bg-slate-900">
-              <p className="flex items-center gap-1.5 text-xs text-rose-700 dark:text-rose-400">
-                <AlertTriangle className="h-3.5 w-3.5" />
-                عقب‌افتاده
-              </p>
-              <p className="mt-2 text-lg font-bold text-slate-900 dark:text-slate-100">
-                {overdueCount}
-              </p>
-            </div>
-            <div className="rounded-xl border border-slate-200 bg-white p-4 transition-colors duration-200 dark:border-slate-800 dark:bg-slate-900">
-              <p className="flex items-center gap-1.5 text-xs text-amber-700 dark:text-amber-400">
-                <Clock className="h-3.5 w-3.5" />
-                امروز
-              </p>
-              <p className="mt-2 text-lg font-bold text-slate-900 dark:text-slate-100">
-                {dueTodayOnly}
-              </p>
-            </div>
-            <div className="rounded-xl border border-slate-200 bg-white p-4 transition-colors duration-200 dark:border-slate-800 dark:bg-slate-900">
-              <p className="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-400">
-                <CalendarCheck className="h-3.5 w-3.5" />
-                پیش‌رو
-              </p>
-              <p className="mt-2 text-lg font-bold text-slate-900 dark:text-slate-100">
-                {upcomingCount}
-              </p>
-            </div>
+          {/* Sessions list */}
+          <section className="space-y-3">
+            <h2 className="text-base font-semibold text-slate-900 dark:text-slate-100">
+              {multiSession ? 'یا یک جلسه را انتخاب کنید' : 'جلسه‌ی آماده‌ی مرور'}
+            </h2>
+
+            <ul className="space-y-2">
+              {dueBySession.map((group) => (
+                <li key={group.sessionId}>
+                  <button
+                    type="button"
+                    onClick={() => startSession(group.sessionId)}
+                    className="group flex w-full items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4 text-right transition-all duration-150 hover:border-rose-300 hover:bg-rose-50/40 active:scale-[0.99] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500 dark:border-slate-800 dark:bg-slate-900 dark:hover:border-rose-800 dark:hover:bg-rose-950/30"
+                  >
+                    <div className="flex min-w-0 items-center gap-3">
+                      <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 dark:bg-indigo-950/60 dark:text-indigo-400">
+                        <BookOpen className="h-4 w-4" />
+                      </span>
+                      <div className="min-w-0">
+                        <p className="truncate text-sm font-semibold text-slate-900 dark:text-slate-100">
+                          {group.title}
+                        </p>
+                        <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400">
+                          {group.items.length} کارت برای مرور
+                        </p>
+                      </div>
+                    </div>
+                    <Play className="h-4 w-4 shrink-0 text-rose-500 transition-transform group-hover:scale-110 dark:text-rose-400" />
+                  </button>
+                </li>
+              ))}
+            </ul>
           </section>
         </>
       )}

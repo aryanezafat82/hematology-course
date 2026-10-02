@@ -7,7 +7,11 @@ import { ProgressProvider } from './context/ProgressContext.jsx';
 import { HardPointsProvider } from './context/HardPointsContext.jsx';
 import { ReviewProvider } from './context/ReviewContext.jsx';
 import './styles/index.css';
-
+// Dev-only: expose loaders for debugging in DevTools console
+import * as __loaders from './data/loaders.js';
+if (import.meta.env.DEV) {
+  window.__loaders = __loaders;
+}
 // Capture the install prompt event as early as possible.
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();

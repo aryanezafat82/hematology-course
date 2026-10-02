@@ -13,9 +13,9 @@ export default function InfoCard({ card }) {
       </header>
 
       {card.title && (
-        <h3 className="text-base font-semibold leading-7 text-slate-900 sm:text-lg dark:text-slate-100">
+        <h2 className="text-base font-semibold leading-7 text-slate-900 sm:text-lg dark:text-slate-100">
           {card.title}
-        </h3>
+        </h2>
       )}
 
       {card.content && (

@@ -22,9 +22,9 @@ export default function TableCard({ card }) {
       </header>
 
       {card.title && (
-        <h3 className="mb-3 text-base font-semibold text-slate-900 sm:text-lg dark:text-slate-100">
+        <h2 className="mb-3 text-base font-semibold text-slate-900 sm:text-lg dark:text-slate-100">
           {card.title}
-        </h3>
+        </h2>
       )}
 
       {hasTable ? (

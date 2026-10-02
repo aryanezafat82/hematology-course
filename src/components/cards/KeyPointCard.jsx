@@ -1,4 +1,5 @@
 import { Star } from 'lucide-react';
+import RichText from '../common/RichText.jsx';
 
 export default function KeyPointCard({ card }) {
   return (
@@ -13,15 +14,16 @@ export default function KeyPointCard({ card }) {
       </header>
 
       {card.title && (
-        <h2 className="text-base font-bold leading-7 text-amber-900 sm:text-lg dark:text-amber-100">
-          {card.title}
-        </h2>
-      )}
+  <h2 className="text-base font-bold leading-7 text-amber-900 sm:text-lg dark:text-amber-100">
+    <RichText as="span" text={card.title} />
+  </h2>
+)}
 
       {card.content && (
-        <p className="mt-2 whitespace-pre-line text-sm leading-8 text-amber-900/90 sm:text-[15px] dark:text-amber-100/90">
-          {card.content}
-        </p>
+        <RichText
+          text={card.content}
+          className="mt-2 text-sm leading-8 text-amber-900/90 sm:text-[15px] dark:text-amber-100/90"
+        />
       )}
     </article>
   );

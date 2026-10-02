@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Layers, Eye, EyeOff } from 'lucide-react';
 import { useSectionSession } from '../../context/SectionSessionContext.jsx';
+import RichText from '../common/RichText.jsx';
 
 export default function Flashcard({ card }) {
   const sectionSession = useSectionSession();
@@ -24,9 +25,10 @@ export default function Flashcard({ card }) {
         </span>
       </header>
 
-      <p className="text-base font-semibold leading-8 text-slate-900 dark:text-slate-100">
-        {card.question}
-      </p>
+      <RichText
+        text={card.question}
+        className="text-base font-semibold leading-8 text-slate-900 dark:text-slate-100"
+      />
 
       {revealed && (
         <div
@@ -37,9 +39,10 @@ export default function Flashcard({ card }) {
           <p className="text-xs font-medium tracking-wide text-emerald-700 dark:text-emerald-400">
             پاسخ
           </p>
-          <p className="mt-1 whitespace-pre-line text-sm leading-8 text-emerald-900 dark:text-emerald-200">
-            {card.answer}
-          </p>
+          <RichText
+            text={card.answer}
+            className="mt-1 text-sm leading-8 text-emerald-900 dark:text-emerald-200"
+          />
         </div>
       )}
 

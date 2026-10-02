@@ -1,4 +1,5 @@
 import { BookOpen } from 'lucide-react';
+import RichText from '../common/RichText.jsx';
 
 export default function InfoCard({ card }) {
   return (
@@ -13,15 +14,16 @@ export default function InfoCard({ card }) {
       </header>
 
       {card.title && (
-        <h2 className="text-base font-semibold leading-7 text-slate-900 sm:text-lg dark:text-slate-100">
-          {card.title}
-        </h2>
-      )}
+  <h2 className="text-base font-semibold leading-7 text-slate-900 sm:text-lg dark:text-slate-100">
+    <RichText as="span" text={card.title} />
+  </h2>
+)}
 
       {card.content && (
-        <p className="mt-2 whitespace-pre-line text-sm leading-8 text-slate-700 sm:text-[15px] dark:text-slate-300">
-          {card.content}
-        </p>
+        <RichText
+          text={card.content}
+          className="mt-2 text-sm leading-8 text-slate-700 sm:text-[15px] dark:text-slate-300"
+        />
       )}
     </article>
   );

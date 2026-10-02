@@ -13,29 +13,43 @@
             "id": "session-10-section-01-card-01",
             "type": "info",
             "title": "دسته‌بندی کلی",
-            "content": "علل اصلی به دو دسته ایمنی و غیرایمنی تقسیم می‌شوند. ایمنی شامل Autoimmune، Alloimmune و Drug است. غیرایمنی شامل Entrapment، Traumatic hemolytic anemia، Hemolytic anemia due to toxin on membrane و Paroxysmal nocturnal hemoglobinuria (PNH) است."
+            "content": "علل اصلی به دو دسته ایمنی و غیرایمنی تقسیم می‌شوند.\nایمنی شامل Autoimmune، Alloimmune و Drug است.\nغیرایمنی شامل Entrapment، Traumatic hemolytic anemia، Hemolytic anemia due to toxin on membrane و Paroxysmal nocturnal hemoglobinuria (**PNH**) است."
           },
           {
             "id": "session-10-section-01-card-02",
             "type": "table",
             "title": "ایمنی در مقابل غیرایمنی",
-            "columns": ["دسته", "زیرگروه‌ها"],
+            "columns": [
+              "دسته",
+              "زیرگروه‌ها"
+            ],
             "rows": [
-              ["ایمنی", "Autoimmune، Alloimmune، Drug"],
-              ["غیرایمنی", "Entrapment، Traumatic hemolytic anemia، Hemolytic anemia due to toxin on membrane، Paroxysmal nocturnal hemoglobinuria"]
+              [
+                "ایمنی",
+                "Autoimmune، Alloimmune، Drug"
+              ],
+              [
+                "غیرایمنی",
+                "Entrapment، Traumatic hemolytic anemia، Hemolytic anemia due to toxin on membrane، Paroxysmal nocturnal hemoglobinuria"
+              ]
             ]
           },
           {
             "id": "session-10-section-01-card-03",
             "type": "key_point",
             "title": "نکته مهم",
-            "content": "در همولیز ایمنی، Autoimmune می‌تواند Warm (IgG) یا Cold (IgM/IgG) باشد."
+            "content": "در ==همولیز ایمنی==، Autoimmune می‌تواند Warm (**IgG**) یا Cold (**IgM**/**IgG**) باشد."
           },
           {
             "id": "session-10-section-01-card-04",
             "type": "quiz",
-            "question": "کدام مورد جزء علل غیرایمنی آنمی همولیتیک اکتسابی نیست؟",
-            "options": ["Entrapment", "Traumatic hemolytic anemia", "Drug", "Paroxysmal nocturnal hemoglobinuria"],
+            "question": "کدام مورد جزء علل غیرایمنی ==آنمی همولیتیک اکتسابی== نیست؟",
+            "options": [
+              "Entrapment",
+              "Traumatic hemolytic anemia",
+              "Drug",
+              "Paroxysmal nocturnal hemoglobinuria"
+            ],
             "correctAnswer": 2,
             "explanation": "Drug در دسته ایمنی قرار می‌گیرد."
           }
@@ -50,44 +64,65 @@
             "id": "session-10-section-02-card-01",
             "type": "info",
             "title": "انواع خودایمنی",
-            "content": "Autoimmune hemolytic anemia به دو نوع Warm و Cold تقسیم می‌شود. Warm با IgG و Cold با IgM (و در PCH با IgG) مرتبط است."
+            "content": "Autoimmune hemolytic anemia به دو نوع Warm و Cold تقسیم می‌شود.\nWarm با **IgG** و Cold با **IgM** (و در PCH با **IgG**) مرتبط است."
           },
           {
             "id": "session-10-section-02-card-02",
             "type": "table",
             "title": "مقایسه Warm و Cold",
-            "columns": ["ویژگی", "Warm", "Cold"],
+            "columns": [
+              "ویژگی",
+              "Warm",
+              "Cold"
+            ],
             "rows": [
-              ["آنتی‌بادی", "IgG", "IgM؛ در PCH: IgG"],
-              ["علل", "Idiopathic، Lymphoproliferative disorder، Collagen vascular، Drug، Postviral", "Cold agglutinin disease، Paroxysmal cold hemoglobinuria"],
-              ["ویژگی بالینی", "شایع‌تر", "همولیز سرد؛ آگلوتیناسیون عروقی"]
+              [
+                "آنتی‌بادی",
+                "**IgG**",
+                "**IgM**؛\nدر PCH: **IgG**"
+              ],
+              [
+                "علل",
+                "Idiopathic، Lymphoproliferative disorder، Collagen vascular، Drug، Postviral",
+                "Cold agglutinin disease، Paroxysmal cold hemoglobinuria"
+              ],
+              [
+                "ویژگی بالینی",
+                "شایع‌تر",
+                "همولیز سرد؛\nآگلوتیناسیون عروقی"
+              ]
             ]
           },
           {
             "id": "session-10-section-02-card-03",
             "type": "key_point",
             "title": "نکته افتراقی",
-            "content": "در Cold agglutinin disease آنتی‌بادی IgM است و در Paroxysmal cold hemoglobinuria آنتی‌بادی IgG (Donath-Landsteiner) است."
+            "content": "در Cold agglutinin disease آنتی‌بادی **IgM** است و در Paroxysmal cold hemoglobinuria آنتی‌بادی **IgG** (**Donath-Landsteiner**) است."
           },
           {
             "id": "session-10-section-02-card-04",
             "type": "info",
             "title": "Cold agglutinin",
-            "content": "Cold agglutinin: monoclonal antibodies (محصول lymphocytic neoplasia/paraneoplasia) در Mycoplasma pneumoniae و infectious mononucleosis؛ polyclonal antibodies در پاسخ به infection."
+            "content": "Cold agglutinin: monoclonal antibodies (محصول lymphocytic neoplasia/paraneoplasia) در Mycoplasma pneumoniae و infectious mononucleosis؛\npolyclonal antibodies در پاسخ به infection."
           },
           {
             "id": "session-10-section-02-card-05",
             "type": "flashcard",
-            "question": "آنتی‌بادی Donath-Landsteiner در کدام بیماری دیده می‌شود؟",
+            "question": "آنتی‌بادی **Donath-Landsteiner** در کدام بیماری دیده می‌شود؟",
             "answer": "Paroxysmal cold hemoglobinuria (PCH)."
           },
           {
             "id": "session-10-section-02-card-06",
             "type": "quiz",
             "question": "کدام آنتی‌بادی در Cold agglutinin disease غالب است؟",
-            "options": ["IgG", "IgM", "IgA", "IgE"],
+            "options": [
+              "**IgG**",
+              "**IgM**",
+              "**IgA**",
+              "**IgE**"
+            ],
             "correctAnswer": 1,
-            "explanation": "Cold agglutinin معمولاً IgM است."
+            "explanation": "Cold agglutinin معمولاً **IgM** است."
           }
         ]
       },
@@ -99,42 +134,54 @@
           {
             "id": "session-10-section-03-card-01",
             "type": "info",
-            "title": "Direct Coombs test",
-            "content": "Direct Coombs test: شناسایی آنتی‌بادی یا کمپلمان متصل به RBC. Ab = IgG or C3. اتصال منجر به Agglutination می‌شود."
+            "title": "Direct **Coombs** test",
+            "content": "Direct **Coombs** test: شناسایی آنتی‌بادی یا کمپلمان متصل به **RBC**.\nAb = **IgG** or C3.\nاتصال منجر به Agglutination می‌شود."
           },
           {
             "id": "session-10-section-03-card-02",
             "type": "info",
-            "title": "Indirect Coombs test",
-            "content": "Indirect Coombs test: serum بیمار + Normal RBC → RBC coated Ab → افزودن Antihuman antibody → Agglutination."
+            "title": "Indirect **Coombs** test",
+            "content": "Indirect **Coombs** test: serum بیمار + Normal **RBC** → **RBC** coated Ab → افزودن Antihuman antibody → Agglutination."
           },
           {
             "id": "session-10-section-03-card-03",
             "type": "table",
-            "title": "مقایسه Direct و Indirect Coombs",
-            "columns": ["تست", "روش", "نکته"],
+            "title": "مقایسه Direct و Indirect **Coombs**",
+            "columns": [
+              "تست",
+              "روش",
+              "نکته"
+            ],
             "rows": [
-              ["Direct Coombs", "بررسی RBC بیمار", "Ab = IgG or C3؛ مثبت در ۹۸٪ Immunohemolytic anemia"],
-              ["Indirect Coombs", "بررسی سرم بیمار با RBC نرمال", "تشخیص آنتی‌بادی آزاد"]
+              [
+                "Direct **Coombs**",
+                "بررسی **RBC** بیمار",
+                "Ab = **IgG** or C3؛\nمثبت در ++۹۸٪++ Immunohemolytic anemia"
+              ],
+              [
+                "Indirect **Coombs**",
+                "بررسی سرم بیمار با **RBC** نرمال",
+                "تشخیص آنتی‌بادی آزاد"
+              ]
             ]
           },
           {
             "id": "session-10-section-03-card-04",
             "type": "info",
             "title": "تظاهرات بالینی",
-            "content": "تظاهرات Immunohemolytic anemia: زن، آنمی متوسط تا شدید، Reticulocyte count elevated، Spherocytosis، Splenomegaly، Hemoglobinemia، Hemoglobinuria، Shock."
+            "content": "تظاهرات Immunohemolytic anemia: زن، ==آنمی== متوسط تا شدید، Reticulocyte count elevated، Spherocytosis، Splenomegaly، Hemoglobinemia، Hemoglobinuria، Shock."
           },
           {
             "id": "session-10-section-03-card-05",
             "type": "key_point",
             "title": "نکته تشخیصی",
-            "content": "Direct Coombs test در ۹۸٪ موارد Immunohemolytic anemia مثبت است."
+            "content": "Direct **Coombs** test در ++۹۸٪++ موارد Immunohemolytic anemia مثبت است."
           },
           {
             "id": "session-10-section-03-card-06",
             "type": "info",
             "title": "درمان",
-            "content": "درمان: همولیز خفیف معمولاً نیاز به درمان ندارد. در همولیز قابل‌توجه: Glucocorticoids، Splenectomy، Immunosuppressive drugs."
+            "content": "درمان: همولیز خفیف معمولاً نیاز به درمان ندارد.\nدر همولیز قابل‌توجه: Glucocorticoids، Splenectomy، Immunosuppressive drugs."
           },
           {
             "id": "session-10-section-03-card-07",
@@ -145,10 +192,15 @@
           {
             "id": "session-10-section-03-card-08",
             "type": "quiz",
-            "question": "درمان اصلی همولیز ایمنی قابل‌توجه طبق فایل کدام است؟",
-            "options": ["Platelet transfusion", "Glucocorticoids", "Antibiotics", "Iron"],
+            "question": "درمان اصلی ==همولیز ایمنی== قابل‌توجه طبق فایل کدام است؟",
+            "options": [
+              "Platelet transfusion",
+              "Glucocorticoids",
+              "Antibiotics",
+              "Iron"
+            ],
             "correctAnswer": 1,
-            "explanation": "گلوکوکورتیکوئیدها در درمان همولیز ایمنی قابل‌توجه ذکر شده‌اند."
+            "explanation": "گلوکوکورتیکوئیدها در درمان ==همولیز ایمنی== قابل‌توجه ذکر شده‌اند."
           }
         ]
       },
@@ -167,30 +219,50 @@
             "id": "session-10-section-04-card-02",
             "type": "table",
             "title": "مکانیسم‌های دارویی",
-            "columns": ["مکانیسم", "مثال", "نوع آنتی‌بادی", "Coombs"],
+            "columns": [
+              "مکانیسم",
+              "مثال",
+              "نوع آنتی‌بادی",
+              "**Coombs**"
+            ],
             "rows": [
-              ["Alteration of antigen", "α-methyldopa", "Warm antibody", "Indirect Coombs مثبت؛ RBC coated with IgG not C3"],
-              ["Haptenes", "Penicillin", "IgG", "Direct Coombs مثبت"],
-              ["Haptenes", "Quinidine", "IgM (معمولاً کمپلمان را فیکس می‌کند)", "Direct Coombs با anti-C3 مثبت است، نه anti-IgG"]
+              [
+                "Alteration of antigen",
+                "α-methyldopa",
+                "Warm antibody",
+                "Indirect **Coombs** مثبت؛\n**RBC** coated with **IgG** not C3"
+              ],
+              [
+                "Haptenes",
+                "Penicillin",
+                "**IgG**",
+                "Direct **Coombs** مثبت"
+              ],
+              [
+                "Haptenes",
+                "Quinidine",
+                "**IgM** (معمولاً کمپلمان را فیکس می‌کند)",
+                "Direct **Coombs** با anti-C3 مثبت است، نه anti-**IgG**"
+              ]
             ]
           },
           {
             "id": "session-10-section-04-card-03",
             "type": "key_point",
             "title": "نکته دارویی",
-            "content": "در α-methyldopa، Indirect Coombs مثبت است و RBC با IgG پوشیده می‌شود، نه C3."
+            "content": "در α-methyldopa، Indirect **Coombs** مثبت است و **RBC** با **IgG** پوشیده می‌شود، نه C3."
           },
           {
             "id": "session-10-section-04-card-04",
             "type": "info",
             "title": "Cold-reactive antibodies",
-            "content": "Cold-reactive antibodies: علیه polysaccharide antigens؛ IgM؛ فعالیت در دمای کمتر از ۳۷°C. IgG در PCH (Donath-Landsteiner)."
+            "content": "Cold-reactive antibodies: علیه polysaccharide antigens؛\n**IgM**؛\nفعالیت در دمای کمتر از ۳۷°C.\n**IgG** در PCH (**Donath-Landsteiner**)."
           },
           {
             "id": "session-10-section-04-card-05",
             "type": "info",
             "title": "تظاهرات آنتی‌بادی سرد",
-            "content": "تظاهرات: Intravascular agglutination (Acrocyanosis) و Hemolysis. شدت همولیز به Antibody titer، Thermal amplitude و Environmental temperature بستگی دارد."
+            "content": "تظاهرات: Intravascular agglutination (Acrocyanosis) و Hemolysis.\nشدت همولیز به Antibody titer، Thermal amplitude و Environmental temperature بستگی دارد."
           },
           {
             "id": "session-10-section-04-card-06",
@@ -201,10 +273,15 @@
           {
             "id": "session-10-section-04-card-07",
             "type": "quiz",
-            "question": "کدام دارو با مکانیسم Alteration of antigen و Indirect Coombs مثبت همراه است؟",
-            "options": ["Penicillin", "Quinidine", "α-methyldopa", "Cephalosporin"],
+            "question": "کدام دارو با مکانیسم Alteration of antigen و Indirect **Coombs** مثبت همراه است؟",
+            "options": [
+              "Penicillin",
+              "Quinidine",
+              "α-methyldopa",
+              "Cephalosporin"
+            ],
             "correctAnswer": 2,
-            "explanation": "α-methyldopa با alteration of antigen و Indirect Coombs مثبت مرتبط است."
+            "explanation": "α-methyldopa با alteration of antigen و Indirect **Coombs** مثبت مرتبط است."
           }
         ]
       },
@@ -217,67 +294,72 @@
             "id": "session-10-section-05-card-01",
             "type": "info",
             "title": "تقسیم تروماتیک",
-            "content": "Traumatic hemolysis به Macrovascular و Microvascular تقسیم می‌شود. Macrovascular: Prosthetic valve. Microvascular: TTP، DIC و ناهنجاری‌های دیواره عروق."
+            "content": "Traumatic hemolysis به Macrovascular و Microvascular تقسیم می‌شود.\nMacrovascular: Prosthetic valve.\nMicrovascular: **TTP**، **DIC** و ناهنجاری‌های دیواره عروق."
           },
           {
             "id": "session-10-section-05-card-02",
             "type": "key_point",
             "title": "نکته پروتز دریچه",
-            "content": "۱۰٪ بیماران با پروتز دریچه آئورت دچار همولیز می‌شوند؛ بیشتر با valve stellite نسبت به Silastic، با دریچه‌های کوچک‌تر و repair of ostium primum یا endocardial cushion defects."
+            "content": "++۱۰٪++ بیماران با پروتز دریچه آئورت دچار همولیز می‌شوند؛\nبیشتر با valve stellite نسبت به Silastic، با دریچه‌های کوچک‌تر و repair of ostium primum یا endocardial cushion defects."
           },
           {
             "id": "session-10-section-05-card-03",
             "type": "info",
             "title": "پاتوژنز Macrovascular",
-            "content": "پاتوژنز Macrovascular traumatic hemolysis: Shear stress ناشی از turbulent blood flow؛ trauma مکانیکی مستقیم RBC هنگام seating occluder؛ رسوب fibrin در نقاط اتصال مختل."
+            "content": "پاتوژنز Macrovascular traumatic hemolysis: Shear stress ناشی از turbulent blood flow؛\ntrauma مکانیکی مستقیم **RBC** هنگام seating occluder؛\nرسوب fibrin در نقاط اتصال مختل."
           },
           {
             "id": "session-10-section-05-card-04",
             "type": "info",
             "title": "Microvascular traumatic hemolysis",
-            "content": "Microvascular traumatic hemolysis در Abnormalities of vessel wall: Malignant hypertension، Eclampsia، Renal allograft rejection، Disseminated cancer، Hemangiomas، DIC."
+            "content": "Microvascular traumatic hemolysis در Abnormalities of vessel wall: Malignant hypertension، Eclampsia، Renal allograft rejection، Disseminated cancer، Hemangiomas، **DIC**."
           },
           {
             "id": "session-10-section-05-card-05",
             "type": "info",
-            "title": "TTP",
-            "content": "TTP: ضایعات arteriolar در ارگان‌های مختلف با platelet thrombi؛ منجر به thrombocytopenia و hemolytic anemia به دلیل fragmentation RBC."
+            "title": "**TTP**",
+            "content": "**TTP**: ضایعات arteriolar در ارگان‌های مختلف با platelet thrombi؛\nمنجر به thrombocytopenia و hemolytic anemia به دلیل fragmentation **RBC**."
           },
           {
             "id": "session-10-section-05-card-06",
             "type": "key_point",
-            "title": "TTP pentad",
-            "content": "TTP pentad: 1) Hemolytic anemia with fragmentation + intravascular hemolysis، 2) Thrombocytopenia، 3) Diffuse nonfocal neurologic findings، 4) Decreased renal function، 5) Fever. در Young adult women."
+            "title": "**TTP** pentad",
+            "content": "**TTP** pentad: 1) Hemolytic anemia with fragmentation + intravascular hemolysis، 2) Thrombocytopenia، 3) Diffuse nonfocal neurologic findings، 4) Decreased renal function، 5) Fever.\nدر Young adult women."
           },
           {
             "id": "session-10-section-05-card-07",
             "type": "info",
-            "title": "پاتوژنز TTP",
-            "content": "پاتوژنز TTP: آنتی‌بادی اکتسابی که پروتئاز برش‌دهنده von Willebrand factor را مهار می‌کند؛ افزایش large multimers vWF؛ agglutination platelets؛ رسوب immunoglobulin و complement در arterioles؛ Microaneurysms arterioles."
+            "title": "پاتوژنز **TTP**",
+            "content": "پاتوژنز **TTP**: آنتی‌بادی اکتسابی که پروتئاز برش‌دهنده von Willebrand factor را مهار می‌کند؛\nافزایش large multimers **vWF**؛\nagglutination platelets؛\nرسوب immunoglobulin و complement در arterioles؛\nMicroaneurysms arterioles."
           },
           {
             "id": "session-10-section-05-card-08",
             "type": "info",
-            "title": "درمان TTP",
-            "content": "درمان TTP: Plasma exchange، high doses of glucocorticoids، platelet-active agents (dipyridamole، sulfinpyrazone، dextran، aspirin). Platelet transfusion نباید داده شود چون می‌تواند thrombotic events را تسریع کند."
+            "title": "درمان **TTP**",
+            "content": "درمان **TTP**: Plasma exchange، high doses of glucocorticoids، platelet-active agents (dipyridamole، sulfinpyrazone، dextran، aspirin).\nPlatelet transfusion @@نباید داده شود@@ چون می‌تواند thrombotic events را تسریع کند."
           },
           {
             "id": "session-10-section-05-card-09",
             "type": "info",
-            "title": "HUS",
-            "content": "HUS: مشابه TTP؛ در young children؛ با prodrome of gastroenteritic bloody diarrhea ناشی از Escherichia coli O157:H7."
+            "title": "**HUS**",
+            "content": "**HUS**: مشابه **TTP**؛\nدر young children؛\nبا prodrome of gastroenteritic bloody diarrhea ناشی از Escherichia coli O157:H7."
           },
           {
             "id": "session-10-section-05-card-10",
             "type": "info",
             "title": "Toxin on membrane",
-            "content": "Toxin on membrane: microbes (Bartonellosis، Malaria، Babesiosis، Clostridium welchii)، snake/spider venoms، Copper؛ Spur cell anemia."
+            "content": "Toxin on membrane: microbes (Bartonellosis، Malaria، Babesiosis، Clostridium welchii)، snake/spider venoms، Copper؛\nSpur cell anemia."
           },
           {
             "id": "session-10-section-05-card-11",
             "type": "quiz",
-            "question": "کدام مورد در TTP نباید انجام شود؟",
-            "options": ["Plasma exchange", "Glucocorticoids", "Platelet transfusion", "Aspirin"],
+            "question": "کدام مورد در **TTP** نباید انجام شود؟",
+            "options": [
+              "Plasma exchange",
+              "Glucocorticoids",
+              "Platelet transfusion",
+              "**Aspirin**"
+            ],
             "correctAnswer": 2,
             "explanation": "Platelet transfusion می‌تواند thrombotic events را تسریع کند."
           }
@@ -291,61 +373,73 @@
           {
             "id": "session-10-section-06-card-01",
             "type": "info",
-            "title": "تعریف PNH",
-            "content": "PNH یک اختلال clonal اکتسابی است که پس از somatic mutation در multipotential stem cell رخ می‌دهد. نقص intracorpuscular در سطح stem cell است."
+            "title": "تعریف **PNH**",
+            "content": "**PNH** یک اختلال clonal اکتسابی است که پس از somatic mutation در multipotential stem cell رخ می‌دهد.\nنقص intracorpuscular در سطح stem cell است."
           },
           {
             "id": "session-10-section-06-card-02",
             "type": "info",
-            "title": "تظاهرات اصلی PNH",
-            "content": "تظاهرات اصلی: Hemolytic anemia، Venous thrombosis، Deficient hematopoiesis. همولیز intravascular مزمن اما episodic، عمدتاً در خواب."
+            "title": "تظاهرات اصلی **PNH**",
+            "content": "تظاهرات اصلی: Hemolytic anemia، Venous thrombosis، Deficient hematopoiesis.\nهمولیز intravascular مزمن اما episodic، عمدتاً در خواب."
           },
           {
             "id": "session-10-section-06-card-03",
             "type": "key_point",
             "title": "تصور قدیمی",
-            "content": "تصور قدیمی: nocturnal haemolysis به دلیل افت خفیف pH پلاسما در خواب است؛ اما این موضوع نادرست است."
+            "content": "تصور قدیمی: nocturnal haemolysis به دلیل افت خفیف pH پلاسما در خواب است؛\nاما این موضوع نادرست است."
           },
           {
             "id": "session-10-section-06-card-04",
             "type": "table",
-            "title": "طبقه‌بندی PNH",
-            "columns": ["گروه", "حساسیت به لیز کمپلمانی"],
+            "title": "طبقه‌بندی **PNH**",
+            "columns": [
+              "گروه",
+              "حساسیت به لیز کمپلمانی"
+            ],
             "rows": [
-              ["PNH I", "نرمال"],
-              ["PNH II", "متوسط افزایش‌یافته"],
-              ["PNH III", "به‌شدت افزایش‌یافته"]
+              [
+                "**PNH** I",
+                "نرمال"
+              ],
+              [
+                "**PNH** II",
+                "متوسط افزایش‌یافته"
+              ],
+              [
+                "**PNH** III",
+                "به‌شدت افزایش‌یافته"
+              ]
             ]
           },
           {
             "id": "session-10-section-06-card-05",
             "type": "key_point",
-            "title": "شدت همولیز در PNH",
-            "content": "شدت همولیز به اندازه جمعیت PNH III بستگی دارد: بیش از ۵۰٪ → شدید و نسبتاً constant؛ ۲۰–۵۰٪ → episodic یا sleep-related."
+            "title": "شدت همولیز در **PNH**",
+            "content": "شدت همولیز به اندازه جمعیت **PNH** III بستگی دارد: بیش از ++۵۰٪++ → شدید و نسبتاً constant؛\n++۲۰–۵۰٪++ → episodic یا sleep-related."
           },
           {
             "id": "session-10-section-06-card-06",
             "type": "info",
-            "title": "پاتوژنز PNH",
-            "content": "پاتوژنز PNH: کمبود پروتئین‌های غشای RBC. کمبود Acetylcholinesterase نسبتاً constant است اما در پاتوژنز نقش ندارد. کمبود DAF (CD55) و MIRL (CD59) مهم است."
+            "title": "پاتوژنز **PNH**",
+            "content": "پاتوژنز **PNH**: کمبود پروتئین‌های غشای **RBC**.\nکمبود Acetylcholinesterase نسبتاً constant است اما در پاتوژنز نقش ندارد.\nکمبود **DAF** (**CD55**) و **MIRL** (**CD59**) مهم است."
           },
           {
             "id": "session-10-section-06-card-07",
             "type": "info",
-            "title": "DAF (CD55)",
-            "content": "DAF (CD55): به C3b و C4b متصل می‌شود و ساخت C3 را مهار می‌کند؛ RBC را از hemolysis کمپلمانی محافظت می‌کند. کمبود آن افزایش خفیف حساسیت می‌دهد."
+            "title": "**DAF** (**CD55**)",
+            "content": "**DAF** (**CD55**): به C3b و C4b متصل می‌شود و ساخت C3 را مهار می‌کند؛\n**RBC** را از hemolysis کمپلمانی محافظت می‌کند.\nکمبود آن افزایش خفیف حساسیت می‌دهد."
           },
           {
             "id": "session-10-section-06-card-08",
             "type": "info",
-            "title": "MIRL و HRF",
-            "content": "MIRL (CD59): با مهار assembly of complement membrane attack complex، C5b-9، از RBC محافظت می‌کند. HRF با اتصال C8 assembly را محدود می‌کند و در PNH III غایب است."
+            "title": "**MIRL** و **HRF**",
+            "content": "**MIRL** (**CD59**): با مهار assembly of complement membrane attack complex، C5b-9، از **RBC** محافظت می‌کند.\n**HRF** با اتصال C8 assembly را محدود می‌کند و در **PNH** III غایب است."
           },
           {
             "id": "session-10-section-06-card-09",
             "type": "info",
-            "title": "عوارض PNH",
-            "content": "عوارض: Venous thrombosis شایع است؛ در intraabdominal veins (hepatic، portal، mesenteric) → Budd-Chiari syndrome، congestive splenomegaly، abdominal pain. در cerebral venous sinuses نیز دیده می‌شود و از علل شایع مرگ است."
+            "title": "عوارض **PNH**",
+            "content": "عوارض: Venous thrombosis شایع است؛\nدر intraabdominal veins (hepatic، portal، mesenteric) → **Budd-Chiari** syndrome، congestive splenomegaly، abdominal pain.\nدر cerebral venous sinuses نیز دیده می‌شود و از علل شایع مرگ است."
           },
           {
             "id": "session-10-section-06-card-10",
@@ -356,22 +450,27 @@
           {
             "id": "session-10-section-06-card-11",
             "type": "info",
-            "title": "علل مرگ در PNH",
-            "content": "علل مرگ: عفونت‌های bacterial/fungal به دنبال leukopenia و neutrophil dysfunction؛ اما علت اصلی مرگ venous thrombosis است. Thrombosis با آزادسازی thromboplastin-like substances از RBC لیز شده و platelet aggregation توضیح داده می‌شود."
+            "title": "علل مرگ در **PNH**",
+            "content": "علل مرگ: عفونت‌های bacterial/fungal به دنبال leukopenia و neutrophil dysfunction؛\nاما @@علت اصلی مرگ@@ venous thrombosis است.\nThrombosis با آزادسازی thromboplastin-like substances از **RBC** لیز شده و platelet aggregation توضیح داده می‌شود."
           },
           {
             "id": "session-10-section-06-card-12",
             "type": "info",
-            "title": "تشخیص PNH",
-            "content": "تشخیص PNH: آنمی همولیتیک unexplained، leukopenia و/یا thrombocytopenia، شواهد intravascular hemolysis (hemoglobinemia، hemoglobinuria، hemosiderinuria، elevated LDH). تست‌ها: Ham's test، sucrose lysis test، flow cytometry برای GPI-anchored proteins CD55 (DAF) و CD59."
+            "title": "تشخیص **PNH**",
+            "content": "تشخیص **PNH**: ==آنمی همولیتیک== unexplained، leukopenia و/یا thrombocytopenia، شواهد intravascular hemolysis (hemoglobinemia، hemoglobinuria، hemosiderinuria، elevated **LDH**).\nتست‌ها: **Ham**'s test، sucrose lysis test، flow cytometry برای **GPI**-anchored proteins **CD55** (**DAF**) و **CD59**."
           },
           {
             "id": "session-10-section-06-card-13",
             "type": "quiz",
-            "question": "کدام پروتئین در PNH III غایب است و با اتصال C8 assembly کمپلمان را محدود می‌کند؟",
-            "options": ["CD55", "CD59", "HRF", "Acetylcholinesterase"],
+            "question": "کدام پروتئین در **PNH** III غایب است و با اتصال C8 assembly کمپلمان را محدود می‌کند؟",
+            "options": [
+              "**CD55**",
+              "**CD59**",
+              "**HRF**",
+              "Acetylcholinesterase"
+            ],
             "correctAnswer": 2,
-            "explanation": "HRF (Homologous Restriction Factor) در PNH III غایب است."
+            "explanation": "**HRF** (Homologous Restriction Factor) در **PNH** III غایب است."
           }
         ]
       },
@@ -384,51 +483,56 @@
             "id": "session-10-section-07-card-01",
             "type": "key_point",
             "title": "Autoimmune hemolytic anemia",
-            "content": "Autoimmune hemolytic anemia: Warm (IgG) و Cold (IgM؛ PCH با IgG)."
+            "content": "Autoimmune hemolytic anemia: Warm (**IgG**) و Cold (**IgM**؛\nPCH با **IgG**)."
           },
           {
             "id": "session-10-section-07-card-02",
             "type": "key_point",
-            "title": "Direct Coombs",
-            "content": "Direct Coombs در ۹۸٪ Immunohemolytic anemia مثبت است."
+            "title": "Direct **Coombs**",
+            "content": "Direct **Coombs** در ++۹۸٪++ Immunohemolytic anemia مثبت است."
           },
           {
             "id": "session-10-section-07-card-03",
             "type": "key_point",
-            "title": "TTP pentad",
-            "content": "TTP pentad: Hemolytic anemia + Thrombocytopenia + Neurologic + Renal + Fever."
+            "title": "**TTP** pentad",
+            "content": "**TTP** pentad: Hemolytic anemia + Thrombocytopenia + Neurologic + Renal + Fever."
           },
           {
             "id": "session-10-section-07-card-04",
             "type": "key_point",
-            "title": "TTP و پلاکت",
-            "content": "در TTP Platelet transfusion ممنوع است."
+            "title": "**TTP** و پلاکت",
+            "content": "در **TTP** Platelet transfusion @@ممنوع است@@."
           },
           {
             "id": "session-10-section-07-card-05",
             "type": "key_point",
-            "title": "PNH",
-            "content": "PNH: کمبود DAF (CD55) و MIRL (CD59)؛ Venous thrombosis علت اصلی مرگ."
+            "title": "**PNH**",
+            "content": "**PNH**: کمبود **DAF** (**CD55**) و **MIRL** (**CD59**)؛\nVenous thrombosis @@علت اصلی مرگ@@."
           },
           {
             "id": "session-10-section-07-card-06",
             "type": "flashcard",
-            "question": "داروی α-methyldopa چه نوع Coombs و پوششی ایجاد می‌کند؟",
-            "answer": "Indirect Coombs مثبت؛ RBC coated with IgG not C3."
+            "question": "داروی α-methyldopa چه نوع **Coombs** و پوششی ایجاد می‌کند؟",
+            "answer": "Indirect **Coombs** مثبت؛\n**RBC** coated with **IgG** not C3."
           },
           {
             "id": "session-10-section-07-card-07",
             "type": "flashcard",
-            "question": "HUS معمولاً در چه گروهی و با چه عاملی رخ می‌دهد؟",
-            "answer": "Young children؛ E. coli O157:H7 با prodrome اسهال خونی."
+            "question": "**HUS** معمولاً در چه گروهی و با چه عاملی رخ می‌دهد؟",
+            "answer": "Young children؛\nE.\ncoli O157:H7 با prodrome اسهال خونی."
           },
           {
             "id": "session-10-section-07-card-08",
             "type": "quiz",
-            "question": "کدام یافته در PNH نشان‌دهنده شدت همولیز است؟",
-            "options": ["PNH I >50%", "PNH II >50%", "PNH III >50%", "PNH III 20-50%"],
+            "question": "کدام یافته در **PNH** نشان‌دهنده شدت همولیز است؟",
+            "options": [
+              "**PNH** I >++50%++",
+              "**PNH** II >++50%++",
+              "**PNH** III >++50%++",
+              "**PNH** III ++20-50%++"
+            ],
             "correctAnswer": 2,
-            "explanation": "بیش از ۵۰٪ PNH III → همولیز شدید و constant."
+            "explanation": "بیش از ++۵۰٪++ **PNH** III → همولیز شدید و constant."
           }
         ]
       }

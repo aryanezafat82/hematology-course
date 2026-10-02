@@ -1,4 +1,5 @@
 import { Table2 } from 'lucide-react';
+import RichText from '../common/RichText.jsx';
 
 export default function TableCard({ card }) {
   const columns = Array.isArray(card.columns)
@@ -6,7 +7,6 @@ export default function TableCard({ card }) {
     : Array.isArray(card.headers)
       ? card.headers
       : [];
-
   const rows = Array.isArray(card.rows) ? card.rows : [];
   const hasTable = columns.length > 0;
 
@@ -22,10 +22,10 @@ export default function TableCard({ card }) {
       </header>
 
       {card.title && (
-        <h2 className="mb-3 text-base font-semibold text-slate-900 sm:text-lg dark:text-slate-100">
-          {card.title}
-        </h2>
-      )}
+  <h2 className="mb-3 text-base font-semibold text-slate-900 sm:text-lg dark:text-slate-100">
+    <RichText as="span" text={card.title} />
+  </h2>
+)}
 
       {hasTable ? (
         <div className="-mx-1 overflow-x-auto sm:mx-0">
@@ -38,7 +38,7 @@ export default function TableCard({ card }) {
                     scope="col"
                     className="border-b border-slate-200 px-3 py-2.5 text-xs font-semibold text-slate-700 sm:px-4 dark:border-slate-700 dark:text-slate-300"
                   >
-                    {col}
+                    <RichText text={String(col)} />
                   </th>
                 ))}
               </tr>
@@ -55,7 +55,7 @@ export default function TableCard({ card }) {
                         key={j}
                         className="border-b border-slate-100 px-3 py-3 align-top leading-7 text-slate-700 sm:px-4 dark:border-slate-800 dark:text-slate-300"
                       >
-                        {cell}
+                        <RichText text={String(cell)} />
                       </td>
                     ))}
                 </tr>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { HelpCircle, Check, X } from 'lucide-react';
 import { useSectionSession } from '../../context/SectionSessionContext.jsx';
+import RichText from '../common/RichText.jsx';
 
 export default function QuizCard({ card }) {
   const sectionSession = useSectionSession();
@@ -38,9 +39,10 @@ export default function QuizCard({ card }) {
         </span>
       </header>
 
-      <h2 className="text-base font-semibold leading-7 text-slate-900 dark:text-slate-100">
-        {card.question}
-      </h2>
+      <RichText
+        text={card.question}
+        className="text-base font-semibold leading-7 text-slate-900 dark:text-slate-100"
+      />
 
       <ul className="mt-4 space-y-2">
         {options.map((option, i) => {
@@ -85,7 +87,7 @@ export default function QuizCard({ card }) {
                     : 'cursor-pointer active:scale-[0.99]',
                 ].join(' ')}
               >
-                <span className="flex-1">{option}</span>
+                <RichText text={option} className="flex-1" />
                 {submitted && isTheAnswer && (
                   <Check className="h-4 w-4 shrink-0 text-emerald-600 dark:text-emerald-400" />
                 )}
@@ -147,9 +149,10 @@ export default function QuizCard({ card }) {
           </p>
 
           {card.explanation && (
-            <p className="mt-2 text-sm leading-8 text-slate-700 dark:text-slate-300">
-              {card.explanation}
-            </p>
+            <RichText
+              text={card.explanation}
+              className="mt-2 text-sm leading-8 text-slate-700 dark:text-slate-300"
+            />
           )}
         </div>
       )}

@@ -1,0 +1,682 @@
+{
+  "exam": {
+    "id": "bahman-94",
+    "label": "بهمن ۹۴",
+    "sourceFile": "بهمن 94.txt",
+    "questionCount": 32,
+    "questions": [
+      {
+        "id": "bahman-94-q-01",
+        "type": "mcq",
+        "question": "شایع‌ترین اختلال خونریزی‌دهنده ارثی کدامیک می‌باشد؟",
+        "options": [
+          "ون ویلبراند تایپ I",
+          "هموفیلی A",
+          "هموفیلی B",
+          "برنارد سولیر"
+        ],
+        "correctAnswer": 0,
+        "explanation": "شایع‌ترین اختلال خونریزی‌دهنده ارثی، بیماری ون ویلبراند است و نوع I آن شایع‌ترین زیرگروه می‌باشد. هموفیلی A و B نیز شایع‌اند اما بعد از ون ویلبراند قرار می‌گیرند.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-02",
+        "type": "mcq",
+        "question": "کمبود ویتامین K باعث اختلال سنتز فاکتورهای زیر می‌شود بجز:",
+        "options": [
+          "فاکتور هفت VII",
+          "فاکتور یازده XI",
+          "پروتئین S,C",
+          "فاکتور ده X"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ویتامین K برای کربوکسیلاسیون فاکتورهای II، VII، IX، X و پروتئین‌های C و S ضروری است. فاکتور XI وابسته به ویتامین K نیست.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-03",
+        "type": "mcq",
+        "question": "زمانیکه PTT طولانی است و سابقه خونریزی را بیمار ذکر نمی‌کند و با تست Mixing test اصلاح می‌شود، کمبود کدام فاکتور مطرح نمی‌باشد؟",
+        "options": [
+          "فاکتور دوازده XII",
+          "HMWK",
+          "پره‌کالیکرین PK",
+          "فاکتور هشت VIII"
+        ],
+        "correctAnswer": 3,
+        "explanation": "کمبود فاکتورهای تماسی مانند XII، HMWK و PK باعث طولانی شدن PTT می‌شود اما خونریزی نمی‌دهد و با mixing test اصلاح می‌شود. کمبود فاکتور VIII باعث هموفیلی A و خونریزی می‌شود، بنابراین در این زمینه مطرح نیست.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-04",
+        "type": "mcq",
+        "question": "بیمار خانم ۲۲ [نامشخص در فایل] است. بیمار مبتلا به [نامشخص در فایل]؟",
+        "options": [
+          "CML",
+          "AML",
+          "[نامشخص در فایل]",
+          "[نامشخص در فایل]"
+        ],
+        "correctAnswer": 0,
+        "explanation": "اطلاعات بالینی و آزمایشگاهی بیمار در فایل ناقص است و تشخیص قابل قطعیت نیست.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-94-q-05",
+        "type": "mcq",
+        "question": "بیمار خانم ۵۰ ساله که به علت خستگی و کبودی زودرس بررسی شده است. در آزمایش انجام‌شده:  \nHgb = 7 g/dl, WBC = 3500, plt = 110000  \nMDS می‌باشد. بیوپسی مغز استخوان سلولاریته ده درصد گزارش شده است. کدام یک از موارد زیر بیشتر به نفع هیپوسلولار در مقایسه با آپلاستیک آنمی است؟",
+        "options": [
+          "تغییرات سیتوژنتیک به صورت تریزومی کروموزوم ۸",
+          "ماکروسیتوز",
+          "سلولاریته ده درصد",
+          "وجود پان‌سیتوپنی"
+        ],
+        "correctAnswer": 0,
+        "explanation": "در هیپوپلاستیک MDS وجود ناهنجاری سیتوژنتیک مانند تریزومی ۸ به نفع MDS است. آپلاستیک آنمی معمولاً فاقد ناهنجاری سیتوژنتیک است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-06",
+        "type": "mcq",
+        "question": "کدام یک از موارد زیر نشان‌دهنده پیش‌آگهی بد در ALL می‌باشد؟",
+        "options": [
+          "سن بالای ۴۰ سال",
+          "لکوپنی",
+          "پاسخ اولیه طی ۴ هفته",
+          "[نامشخص در فایل] B CELL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "سن بالاتر از ۳۵–۴۰ سال، لکوسیتوز شدید، پاسخ ضعیف به درمان القایی و برخی ناهنجاری‌های سیتوژنتیک از عوامل پیش‌آگهی بد در ALL هستند.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-07",
+        "type": "mcq",
+        "question": "مرد ۶۵ ساله‌ای را که اخیراً مبتلا به لنفادنوپاتی گردنی شده است به کلینیک آورده‌اند. حال عمومی بیمار خوب است. در معاینه لنفادنوپاتی ژنرالیزه دارد. کبد و طحال قابل لمس نیست. در آزمایش خون:  \nWBC: 20,000 با لنفوسیتوز ۷۵ درصد و تعداد فراوان smudged cells  \nHb: 12 g/dl و پلاکت 170,000/m3  \nکدام تشخیص بیشتر برای بیمار مطرح می‌باشد؟",
+        "options": [
+          "لوکمی لنفوسیتی مزمن",
+          "لوکمی لنفوسیتی حاد",
+          "مونونوکلئوز عفونی",
+          "لوکمی میلیوئیدی حاد"
+        ],
+        "correctAnswer": 0,
+        "explanation": "در مرد مسن با لنفادنوپاتی ژنرالیزه، لنفوسیتوز مطلق و smudge cells، تشخیص CLL مطرح است. مونونوکلئوز عفونی معمولاً در جوانان و با علائم حاد همراه است.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-08",
+        "type": "mcq",
+        "question": "آقای ۵۶ ساله‌ای که در چند ماه اخیر دچار احساس ناخوشی، بی‌اشتهایی، درد و سنگینی در LUQ و کاهش وزن شده است به شما مراجعه می‌کند. در معاینه بالینی اسپلنومگالی (۶ سانتی‌متر زیر لبه دنده) دارد.  \nHb: 13.1, Platelets: 700,000 mm3, WBC: 80,000  \nBlast: 3%, Promyel: 4%, Myelo: 12%, Meta: 7%, Band: 14%, Poly: 38%, Lymph: 8%, Mono: 8%, Eosin: 2%, Baso: 3%, NRBC: 1%  \nدر آسپیراسیون مغز استخوان افزایش myeloid hyperplasia شدید با نسبت M/E = 15/1 دارد. احتمال پیدا کردن کدام اختلال سیتوژنیک بیشتر است؟",
+        "options": [
+          "t(9;22)",
+          "inv16",
+          "t(8;22)",
+          "t(4;11)"
+        ],
+        "correctAnswer": 0,
+        "explanation": "تصویر بالینی و آزمایشگاهی به نفع لوسمی میلوئید مزمن (CML) است. کروموزوم فیلادلفیا t(9;22) در بیش از ۹۵٪ موارد CML دیده می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-09",
+        "type": "mcq",
+        "question": "بیمار خانم ۵۰ ساله با خونریزی از لته [احتمالاً لثه] و ادرار مراجعه می‌کند. در معاینه تب‌دار می‌باشد. در آزمایش‌های انجام‌شده پان‌سیتوپنی دارد. کدام یک از موارد زیر در پیش‌آگهی بیمار نقش مهم‌تری دارد؟",
+        "options": [
+          "پان‌سیتوپنی",
+          "انبرمالیتی کروموزومی [ناهنجاری کروموزومی]",
+          "خونریزی",
+          "[نامشخص در فایل]"
+        ],
+        "correctAnswer": 1,
+        "explanation": "در لوسمی حاد، ناهنجاری‌های سیتوژنتیک از مهم‌ترین عوامل پیش‌آگهی هستند. پان‌سیتوپنی و خونریزی تظاهرات بیماری‌اند اما پیش‌آگهی را مستقیماً تعیین نمی‌کنند.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-10",
+        "type": "mcq",
+        "question": "لوسمی پلاسماسل بیشتر در کدام نوع از میلو [میلوما] دیده می‌شود؟",
+        "options": [
+          "IgG",
+          "IgA",
+          "IgM",
+          "IgD"
+        ],
+        "correctAnswer": 3,
+        "explanation": "لوسمی پلاسماسل در میلوم IgD و IgE بیشتر دیده می‌شود و با بیماری تهاجمی‌تر و خارج‌مغزاستخوانی همراه است.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-11",
+        "type": "mcq",
+        "question": "در یک خانم مبتلا به لنفوم هوجکین که ده سال پیش شیمی‌درمانی و رادیوتراپی شده، احتمال بروز کدام زیاد است؟",
+        "options": [
+          "لوسمی میلیوئید حاد",
+          "لوسمی لنفوسیتیک حاد",
+          "مولتیپل میلوما",
+          "لوسمی لنفوسیتیک مزمن"
+        ],
+        "correctAnswer": 0,
+        "explanation": "شیمی‌درمانی و رادیوتراپی قبلی با بروز بدخیمی‌های ثانویه، به‌ویژه AML/MDS، همراه است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-12",
+        "type": "mcq",
+        "question": "کدام یک از علائم زیر در مولتیپل میلوما دیده می‌شود؟",
+        "options": [
+          "افزایش انیون گپ",
+          "هیپوناترمی کاذب",
+          "RTA تیپ یک",
+          "RTA تیپ چهار"
+        ],
+        "correctAnswer": 1,
+        "explanation": "در مولتیپل میلوما به علت افزایش پروتئین‌های سرم، هیپوناترمی کاذب دیده می‌شود. RTA تیپ ۲ (پروگزیمال) ممکن است رخ دهد، نه تیپ ۱ یا ۴.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-13",
+        "type": "mcq",
+        "question": "کدام یک از شرایط زیر در رمیسیون کامل بعد از درمان القایی لوکمی حاد ضروری نیست؟",
+        "options": [
+          "نوتروفیل بالای ۱۰۰۰",
+          "پلاکت بالای ۱۰۰۰۰",
+          "بلاست مغز استخوان کمتر از ۵ درصد",
+          "هموگلوبولین بالای ۱۰"
+        ],
+        "correctAnswer": 3,
+        "explanation": "معیارهای رمیسیون کامل در لوسمی حاد شامل ANC > 1000، پلاکت > 100,000، بلاست < ۵٪ و عدم وجود بیماری خارج‌مغزاستخوانی است. سطح هموگلوبین جزو معیارها نیست.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-14",
+        "type": "mcq",
+        "question": "پروتئین کلیدی تنظیم متابولیسم آهن در بدن کدام است؟",
+        "options": [
+          "ترانسفرین",
+          "فریتین",
+          "هیپسیدین",
+          "آلبومین"
+        ],
+        "correctAnswer": 2,
+        "explanation": "هیپسیدین هورمون اصلی تنظیم‌کننده جذب آهن روده و آزادسازی آهن از ماکروفاژها است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-15",
+        "type": "mcq",
+        "question": "بالاترین مقدار آهن در کدام قسمت بدن قرار دارد؟",
+        "options": [
+          "ترانسفرین",
+          "هموگلوبین",
+          "آلبومین",
+          "فریتین"
+        ],
+        "correctAnswer": 1,
+        "explanation": "بیشترین آهن بدن در هموگلوبین گلبول‌های قرمز قرار دارد. فریتین فقط ذخیره کوچکی از آهن است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-16",
+        "type": "mcq",
+        "question": "بیماری نیاز به FFP، Packed cell به دلیل DIC دارد. گروه خونی بیمار (A)، RH [نامشخص در فایل] کدام فرآورده برای بیمار مناسب‌تر است؟",
+        "options": [
+          "خون A+ و پلاسما",
+          "خون A- و پلاسما",
+          "خون O- و پلاسما",
+          "خون A+ و پلاسما"
+        ],
+        "correctAnswer": -1,
+        "explanation": "برای تزریق گلبول قرمز، بیمار A می‌تواند A یا O دریافت کند. برای FFP، پلاسما باید فاقد آنتی‌بادی ضد A باشد (A یا AB). Rh بیمار در فایل ناخوانا است.",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-17",
+        "type": "mcq",
+        "question": "در مواجهه با واکنش ناشی از ترانسفوزیون فرآورده‌های خونی اقدام مناسب کدام است؟",
+        "options": [
+          "قطع ترانسفوزیون",
+          "بازنگه داشتن رگ با سرم نرمال سالین",
+          "ارسال نمونه خون و ادرار بیمار بررسی از نظر همولیز",
+          "همه موارد"
+        ],
+        "correctAnswer": 3,
+        "explanation": "در واکنش ترانسفوزیونی باید فوراً تزریق را قطع کرد، رگ با نرمال سالین باز نگه داشته شود و نمونه خون/ادرار برای بررسی همولیز ارسال گردد.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-18",
+        "type": "mcq",
+        "question": "خانم ۲۷ ساله با Menstruation طبیعی با خستگی‌پذیری و تنگی نفس کوششی ویزیت شد. بیمار رنگ‌پرید است. همه معاینات طبیعی هستند.  \nHb = 8.5, MCV = 79, Feritin = 8  \nمناسب کدام است؟",
+        "options": [
+          "نمونه‌برداری مغز استخوان",
+          "شروع آهن خوراکی",
+          "آندوسکپی فوقانی",
+          "تزریق یک واحد packed cell"
+        ],
+        "correctAnswer": 1,
+        "explanation": "کم‌خونی میکروسیتیک هیپوکروم با فریتین پایین به نفع فقر آهن است. درمان خط اول آهن خوراکی است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-19",
+        "type": "mcq",
+        "question": "منظور از Severe Neutropenia کدام است؟",
+        "options": [
+          "ANC < 1500/ml",
+          "ANe < 1000/ml",
+          "ANC < 500/ml",
+          "ANC < 200/ml"
+        ],
+        "correctAnswer": 2,
+        "explanation": "نوتروپنی شدید به ANC کمتر از ۵۰۰ سلول در میکرولیتر گفته می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-20",
+        "type": "mcq",
+        "question": "در چه قدر مطلقی از لنفوسیت در بالغین بررسی از نظر بیماری‌های هماتولوژیک انجام می‌شود؟  \nALC = Absolute lymphocyte count",
+        "options": [
+          "ALC > 1500/ml",
+          "ALC > 2600/ml",
+          "ALC > 5000/ml",
+          "ALC > 10000/ml"
+        ],
+        "correctAnswer": 2,
+        "explanation": "لنفوسیتوز مطلق در بالغین معمولاً به ALC بیش از ۵۰۰۰ در میکرولیتر گفته می‌شود که نیاز به بررسی دارد.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-21",
+        "type": "mcq",
+        "question": "در لنفوم هوچکین سلول Reed Sternberg از چه دودمانی است؟",
+        "options": [
+          "T-cell",
+          "ماکروفاژ",
+          "NK-cell",
+          "B-cell"
+        ],
+        "correctAnswer": 3,
+        "explanation": "سلول‌های Reed-Sternberg در لنفوم هوچکین کلاسیک منشأ لنفوسیت B دارند.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-22",
+        "type": "mcq",
+        "question": "رویت کدام نوع RBC به نفع فقر آهن است؟",
+        "options": [
+          "میکروسیت",
+          "هیپوکروم",
+          "Pencil shape",
+          "همه موارد"
+        ],
+        "correctAnswer": 3,
+        "explanation": "در فقر آهن، گلبول‌های قرمز میکروسیتیک، هیپوکروم و گاهی pencil-shaped هستند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-23",
+        "type": "mcq",
+        "question": "کدامیک جزء نشانگان B در لنفوم نمی‌باشد؟",
+        "options": [
+          "خارش",
+          "کاهش وزن",
+          "تب",
+          "تعریق شبانه"
+        ],
+        "correctAnswer": 0,
+        "explanation": "علائم B شامل تب، تعریق شبانه و کاهش وزن است. خارش جزو علائم B نیست.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-24",
+        "type": "mcq",
+        "question": "کدامیک جزء لنفوم‌های Highly Aggressive می‌باشد؟",
+        "options": [
+          "Mantle cell",
+          "Follicular grade 3",
+          "Burkitt Lymphoma",
+          "سندرم سزاری"
+        ],
+        "correctAnswer": 2,
+        "explanation": "لنفوم بورکیت از لنفوم‌های بسیار تهاجمی (highly aggressive) است. Mantle cell تهاجمی ولی نه در همان دسته highly aggressive.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-25",
+        "type": "mcq",
+        "question": "بررسی PET-CT … مراجعه نموده است. به جز نقاط معاینه طبیعی هستند …",
+        "options": [
+          "Stage IIA",
+          "Stage II B",
+          "Stage III A",
+          "Stage III B"
+        ],
+        "correctAnswer": 1,
+        "explanation": "متن کامل سؤال و شرح‌حال بیمار در فایل ناقص است و مرحله‌بندی قابل تعیین نیست.",
+        "sessionId": "session-01",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-94-q-26",
+        "type": "mcq",
+        "question": "کدام جمله در مورد لنفوم غیر هوچکین صحیح است؟",
+        "options": [
+          "Bcell > T-cell",
+          "Male > Female",
+          "Nodal > Extranodal",
+          "همه موارد"
+        ],
+        "correctAnswer": 3,
+        "explanation": "در لنفوم غیر هوچکین، منشأ B-cell شایع‌تر از T-cell است، مردان بیشتر مبتلا می‌شوند و فرم‌های nodal شایع‌تر از extranodal هستند.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-27",
+        "type": "mcq",
+        "question": "مرد ۶۰ ساله به علت ضعف، بی‌حالی، رنگ‌پریدگی، اکیموز و پورپورا مراجعه کرده است. در معاینه فیزیکی تب و ارگانومگالی ندارد. از بیمار بیوپسی مغز استخوان به عمل می‌آید. سلولاریته مغز استخوان ۱۵٪ می‌باشد و بقیه با چربی اشغال شده است. اقدام درمانی مناسب چیست؟",
+        "options": [
+          "درمان با سیکلوسپورین + آنتی‌تیموسیت گلوبولین",
+          "درمان با دانازول و فولیک اسید",
+          "پیوند مغز استخوان آلوژنیک",
+          "درمان با قرص آهن + فولیک اسید"
+        ],
+        "correctAnswer": 0,
+        "explanation": "تصویر بالینی آپلاستیک آنمی شدید است. درمان خط اول در بیماران غیرکاندید پیوند، ATG + سیکلوسپورین است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-28",
+        "type": "mcq",
+        "question": "کدامیک از گزینه‌های زیر در آنمی مگالوبلاستیک دیده نمی‌شود؟",
+        "options": [
+          "هیپرسگمانتاسیون نوتروفیل‌ها",
+          "LDH افزایش",
+          "کاهش سلولاریته مغز استخوان",
+          "پان‌سیتوپنی"
+        ],
+        "correctAnswer": 2,
+        "explanation": "در آنمی مگالوبلاستیک، مغز استخوان معمولاً هیپرپلاستیک و با erythropoiesis ناکارآمد است، نه کم‌سلولار.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-29",
+        "type": "mcq",
+        "question": "مردی ۸۰ ساله با پان‌سیتوپنی و  \nHb: 8, PLT = 57000, WBC = 2600, LDH = 3000, MCV = 100, Retic = 3%  \nو افزایش سرمی متیل‌مالونیک اسید و هوموسیستئین مراجعه کرده است. کدام یک از تشخیص‌های زیر مطرح است؟",
+        "options": [
+          "کمبود Vit B12",
+          "آنمی آپلاستیک",
+          "میلو دیسپلازی",
+          "PNH"
+        ],
+        "correctAnswer": 0,
+        "explanation": "افزایش متیل‌مالونیک اسید و هوموسیستئین همراه با ماکروسیتوز و پان‌سیتوپنی به نفع کمبود B12 است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-94-q-30",
+        "type": "mcq",
+        "question": "کدام یک از داروهای شیمی‌درمانی زیر در فاز میتوز اثر می‌کند؟",
+        "options": [
+          "دکسوروبیسین",
+          "فلوروآوراسیل",
+          "پکلی‌تاکسل",
+          "سیتارابین"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پکلی‌تاکسل از مهارکننده‌های میکروتوبول است و در فاز M (میتوز) اثر می‌کند. دکسوروبیسین مهارکننده توپوایزومراز II، فلوروآوراسیل و سیتارابین آنتی‌متابولیت هستند.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-94-q-31",
+        "type": "mcq",
+        "question": "در پیوند مغز استخوان آلوژن کدام یک از سلول‌ها زودتر [پیوند می‌شوند/برمی‌گردند]؟",
+        "options": [
+          "T-cell",
+          "PMN",
+          "B-cell",
+          "Stem cell"
+        ],
+        "correctAnswer": 1,
+        "explanation": "در پیوند مغز استخوان، نوتروفیل‌ها (PMN) معمولاً اولین سلول‌هایی هستند که بازیابی می‌شوند (neutrophil engraftment). T-cell‌ها ممکن است باعث GVHD شوند اما معیار اصلی پیوند زودهنگام نیستند.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-94-q-32",
+        "type": "mcq",
+        "question": "در کدام یک از انواع پیوند آلوژن احتمال عود بیشتر است؟",
+        "options": [
+          "acute and chronic GVHD",
+          "syngeneic BMT",
+          "acute GVHD",
+          "chronic GVHD"
+        ],
+        "correctAnswer": 1,
+        "explanation": "در پیوند syngeneic (از دوقلوی همسان) اثر graft-versus-tumor وجود ندارد، بنابراین احتمال عود بیشتر است.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      }
+    ]
+  }
+}

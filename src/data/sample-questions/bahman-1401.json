@@ -1,0 +1,614 @@
+{
+  "exam": {
+    "id": "bahman-1401",
+    "label": "بهمن ۱۴۰۱",
+    "sourceFile": "بهمن 1401.txt",
+    "questionCount": 40,
+    "questions": [
+      {
+        "id": "bahman-1401-q-01",
+        "type": "short_answer",
+        "question": "موتاسیون گیرنده G-CSF در کدام بیماری دیده می‌شود؟",
+        "answerText": "سندروم کاستمن",
+        "explanation": "سندروم کاستمن یک اختلال هماتولوژیک نادر است که با نوتروپنی شدید، لنفادنوپاتی و اسپلنومگالی مشخص می‌شود. در این بیماری، جهش‌های اکتسابی در ژن CSF3R (گیرنده G-CSF) منجر به فعال‌سازی مداوم مسیرهای سیگنالینگ و در نتیجه تکثیر پاتولوژیک سلول‌های میلوئیدی می‌شود. این جهش با استفاده از توالی‌یابی CSF3R قابل شناسایی است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-02",
+        "type": "mcq",
+        "question": "بیماری با اسپلنومگالی شدید (بزرگ‌تر از ۱۰ سانتی‌متر زیر لبه دنده‌ای) مراجعه کرده است. کدام‌یک از تشخیص‌های زیر کمتر محتمل است؟",
+        "options": ["آنمی آپلاستیک", "", "", "MDS"],
+        "correctAnswer": 0,
+        "explanation": "اسپلنومگالی شدید (بزرگ‌تر از ۱۰ سانتی‌متر زیر لبه دنده‌ای) در آنمی آپلاستیک معمولاً دیده نمی‌شود، زیرا در این بیماری مغز استخوان هیپوسلولار است و طحال معمولاً طبیعی یا کوچک است. در MDS نیز اسپلنومگالی شدید شایع نیست، اما می‌تواند در موارد پیشرفته یا همراه با فیبروز دیده شود. به دلیل ناقص بودن گزینه‌ها، پاسخ قطعی قابل ارائه نیست.",
+        "sessionId": "session-04",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-03",
+        "type": "short_answer",
+        "question": "کدام‌یک از بیماری‌های زیر با احتمال بیشتری با لکوسیتوز تظاهر می‌کند؟",
+        "answerText": "AML",
+        "explanation": "AML می‌تواند با شمارش گلبول سفید بسیار بالا (لکوسیتوز) تظاهر کند، اگرچه در برخی موارد نیز لکوپنی دیده می‌شود. در مقابل، آنمی آپلاستیک و MDS معمولاً با سیتوپنی (پانسیتوپنی) همراه هستند، نه لکوسیتوز. بنابراین AML محتمل‌ترین گزینه برای لکوسیتوز است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-04",
+        "type": "short_answer",
+        "question": "بیماری با هیپوپرولیفراسیون مغز استخوان و پان‌سیتوپنی، محتمل‌ترین تشخیص کدام است؟",
+        "answerText": "آنمی آپلاستیک",
+        "explanation": "آنمی آپلاستیک با هیپوسلولاریتی مغز استخوان و پانسیتوپنی (آنمی، لکوپنی، ترومبوسیتوپنی) مشخص می‌شود. در این بیماری، سلول‌های بنیادی خون‌ساز توسط سیستم ایمنی تخریب می‌شوند و مغز استخوان جایگزین با بافت چربی می‌گردد. تشخیص افتراقی اصلی با MDS هیپوسلولار و لوسمی‌های هیپوسلولار است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-05",
+        "type": "short_answer",
+        "question": "برای افتراق DIC از TTP، کدام مورد بهتر است؟",
+        "answerText": "PTT, PT, INR",
+        "explanation": "در DIC، فعال‌سازی گسترده سیستم انعقاد منجر به مصرف فاکتورهای انعقادی و طولانی شدن PT و PTT می‌شود. در TTP، نقص اصلی در متالوپروتئاز ADAMTS13 است و مسیر انعقاد خارجی و داخلی معمولاً دست‌نخورده باقی می‌ماند، بنابراین PT و PTT طبیعی هستند. این تفاوت کلیدی در افتراق آزمایشگاهی این دو بیماری است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-06",
+        "type": "short_answer",
+        "question": "بیماری با PTT طولانی مراجعه کرده است. مناسب‌ترین اقدام تشخیصی بعدی کدام است؟",
+        "answerText": "Mixing test",
+        "explanation": "در بیمار با PTT طولانی و بدون علت واضح، اولین قدم تشخیصی تست مخلوط است. در این تست، پلاسمای بیمار با پلاسمای نرمال مخلوط می‌شود. اگر PTT اصلاح شود، نشان‌دهنده کمبود فاکتور انعقادی است. اگر اصلاح نشود، وجود مهارکننده (مانند آنتی‌بادی ضد فاکتور VIII یا لوپوس آنتی‌کواگولانت) مطرح می‌شود. در صورت اصلاح اولیه و سپس طولانی شدن مجدد، ممکن است مهارکننده وابسته به زمان وجود داشته باشد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-07",
+        "type": "short_answer",
+        "question": "برای ارزیابی و تشخیص اختلالات هموستاز اولیه، کدام آزمایش مفیدتر است؟",
+        "answerText": "BT, CBC",
+        "explanation": "هموستاز اولیه شامل انقباض عروق و تشکیل پلاگ پلاکتی است. زمان خونریزی (BT) عملکرد پلاکت را ارزیابی می‌کند، هرچند امروزه کمتر استفاده می‌شود و تست‌های عملکرد پلاکت مانند PFA-100 جایگزین آن شده‌اند. CBC تعداد پلاکت‌ها را نشان می‌دهد. کمبود یا اختلال عملکرد پلاکت منجر به خونریزی‌های مخاطی و پوستی (پتشی، اکیموز) می‌شود.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-08",
+        "type": "mcq",
+        "question": "در موارد شدید MDS، کدام‌یک از عوارض زیر ممکن است رخ دهد؟",
+        "options": ["نارسایی مغز استخوان", "تبدیل به لوکمی", "", "الف و ب"],
+        "correctAnswer": 3,
+        "explanation": "سندرم میلودیسپلاستیک (MDS) یک اختلال کلونال سلول‌های بنیادی است که با سیتوپنی‌های پیش‌رونده مشخص می‌شود. در موارد شدید، مغز استخوان ممکن است دچار نارسایی شود (نارسایی مغز استخوان). همچنین حدود ۳۰٪ از بیماران MDS به لوسمی حاد میلوئید (AML) تبدیل می‌شوند. بنابراین هر دو عارضه ممکن است رخ دهند.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-09",
+        "type": "short_answer",
+        "question": "کیس آزمایش بیماری با سطح آهن سرم ۴۰ µg/dL و TIBC برابر ۲۰۰ µg/dL است. درصد اشباع ترانسفرین (Transferrin Saturation) چقدر است؟",
+        "answerText": "۲۰٪",
+        "explanation": "درصد اشباع ترانسفرین از فرمول زیر محاسبه می‌شود:\n\\[\n\\text{Transferrin Saturation} = \\frac{\\text{Serum Iron}}{\\text{TIBC}} \\times 100\n\\]\nبا جایگذاری مقادیر:\n\\[\n\\frac{40}{200} \\times 100 = 20\\%\n\\]\nبنابراین درصد اشباع ترانسفرین ۲۰٪ است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-10",
+        "type": "short_answer",
+        "question": "واحد اندازه‌گیری هموگلوبین (Hb) در آزمایش CBC چیست؟",
+        "answerText": "گرم بر دسی‌لیتر (g/dL)",
+        "explanation": "هموگلوبین معمولاً بر حسب گرم بر دسی‌لیتر (g/dL) گزارش می‌شود. در سیستم بین‌المللی (SI) ممکن است بر حسب گرم بر لیتر (g/L) نیز بیان شود، اما در بالین معمولاً از g/dL استفاده می‌شود.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-11",
+        "type": "short_answer",
+        "question": "در بیماری با شمارش گلبول سفید (WBC) برابر ۱۰,۰۰۰/µL، تعداد بازوفیل چقدر است؟",
+        "answerText": "۱۰۰",
+        "explanation": "تعداد مطلق بازوفیل‌ها از حاصل‌ضرب درصد بازوفیل در تعداد کل WBC به دست می‌آید. اگر درصد بازوفیل‌ها ۱٪ باشد:\n\\[\n10{,}000 \\times 0.01 = 100/\\mu L\n\\]\nالبته درصد بازوفیل در فایل ذکر نشده است، اما با فرض محدوده طبیعی ۰-۱٪، عدد ۱۰۰ منطقی است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-12",
+        "type": "short_answer",
+        "question": "برای بقا، رشد و تکثیر سلول‌های سرطانی میلوما کدام سیتوکاین نقش مهمی دارد؟",
+        "answerText": "اینترلوکین ۶ (IL-6)",
+        "explanation": "در مولتیپل میلوما، IL-6 یک سیتوکاین کلیدی برای بقا، رشد و تکثیر سلول‌های پلاسماسیت بدخیم است. IL-6 توسط سلول‌های استرومای مغز استخوان و خود سلول‌های میلوما ترشح می‌شود و مسیرهای سیگنالینگ مانند JAK/STAT و MAPK را فعال می‌کند. مهار IL-6 یا گیرنده آن یک هدف درمانی در میلوما است.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-13",
+        "type": "short_answer",
+        "question": "در پیگیری و ارزیابی پاسخ به درمان در بیماران مبتلا به CML، کدام روش مناسب‌تر است؟",
+        "answerText": "بررسی کمی BCR-ABL",
+        "explanation": "در لوسمی میلوئید مزمن (CML)، کروموزوم فیلادلفیا و ژن ترکیبی BCR-ABL نقش اصلی دارند. برای ارزیابی پاسخ به درمان با مهارکننده‌های تیروزین کیناز (مانند ایماتینیب)، اندازه‌گیری کمی رونوشت BCR-ABL با روش PCR کمی (qPCR) استاندارد طلایی است. کاهش سطح BCR-ABL نشان‌دهنده پاسخ مولکولی است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-14",
+        "type": "short_answer",
+        "question": "پسر بچه‌ای پس از تروما دچار خونریزی شده است، اما خونریزی با ۳ تا ۴ روز تأخیر بروز کرده است. کدام‌یک از تشخیص‌های زیر کمتر محتمل است؟",
+        "answerText": "گلانزمن",
+        "explanation": "خونریزی با تأخیر ۳-۴ روزه پس از تروما مشخصه اختلالات فاکتور XIII (کمبود فاکتور XIII) و برخی اختلالات پلاکتی خاص است، زیرا فاکتور XIII در تثبیت لخته نقش دارد و کمبود آن منجر به خونریزی تأخیری می‌شود. در ترومباستنی گلانزمن (نقص GPIIb/IIIa)، خونریزی معمولاً فوری و در پاسخ به تروماهای جزئی رخ می‌دهد. بنابراین گلانزمن کمترین احتمال را دارد.",
+        "sessionId": "session-05",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-15",
+        "type": "short_answer",
+        "question": "در بیمار مبتلا به TTP، کدام‌یک از اقدامات زیر توصیه نمی‌شود؟",
+        "answerText": "تجویز پلاکت",
+        "explanation": "در TTP، مکانیسم اصلی تشکیل میکروترومبوزهای منتشر در عروق کوچک است که منجر به مصرف پلاکت‌ها می‌شود. تزریق پلاکت می‌تواند سوپسترای بیشتری برای تشکیل ترومبوز فراهم کند و وضعیت بالینی بیمار را وخیم‌تر نماید. درمان اصلی TTP پلاسمافرزیس اورژانسی است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-16",
+        "type": "short_answer",
+        "question": "کدام‌یک از محل‌های لنفادنوپاتی، احتمال کمتری برای بدخیمی دارد؟",
+        "answerText": "سرویکال",
+        "explanation": "لنفادنوپاتی سرویکال در بزرگسالان جوان اغلب واکنشی و ناشی از عفونت‌های ویروسی یا باکتریایی است. در مقابل، لنفادنوپاتی سوپرا کلاویکولار (به‌ویژه سمت چپ) و اپی‌تروکلئار احتمال بدخیمی بالاتری دارند. لنفادنوپاتی مدیاستینال نیز می‌تواند نشانه لنفوم یا سرطان ریه باشد.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-17",
+        "type": "short_answer",
+        "question": "در الکتروفورز هموگلوبین، HbF افزایش یافته، HbA2 طبیعی است و هموگلوبین بیمار ۱۴.۵ g/dL گزارش شده است. محتمل‌ترین تشخیص کدام است؟",
+        "answerText": "هموگلوبین پایدار جنینی",
+        "explanation": "در HPFH، جهش در ناحیه پروموتر ژن‌های گاما گلوبین منجر به ادامه تولید HbF پس از تولد می‌شود. برخلاف بتا تالاسمی، در HPFH تعادل زنجیره‌های آلفا و بتا حفظ می‌شود و آنمی وجود ندارد. HbF بالا، HbA2 طبیعی و هموگلوبین نرمال مشخصه HPFH است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-18",
+        "type": "short_answer",
+        "question": "کدام‌یک از فاکتورهای زیر برای سنتز به ویتامین K نیاز دارند؟",
+        "answerText": "فاکتور VII و پروتئین S",
+        "explanation": "ویتامین K برای کربوکسیلاسیون گلوتامات در فاکتورهای انعقادی II (پروترومبین)، VII، IX، X و همچنین پروتئین‌های C و S ضروری است. این فاکتورها در مسیر انعقاد نقش دارند و کمبود ویتامین K منجر به طولانی شدن PT و PTT می‌شود.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-19",
+        "type": "short_answer",
+        "question": "کیس بیماری با سابقه سنگ کیسه صفرا مراجعه کرده است. دارای اختلال در بتا اسپکترین و انکرین است. محتمل‌ترین تشخیص کدام است؟",
+        "answerText": "اسفوروسیتوز ارثی",
+        "explanation": "اسفروسیتوز ارثی یک اختلال غشای گلبول قرمز است که در آن نقص در پروتئین‌های اسپکترین، انکرین، باند ۳ یا پروتئین ۴.۲ منجر به شکل‌گیری اسفروسیت‌ها می‌شود. این سلول‌ها در طحال تخریب می‌شوند (همولیز خارج عروقی) و بیماران مستعد سنگ کیسه صفرا (به دلیل افزایش بیلی‌روبین) و اسپلنومگالی هستند.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-20",
+        "type": "short_answer",
+        "question": "بیماری با آزمایش‌های زیر مراجعه کرده است:\nMCV = 75 fL و TIBC⬇️ Fe⬇️\nمحتمل‌ترین تشخیص کدام است؟",
+        "answerText": "آنمی بیماری مزمن",
+        "explanation": "در آنمی بیماری مزمن، التهاب مزمن منجر به افزایش هپسیدین می‌شود که جذب آهن را کاهش و آهن را در ماکروفاژها نگه می‌دارد. نتیجه آن کاهش آهن سرم (Fe⬇️) و کاهش TIBC (TIBC⬇️) است. MCV معمولاً نرموسیتیک یا میکروسیتیک خفیف است. این الگو با آنمی فقر آهن (که TIBC افزایش می‌یابد) تفاوت دارد.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-21",
+        "type": "short_answer",
+        "question": "مرد ۷۵ ساله‌ای در آزمایش خون دچار لنفوسیتوز است و در معاینه، طحال حدود ۳ سانتی‌متر زیر لبه دنده لمس می‌شود. بهترین اقدام چیست؟",
+        "answerText": "فقط پیگیری",
+        "explanation": "در مرد ۷۵ ساله با لنفوسیتوز و اسپلنومگالی خفیف (۳ سانتی‌متر)، تشخیص احتمالی لوسمی لنفوسیتیک مزمن (CLL) یا لنفوسیتوز مونوکلونال B (MBL) است. در صورت عدم وجود علائم سیستمیک (تب، تعریق شبانه، کاهش وزن)، سیتوپنی‌های قابل توجه یا پیشرفت سریع، استراتژی «پیگیری و انتظار» (Watch and Wait) استاندارد است. اقدامات تهاجمی‌تر فقط در صورت پیشرفت بیماری توصیه می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-22",
+        "type": "short_answer",
+        "question": "کدام مورد روش طبقه‌بندی واکنش‌های انتقال خون است؟",
+        "answerText": "همه موارد",
+        "explanation": "واکنش‌های انتقال خون به چند روش طبقه‌بندی می‌شوند: بر اساس زمان (واکنش حاد در عرض ۲۴ ساعت و واکنش تأخیری پس از ۲۴ ساعت)، بر اساس مکانیسم (ایمنی و غیرایمنی)، و بر اساس نوع (همولیتیک و غیرهمولیتیک). واکنش‌های همولیتیک حاد شایع‌ترین واکنش کشنده هستند. به دلیل ناقص بودن صورت سؤال، پاسخ دقیق‌تر ممکن نیست.",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-23",
+        "type": "short_answer",
+        "question": "کدام مورد در واکنش ناشی از انتقال خون اشتباه دیده می‌شود؟",
+        "answerText": "همه موارد (کمردرد، تب و لرز، هایپوتنشن)",
+        "explanation": "واکنش همولیتیک حاد (AHTR) معمولاً به دلیل ناسازگاری ABO رخ می‌دهد. علائم شامل تب، لرز، کمردرد، درد در محل تزریق، هایپوتنشن، هموگلوبینوری و در موارد شدید DIC و نارسایی کلیه است. تشخیص سریع و توقف انتقال خون حیاتی است.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-24",
+        "type": "mcq",
+        "question": "در تشخیص AML، اگر درصد بلاست در مغز استخوان کمتر از ۲۰٪ باشد، در کدام شرایط همچنان تشخیص AML مطرح است؟",
+        "options": ["t(15;17)", "t(16;16)", "t(8;21)", "همه موارد"],
+        "correctAnswer": 3,
+        "explanation": "طبق طبقه‌بندی WHO، وجود برخی ناهنجاری‌های سیتوژنتیک خاص مانند t(15;17) (PML-RARA در APL)، t(16;16) (CBFB-MYH11) و t(8;21) (RUNX1-RUNX1T1) حتی با درصد بلاست کمتر از ۲۰٪ برای تشخیص AML کافی است. این استثناها به دلیل ویژگی‌های بالینی و پیش‌آگهی خاص این ساب‌تایپ‌ها وضع شده‌اند.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-25",
+        "type": "mcq",
+        "question": "جهش JAK2 V617F در کدام‌یک از بیماری‌های زیر دیده می‌شود؟",
+        "options": ["Polycythemia vera (PV)", "Essential thrombocythemia (ET)", "Primary myelofibrosis (PMF)", "همه موارد"],
+        "correctAnswer": 3,
+        "explanation": "جهش JAK2 V617F یک جهش اکتسابی است که منجر به فعال‌سازی مداوم مسیر JAK/STAT می‌شود. این جهش در اکثر بیماران مبتلا به پلی‌سیتمی ورا (PV) و در نیمی از بیماران مبتلا به ترومبوسیتمی اساسی (ET) و میلوفیبروز اولیه (PMF) یافت می‌شود. تشخیص این جهش در تأیید نئوپلاسم‌های میلوپرولیفراتیو نقش کلیدی دارد.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-26",
+        "type": "short_answer",
+        "question": "بیماری با برجستگی گردن، خشونت صدا و سیانوز مراجعه کرده است. محتمل‌ترین تشخیص کدام است؟",
+        "answerText": "سرطان ریه",
+        "explanation": "تومور پانکوست در راس ریه با تهاجم به شبکه بازویی، سمپاتیک گردنی (سندروم هورنر) و عصب راجعه حنجره (خشونت صدا) تظاهر می‌کند. برجستگی گردن می‌تواند ناشی از گسترش تومور به گره‌های لنفاوی یا سندروم ورید اجوف فوقانی باشد. سیانوز ممکن است به دلیل فشردگی راه‌های هوایی یا اختلال تهویه رخ دهد.",
+        "sessionId": "session-12",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-27",
+        "type": "short_answer",
+        "question": "کدام مورد در مورد سرطان مری سنگفرشی صحیح است؟",
+        "answerText": "همه موارد",
+        "explanation": "کارسینوم سلول سنگفرشی مری (ESCC) شایع‌ترین نوع سرطان مری در کشورهای در حال توسعه است. عوامل خطر شامل مصرف الکل، تنباکو، آشالازی، سندروم پلامر-وینسون، تیلوزیس و کمبودهای تغذیه‌ای است. برخلاف آدنوکارسینوم که در یک‌سوم تحتانی مری و در زمینه بارت مری رخ می‌دهد، ESCC بیشتر در یک‌سوم فوقانی و میانی مری دیده می‌شود.",
+        "sessionId": "session-11",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-28",
+        "type": "short_answer",
+        "question": "کدام مورد در مورد علائم پلی‌سیتمی ورا صحیح است؟",
+        "answerText": "همه موارد (سردرد، وزوز گوش، سرگیجه)",
+        "explanation": "در پلی‌سیتمی ورا، افزایش توده گلبول قرمز منجر به افزایش ویسکوزیته خون می‌شود. علائم شامل سردرد، سرگیجه، وزوز گوش، تاری دید، خارش پس از حمام، اریترومالاژی و اسپلنومگالی است. خطر اصلی ترومبوز شریانی و وریدی است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-29",
+        "type": "short_answer",
+        "question": "طبق آزمایش (لنفوسیت: ۵۰ درصد) کدام مورد غلط است؟",
+        "answerText": "لنفوسیتوز ندارد.",
+        "explanation": "لنفوسیتوز در بزرگسالان به عنوان لنفوسیت مطلق بیش از ۴۰۰۰/µL یا درصد لنفوسیت بیش از ۴۰٪ تعریف می‌شود. با لنفوسیت ۵۰٪، بیمار لنفوسیتوز دارد. بنابراین جمله «لنفوسیتوز ندارد» نادرست است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-30",
+        "type": "short_answer",
+        "question": "در بیماری‌های همولیتیک داخل عروقی کدام مورد دیده نمی‌شود؟",
+        "answerText": "افزایش هاپتوگلوبولین",
+        "explanation": "هاپتوگلوبولین پروتئینی است که هموگلوبین آزاد را در پلاسما اتصال می‌دهد. در همولیز داخل عروقی، مقدار زیادی هموگلوبین آزاد می‌شود که هاپتوگلوبولین را مصرف می‌کند و سطح آن کاهش می‌یابد. بنابراین افزایش هاپتوگلوبولین در همولیز داخل عروقی دیده نمی‌شود. در همولیز خارج عروقی، هاپتوگلوبولین معمولاً طبیعی یا کمی کاهش می‌یابد.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-31",
+        "type": "short_answer",
+        "question": "کدام مورد از علائم سرطان معده است؟",
+        "answerText": "همه موارد (کاهش وزن، تهوع، درد اپیگاستر)",
+        "explanation": "سرطان معده در مراحل اولیه اغلب بدون علامت است. علائم شایع شامل درد اپیگاستر، تهوع، استفراغ، کاهش وزن، سیری زودرس، خونریزی گوارشی (هماتمز یا ملنا) و آنمی است. تشخیص زودهنگام با آندوسکوپی و بیوپسی امکان‌پذیر است.",
+        "sessionId": "session-11",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-32",
+        "type": "short_answer",
+        "question": "کدام مورد از روش‌های درمان سرطان است؟",
+        "answerText": "همه موارد (شیمی‌درمانی، رادیوتراپی و ...)",
+        "explanation": "درمان سرطان بر اساس نوع، مرحله و ویژگی‌های مولکولی تومور تعیین می‌شود. روش‌های اصلی شامل جراحی (برداشتن تومور)، شیمی‌درمانی (داروهای سیتوتوکسیک)، رادیوتراپی (اشعه یونیزان)، ایمونوتراپی (مهارکننده‌های چک‌پوینت)، درمان هدفمند (مهارکننده‌های تیروزین کیناز) و پیوند سلول‌های بنیادی خون‌ساز است.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-33",
+        "type": "short_answer",
+        "question": "کدام مورد در مورد ترومبوسیتوز واکنشی صحیح است؟",
+        "answerText": "همه موارد",
+        "explanation": "ترومبوسیتوز واکنشی یا ثانویه در پاسخ به شرایطی مانند عفونت، التهاب، کمبود آهن، خونریزی حاد، پس از اسپلنکتومی و بدخیمی‌ها رخ می‌دهد. تعداد پلاکت معمولاً کمتر از ۱ میلیون/µL است و خطر ترومبوز کم است. در مقابل، ترومبوسیتمی اساسی (ET) یک نئوپلاسم میلوپرولیفراتیو است که با ترومبوسیتوز پایدار، خطر ترومبوز و خونریزی و جهش JAK2/CALR/MPL مشخص می‌شود.",
+        "sessionId": "session-05",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-34",
+        "type": "short_answer",
+        "question": "در بیماری با هموگلوبین بالا و اریتروپوئتین پایین است، بررسی کدام ژن اولویت دارد؟",
+        "answerText": "JAK2",
+        "explanation": "هموگلوبین بالا همراه با اریتروپوئتین پایین نشان‌دهنده پلی‌سیتمی اولیه (پلی‌سیتمی ورا) است، نه پلی‌سیتمی ثانویه (که در آن اریتروپوئتین بالا یا طبیعی است). در PV، جهش JAK2 V617F در حدود ۹۵٪ بیماران دیده می‌شود. بنابراین بررسی این جهش اولویت تشخیصی دارد.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-35",
+        "type": "short_answer",
+        "question": "در بیماری با الکتروفورز aa/aat کدام مورد صحیح است؟ cbc نرمال",
+        "answerText": "cbc نرمال",
+        "explanation": "الکتروفورز هموگلوبین با الگوی AA و HbA2 طبیعی (aa/aat) معمولاً در افراد سالم دیده می‌شود. اگر HbA2 افزایش یافته باشد، ناقل بتا تالاسمی مطرح است. CBC نرمال در فرد سالم یا ناقل خفیف آلفا تالاسمی دیده می‌شود. بدون اطلاعات بالینی بیشتر، پاسخ قطعی دشوار است.",
+        "sessionId": "session-09",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-36",
+        "type": "short_answer",
+        "question": "در ارتباط با سرطان ریه و ریسک فاکتور سیگار کدام مورد صحیح است؟",
+        "answerText": "همه موارد",
+        "explanation": "سیگار کشیدن عامل خطر اصلی برای سرطان ریه است و حدود ۸۵٪ موارد را شامل می‌شود. خطر نسبی با تعداد نخ‌های روزانه و سال‌های مصرف (pack-year) افزایش می‌یابد. ترک سیگار خطر را به تدریج کاهش می‌دهد. سرطان ریه سلول کوچک (SCLC) و کارسینوم سلول سنگفرشی بیشترین ارتباط را با سیگار دارند.",
+        "sessionId": "session-12",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-37",
+        "type": "short_answer",
+        "question": "کدام مورد در مورد مراحل سرطان صحیح است؟",
+        "answerText": "همه موارد (آنژیوژنز، جاودانگی و ...)",
+        "explanation": "سرطان‌زایی یک فرآیند چند مرحله‌ای است: شروع (جهش‌های اولیه در DNA)، پیشرفت (تکثیر کلونال سلول‌های جهش‌یافته) و پیشروی (تهاجم، متاستاز، آنژیوژنز و جاودانگی). آنژیوژنز برای تغذیه تومور ضروری است و جاودانگی به دلیل فعال‌سازی تلومراز رخ می‌دهد. هر دو از ویژگی‌های سرطان هستند.",
+        "sessionId": "session-02",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-38",
+        "type": "short_answer",
+        "question": "کدام مورد در مورد چیپ غیر هماتولوژیک صحیح است؟",
+        "answerText": "اترواسکلروز (شک)\n(الف) بدخیمی هماتولوژیک — ب) اترواسکلروز د) الف و ب)",
+        "explanation": "CHIP به وجود جهش‌های سوماتیک در سلول‌های خون‌ساز بدون وجود بدخیمی هماتولوژیک آشکار اشاره دارد. این وضعیت با افزایش خطر تبدیل به نئوپلاسم‌های میلوئید (مانند AML و MDS) و همچنین بیماری‌های قلبی-عروقی (از جمله اترواسکلروز) مرتبط است. بنابراین هم بدخیمی هماتولوژیک و هم اترواسکلروز با CHIP مرتبط هستند.",
+        "sessionId": "session-04",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1401-q-39",
+        "type": "short_answer",
+        "question": "شایع‌ترین موتاسیون در PMF چیست؟",
+        "answerText": "JAK2 V617F",
+        "explanation": "در میلوفیبروز اولیه (PMF)، جهش JAK2 V617F شایع‌ترین جهش است و در حدود ۵۰-۶۰٪ بیماران دیده می‌شود. جهش‌های CALR و MPL نیز در درصد کمتری از بیماران یافت می‌شوند. این جهش‌ها منجر به فعال‌سازی مسیر JAK/STAT می‌شوند.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1401-q-40",
+        "type": "short_answer",
+        "question": "کدام مورد در سرطان پانکراس نقش دارد؟",
+        "answerText": "همه موارد (چاقی، سیگار، پانکراتیت)",
+        "explanation": "سرطان پانکراس (آدنوکارسینوم داکتال) عوامل خطر متعددی دارد: سیگار (مهم‌ترین عامل قابل اجتناب)، چاقی، دیابت، پانکراتیت مزمن، سابقه خانوادگی و جهش‌های ژنتیکی (BRCA2، PALB2، CDKN2A). پیش‌آگهی ضعیف است و تشخیص زودهنگام دشوار می‌باشد.",
+        "sessionId": "session-11",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      }
+    ]
+  }
+}

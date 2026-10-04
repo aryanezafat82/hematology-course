@@ -9,8 +9,10 @@ import {
   Send,
   GraduationCap,
   Heart,
+  HelpCircle,
 } from 'lucide-react';
 import { getCourse, getSessions, getSessionData } from '../data/loaders.js';
+import { getAllQuestions } from '../data/sampleQuestionsLoader.js';
 import Button from '../components/common/Button.jsx';
 import ProgressBar from '../components/common/ProgressBar.jsx';
 import { useProgress } from '../context/ProgressContext.jsx';
@@ -20,6 +22,7 @@ import { useReview } from '../context/ReviewContext.jsx';
 export default function Home() {
   const course = getCourse();
   const sessions = getSessions();
+  const allQuestions = getAllQuestions();
 
   const { getOverallProgress, getLastStudied, getCompletedSessionsCount } =
     useProgress();
@@ -165,7 +168,7 @@ export default function Home() {
         {dueReviewCount > 0 ? (
           <>
             <p className="mt-3 text-sm text-slate-600 dark:text-slate-400">
-              {dueReviewCount} کارت برای مرور
+              {dueReviewCount} مورد برای مرور
             </p>
             <div className="mt-4">
               <Button to="/review" variant="primary">
@@ -200,6 +203,37 @@ export default function Home() {
             ? 'هنوز نکته سختی ذخیره نکرده‌اید.'
             : `${hardPointCount} نکته سخت ذخیره شده`}
         </p>
+      </section>
+
+      {/* Sample Questions */}
+      <section className="rounded-2xl border border-slate-200 bg-white p-6 transition-colors duration-200 dark:border-slate-800 dark:bg-slate-900">
+        <div className="flex items-center justify-between">
+          <h2 className="flex items-center gap-2 text-base font-semibold text-slate-900 dark:text-slate-100">
+            <HelpCircle className="h-4 w-4 text-sky-500" />
+            نمونه سوالات
+          </h2>
+          {allQuestions.length > 0 && (
+            <Link
+              to="/sample-questions"
+              className="text-xs font-medium text-rose-600 hover:underline dark:text-rose-400"
+            >
+              مشاهده همه
+            </Link>
+          )}
+        </div>
+        <p className="mt-3 text-sm text-slate-600 dark:text-slate-400">
+          {allQuestions.length === 0
+            ? 'هنوز سوالی اضافه نشده است.'
+            : `${allQuestions.length} سوال از ادوار گذشته`}
+        </p>
+        {allQuestions.length > 0 && (
+          <div className="mt-4">
+            <Button to="/sample-questions" variant="secondary">
+              مشاهده سوالات
+              <ArrowLeft className="h-4 w-4" />
+            </Button>
+          </div>
+        )}
       </section>
 
       {/* Sessions quick list */}

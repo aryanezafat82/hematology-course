@@ -1,0 +1,680 @@
+{
+  "exam": {
+    "id": "bahman-95",
+    "label": "بهمن ۹۵",
+    "sourceFile": "بهمن 95.txt",
+    "questionCount": 40,
+    "questions": [
+      {
+        "id": "bahman-95-q-01",
+        "type": "mcq",
+        "question": "کدام‌یک از ارگان‌های زیر در دوران جنین مسئول خون‌سازی هستند به غیر از:",
+        "options": ["کیسه زرده", "کلیه", "طحال", "مغز استخوان"],
+        "correctAnswer": 1,
+        "explanation": "در دوران جنینی، خون‌سازی به‌ترتیب در کیسه زرده، کبد، طحال و سپس مغز استخوان انجام می‌شود. کلیه نقشی در خون‌سازی جنینی ندارد.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-02",
+        "type": "mcq",
+        "question": "اولین Hb که در دوران جنینی ساخته می‌شود کدام است؟",
+        "options": ["Hb F", "HbA1", "HbA2", "Hb Zeta"],
+        "correctAnswer": 3,
+        "explanation": "اولین هموگلوبین‌های جنینی از جمله Gower-1 شامل زنجیره‌های ζ (zeta) و ε هستند. بنابراین Hb Zeta اولین هموگلوبین ساخته‌شده است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-03",
+        "type": "mcq",
+        "question": "مرد ۶۰ ساله به علت ضعف، بی‌حالی، رنگ‌پریدگی، اکیموز و پورپورا مراجعه کرده است. در معاینه فیزیکی تب و ارگانومگالی ندارد. Hb=6, Plt=10,000, WBC=900, PMN=20%, Lymph=80% از بیمار بیوپسی مغز استخوان به عمل می‌آید. سلولاریته مغز استخوان ۱۵٪ می‌باشد و بقیه با چربی اشغال شده است. اقدام درمانی مناسب چیست؟",
+        "options": [
+          "درمان با سیکلوسپورین + آنتی‌تیموسیت گلوبولین",
+          "درمان با دانازول و فولیک اسید",
+          "پیوند مغز استخوان آلوژنیک",
+          "درمان با قرص آهن + فولیک اسید"
+        ],
+        "correctAnswer": 0,
+        "explanation": "تصویر بالینی و مغز استخوان هیپوسلولار (سلولاریته ۱۵٪) به نفع آنمی آپلاستیک شدید است. در سن ۶۰ سالگی، درمان انتخابی معمولاً درمان سرکوب‌گر ایمنی (سیکلوسپورین + ATG) است، نه پیوند مغز استخوان.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-04",
+        "type": "mcq",
+        "question": "کدام‌یک از علل میکروسیتوز می‌باشد؟",
+        "options": ["کمبود فولیک اسید", "میلودیسپلازی", "بیماری کبدی", "آنمی ناشی از مسمومیت با سرب"],
+        "correctAnswer": 3,
+        "explanation": "مسمومیت با سرب می‌تواند آنمی میکروسیتیک ایجاد کند. کمبود فولات، میلودیسپلازی و بیماری کبدی معمولاً ماکروسیتیک یا نروموسیتیک هستند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-05",
+        "type": "mcq",
+        "question": "کدام‌یک از علل زیر عامل کمبود فولات نمی‌باشد؟",
+        "options": ["بیماری سلیاک", "آنمی پرنیسیوز", "آنمی همولیتیک مزمن", "درماتیت مزمن"],
+        "correctAnswer": 1,
+        "explanation": "آنمی پرنیسیوز ناشی از کمبود ویتامین B12 است، نه فولات. بیماری سلیاک، همولیز مزمن و درماتیت مزمن می‌توانند کمبود فولات ایجاد کنند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-06",
+        "type": "mcq",
+        "question": "کدام‌یک از گزینه‌های زیر در آنمی مگالوبلاستیک دیده نمی‌شود؟",
+        "options": ["هیپرسگمانتاسیون نوتروفیل‌ها", "افزایش LDH", "کاهش سلولاریته مغز استخوان", "پان‌سیتوپنی"],
+        "correctAnswer": 2,
+        "explanation": "در آنمی مگالوبلاستیک، مغز استخوان معمولاً هیپرپلاستیک است (نه هیپوسلولار). هیپرسگمانتاسیون نوتروفیل، افزایش LDH و پان‌سیتوپنی از یافته‌های شایع هستند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-07",
+        "type": "mcq",
+        "question": "در کدام‌یک از واکنش‌های ناشی از تزریق خون، فرایند ایمونولوژیک نقش ندارد؟",
+        "options": ["واکنش تب‌دار FNHTR", "واکنش همولیتیک ناشی از ناسازگاری ABO", "واکنش آلرژیک", "TACO (circulatory overload)"],
+        "correctAnswer": 3,
+        "explanation": "TACO یک واکنش غیرایمونولوژیک ناشی از اضافه بار حجمی است. FNHTR، واکنش همولیتیک و واکنش آلرژیک همگی مکانیسم‌های ایمونولوژیک دارند.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-08",
+        "type": "mcq",
+        "question": "کدام‌یک از فرآورده‌های خونریزی احتمال آلودگی باکتریال بیشتر است؟",
+        "options": ["FFP", "PACKED CELL", "پلاکت", "CRYO"],
+        "correctAnswer": 2,
+        "explanation": "پلاکت‌ها در دمای اتاق نگهداری می‌شوند و بیشترین خطر آلودگی باکتریال را در میان فرآورده‌های خونی دارند.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-09",
+        "type": "mcq",
+        "question": "کدام قسمت بدن بالاترین مقدار آهن را دارد؟",
+        "options": ["ترانسفرین", "فرینین", "هموسیدرین", "هموگلوبین"],
+        "correctAnswer": 3,
+        "explanation": "بیشترین مقدار آهن بدن در هموگلوبین گلبول‌های قرمز ذخیره شده است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-10",
+        "type": "mcq",
+        "question": "منظور از لنفوپنی در خون محیطی چیست؟ ALC = Absolute Lymphocyte Count",
+        "options": ["ALC<1500", "ALC<5000 (در صفحه ۱۱) / [نامشخص در صفحه ۲]", "ALC<200", "ALC<1000"],
+        "correctAnswer": 0,
+        "explanation": "در بزرگسالان، لنفوپنی معمولاً به‌صورت ALC کمتر از ۱۵۰۰ سلول در میکرولیتر تعریف می‌شود. برخی منابع از حد کمتر از ۱۰۰۰ نیز استفاده می‌کنند، اما در این سؤال گزینه ۱۵۰۰ شایع‌تر است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-11",
+        "type": "mcq",
+        "question": "لنفوم لنفوبلاستیک T-cell کدام نوع لنفوم است؟",
+        "options": ["Low grade", "Intermediate", "high grade", "highly Aggressive"],
+        "correctAnswer": 3,
+        "explanation": "لنفوم لنفوبلاستیک T-cell یک لنفوم بسیار مهاجم (highly aggressive) است.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-12",
+        "type": "mcq",
+        "question": "خانم ۲۵ ساله با تب و تعریق شبانه و کاهش وزن واضح که از ۳ ماه قبل شروع شده است مراجعه نموده است. در معاینه غدد لنفاوی متعدد ناحیه گردنی راست و طحال بزرگ دارد. بهترین روش تشخیصی برای بیمار کدام است؟",
+        "options": [
+          "نمونه‌برداری سوزنی از غده لنفاوی",
+          "نمونه‌برداری سوزنی از طحال",
+          "نمونه‌برداری اکسیژنال (برداشتن) غدد لنفاوی",
+          "طحال‌برداری"
+        ],
+        "correctAnswer": 2,
+        "explanation": "برای تشخیص لنفوم، بیوپسی اکسیژنال (excisional) غده لنفاوی روش استاندارد است؛ نمونه‌برداری سوزنی ممکن است بافت کافی برای تشخیص ارائه نکند.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-13",
+        "type": "mcq",
+        "question": "منظور از Stage IVB در لنفوم هوچکین کدام است؟",
+        "options": [
+          "درگیری منتشر غدد لنفاوی",
+          "درگیری متعدد غدد لنفاوی در دو سمت دیافراگم",
+          "درگیری منتشر طحال",
+          "درگیری منتشر کبد"
+        ],
+        "correctAnswer": 3,
+        "explanation": "در لنفوم هوچکین، مرحله IV به معنای درگیری منتشر ارگان‌های خارج‌لنفاوی مانند کبد یا مغز استخوان است. درگیری طحال جزو مرحله III محسوب می‌شود.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-14",
+        "type": "mcq",
+        "question": "CBC: WBC=20000/mm3, Hgb=8.9 mg/dl, PLT=41000/mm3 در بررسی لام خون محیطی سلول‌های بلاست حاوی اثر روز (Auer rods) و تعدادی نوتروفیل دیده می‌شود. محتمل‌ترین تشخیص کدام است؟",
+        "options": [
+          "Acute lymphoblastic leukaemia",
+          "Acute myeloid leukaemia",
+          "Myelodysplastic syndrome",
+          "Chronic myeloid leukaemia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "وجود Auer rods در بلاست‌ها مشخصه لوسمی میلوئید حاد (AML) است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-15",
+        "type": "mcq",
+        "question": "Hb: 12.1, Platelets: 300,000/mm3, WBC: 200,000, Blast: 2%, Promyel: 4%, Myelo: 12%, Meta: 7%, Band: 14%, Poly: 38%, Lymph: 8%, Mono: 8%, Eosin: 2%, Baso: 3%, NRBC: 1% در اسپیراسیون مغز استخوان افزایش myeloid hyperplasia بسیار شدید با نسبت M/E=15/1 دارد. استفاده از بررسی مولکولی احتمال پیدا کردن کدام‌یک از موارد زیر بیشتر است؟",
+        "options": ["Bcl-", "BCR/ABL", "FLT3/ITD", "[نامشخص در فایل]"],
+        "correctAnswer": 1,
+        "explanation": "تصویر بالینی و آزمایشگاهی (لکوسیتوز شدید، بازوفیلی، هیپرپلازی میلوئید، M/E بالا) به نفع لوسمی میلوئید مزمن (CML) است که با translocation t(9;22) و BCR/ABL همراه است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-16",
+        "type": "mcq",
+        "question": "در معاینه به‌جز اکیموزهای متعدد و رنگ‌پریدگی نکته دیگری ندارد. WBC=1000/mm3, Hgb=8 mg/dl, PLT=20000/mm3 PT=18 sec (NL: 11-13), PTT=45 sec (NL: 25-30), INR=2 احتمال یافتن کدام‌یک از اختلالات کروموزومی زیر بیشتر است؟",
+        "options": ["t(15,17)", "t(9,22)", "t(6,9)", "inv"],
+        "correctAnswer": 0,
+        "explanation": "پان‌سیتوپنی، اختلال انعقادی (PT/PTT طولانی، INR بالا) و خونریزی، به نفع لوسمی پرومیلوسیتیک حاد (APL) است که با t(15;17) مشخص می‌شود.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-17",
+        "type": "mcq",
+        "question": "در بررسی آقای ۵۵ ساله، گاماگلوبولین به میزان ۲ گرم در دسی‌لیتر از نوع IgG گزارش شده است. نسبت زنجیره سبک کاپا به لامبدا نرمال می‌باشد و بیوپسی مغز استخوان ۵ درصد پلاسماسل گزارش شده است. بیمار با تشخیص MGUS پیگیری می‌شود. کدام از موارد زیر احتمال پیشرفت بیماری به مولتیپل میلوما را افزایش می‌دهد؟",
+        "options": ["نسبت نرمال زنجیره سبک", "نوع زنجیره سنگین", "میزان زنجیره سنگین", "سن بیمار"],
+        "correctAnswer": 2,
+        "explanation": "در MGUS، میزان پروتئین M (زنجیره سنگین) ≥۱.۵ گرم در دسی‌لیتر، نسبت غیرطبیعی زنجیره سبک، نوع غیر IgG و درصد پلاسماسل مغز استخوان ≥۵٪ از عوامل خطر پیشرفت به مولتیپل میلوما هستند. در این بیمار میزان گاماگلوبولین ۲ گرم است که ریسک‌فاکتور محسوب می‌شود.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-18",
+        "type": "mcq",
+        "question": "بیمار آقای ۵۰ ساله مبتلا به CML Ph+ در فاز مزمن بیماری با لکوسیت 600,000/mm3 مراجعه می‌کند و از تاکی‌پنه، تنگی نفس، سیانوز مختصر و tinnitus رنج می‌برد. نام عارضه چیست؟",
+        "options": ["لکوستاز", "سندرم لیز تومور", "پنومونی", "[نامشخص در فایل]"],
+        "correctAnswer": 0,
+        "explanation": "لکوسیت بسیار بالا در CML می‌تواند باعث لکوستاز (leukostasis) و علائم تنفسی/مغزی شود.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-19",
+        "type": "mcq",
+        "question": "مرد ۴۳ ساله‌ای که مکانیک اتومبیل می‌باشد از سردرد شکایت دارد. وزن ۸۵ کیلوگرم، طحال به‌راحتی لمس می‌شود، فشارخون ۱۷۰/؟، روزی ۲ پاکت سیگار می‌کشد. Hb=19, Hct=58%, MCV=93, WBC=7300, Platelet=550,000, Creatinine=1.2, O2 saturation=94%, Serum erythropoietin=2 mu/ml (normal 2-20) کدام‌یک از موارد زیر با احتمال زیادتر باعث اریتروسیتوزیس نامبرده می‌شود؟",
+        "options": ["بیماری Gaisbock", "مسمومیت با مونوکسید کربن", "پلی‌سیتمی ورا", "بیماری قلبی"],
+        "correctAnswer": 2,
+        "explanation": "وجود اسپلنومگالی، ترومبوسیتوز، EPO پایین‌مرز نرمال و اریتروسیتوز شدید به نفع پلی‌سیتمی ورا است. در مسمومیت با CO و بیماری قلبی معمولاً EPO افزایش می‌یابد.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-20",
+        "type": "mcq",
+        "question": "در یک خانم مبتلا به لنفوم هوچکین که ده سال پیش شیمی‌درمانی و رادیوتراپی شده، احتمال بروز کدام زیاد است؟",
+        "options": ["لوکمی میلوئید حاد", "لوکمی لنفوسیتیک حاد", "مولتیپل میلوما", "[نامشخص در فایل]"],
+        "correctAnswer": 0,
+        "explanation": "درمان‌های قبلی با شیمی‌درمانی و رادیوتراپی خطر لوسمی میلوئید حاد ثانویه (therapy-related AML) را افزایش می‌دهد.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-21",
+        "type": "mcq",
+        "question": "بیمار آقای ۷۵ ساله که به علت خستگی و بی‌حالی بررسی شده است. در لام خون محیطی تغییرات دیسپلاستیک رویت می‌شود. بیوپسی مغز استخوان هیپرسلولر و ۱۵ درصد بلاست گزارش شده است. کدام‌یک از موارد زیر در پیش‌آگهی بیمار مهم‌تر است؟",
+        "options": ["آنمی", "ترومبوسیتوپنی", "سن", "[نامشخص در فایل]"],
+        "correctAnswer": 2,
+        "explanation": "در سندرم‌های میلودیسپلاستیک/لوسمی، سن بالا از مهم‌ترین عوامل پیش‌آگهی ضعیف است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-22",
+        "type": "mcq",
+        "question": "بیمار آقای ۵۰ ساله که با شکایت سیری زودرس و ضعف مراجعه نموده است. در معاینه طحال ۱۰ سانتی‌متر زیر لبه دنده لمس می‌شود. WBC=5000/mm3, PLT=6000/mm3 (احتمالاً 600,000)، NRBC، متامیلوسیت و باند سل رویت می‌شود. کدام تشخیص مطرح می‌باشد؟",
+        "options": ["لوکمی لنفوسیتیک مزمن", "سندرم میلودیسپلاستیک", "لوکمی میلوئید مزمن", "[نامشخص در فایل]"],
+        "correctAnswer": 2,
+        "explanation": "اسپلنومگالی massive، لکوسیتوز با نوتروفیل‌های نابالغ، NRBC و ترومبوسیتوز به نفع CML است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-23",
+        "type": "mcq",
+        "question": "آقای ۶۰ ساله‌ای به‌دنبال عمل جراحی و تعویض دریچه آئورت با آزمایش زیر مراجعه کرده است. بیمار چه تشخیصی مطرح است؟ WBC=5600, Hb=7.5, Hct=25, MCV=108, MCH=30, Plate=232000, Bili total=3 (0.1-1.2), Bili Direct=0.5, LDH=3636",
+        "options": ["آنمی مگالوبلاستیک", "آنمی همولیتیک میکروآنژیوپاتیک", "آنمی همولیتیک ماکروآنژیوپاتیک", "آنمی فقر آهن"],
+        "correctAnswer": 1,
+        "explanation": "دریچه مصنوعی آئورت می‌تواند باعث همولیز مکانیکی (میکروآنژیوپاتیک) با افزایش LDH، بیلی‌روبین غیرمستقیم و آنمی شود. MCV بالا نیز به دلیل رتیکولوسیتوز است.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-24",
+        "type": "mcq",
+        "question": "خانم ۲۸ ساله‌ای با آزمایش قبل از ازدواج مراجعه کرده است: WBC=4260, RBC=5.36, Hb=12.5, Hct=37.9, MCV=70, MCH=23, Plt=233000, RDW=16.9 آزمایش تکمیلی: HbA=83.3 (95-97), HbF=14.5 (0.1-2), HbA2=2.4 (1.5-3.5), Ferritin=89 (50-200) تشخیص بیمار؟",
+        "options": ["آنمی فقر آهن", "بتا تالاسمی مینور", "هموگلوبین جنینی پایدار", "آزمایش طبیعی است"],
+        "correctAnswer": 2,
+        "explanation": "HbF بالا (۱۴.۵٪) همراه با HbA2 نرمال و فریتین نرمال، به نفع HPFH یا دلتا-بتا تالاسمی است. اما MCV پایین (۷۰) در HPFH معمول نیست؛ بنابراین تشخیص دقیق نیازمند بررسی مولکولی است. بین گزینه‌ها، HPFH محتمل‌تر از بتا تالاسمی مینور است، چون HbA2 در بتا تالاسمی مینور معمولاً بالا است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-95-q-25",
+        "type": "mcq",
+        "question": "آقای ۲۵ ساله‌ای با شرح حال جراحی طحال با آزمایش زیر مراجعه کرده است: WBC=5340, Hb=11.4, HCT=34, MCV=67, MCH=22, Plate=165000, HbA=34.7 (95-98), HbF=60.4 (0.1-2), HbA2=4.9 (1.5-3.5), Ferritin=472 (50-200) برای بیمار چه تشخیصی مطرح است؟",
+        "options": ["آنمی فقر آهن", "بتا تالاسمی", "هموگلوبین جنینی پایدار", "تالاسمی و فقر آهن همزمان"],
+        "correctAnswer": 1,
+        "explanation": "MCV پایین، HbF بسیار بالا (۶۰.۴٪)، HbA2 بالا (۴.۹) و فریتین بالا در بیمار با سابقه طحال‌برداری به نفع بتا تالاسمی (احتمالاً اینترمدیا) است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-26",
+        "type": "mcq",
+        "question": "اندوتلیوم عروق بدن محل سنتز کدام‌یک از فاکتورهای زیر نمی‌باشد؟",
+        "options": ["فاکتور هشت", "فاکتور بازده", "[نامشخص در فایل]", "دوازده"],
+        "correctAnswer": 3,
+        "explanation": "فاکتور XII (دوازده) در کبد ساخته می‌شود، نه در اندوتلیوم عروق. فاکتور VIII توسط اندوتلیوم ساخته می‌شود.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-27",
+        "type": "mcq",
+        "question": "بیمار خانم ۲۶ ساله با علائم پتشی و پورپورا و خونریزی از بینی مراجعه کرده است. بیمار سابقه بیماری زمینه‌ای و مصرف دارو را ذکر نمی‌کند. برای تشخیص از چه تستی استفاده می‌کنید؟",
+        "options": ["بررسی BT", "بررسی PT, INR", "بررسی PTT", "بررسی CBC, BT"],
+        "correctAnswer": 3,
+        "explanation": "در خونریزی‌های مخاطی و پوستی، ارزیابی اولیه شامل CBC و زمان خونریزی (BT) برای بررسی تعداد و عملکرد پلاکت است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-28",
+        "type": "mcq",
+        "question": "در بیمار اسفروسیتوزیس ارثی، اشکال آناتومیک در کدام قسمت RBC است؟",
+        "options": ["انکبرین و بتا اسپکترین", "انکبرین و آلفا اسپکترین", "پروتئین چهار و یک", "تولید ATP سلولی"],
+        "correctAnswer": 0,
+        "explanation": "اسفروسیتوز ارثی معمولاً ناشی از نقص در پروتئین‌های غشایی مانند اسپکترین (آلفا/بتا)، انکبرین، باند ۳ و پروتئین ۴.۲ است. نقص انکبرین و بتا اسپکترین شایع‌تر است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-29",
+        "type": "mcq",
+        "question": "خانم ۲۵ ساله با ترومبوسیتوپنی و آزمایش زیر مراجعه و بستری شده است. PT و PTT طبیعی است. WBC=12000, Hb=7.2, Plate=25000 در لام خون محیطی فرم‌های Fragmented مشاهده می‌شود. درمان بیمار شامل همه موارد زیر می‌باشد به‌جز:",
+        "options": ["تزریق پلاکت", "پلاسمافرزیس", "تزریق پلاسما", "شروع کورتون"],
+        "correctAnswer": 0,
+        "explanation": "تصویر بالینی به نفع TTP است. درمان شامل پلاسمافرزیس، کورتون و پرهیز از تزریق پلاکت است (تزریق پلاکت می‌تواند وضعیت را بدتر کند).",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-30",
+        "type": "mcq",
+        "question": "بیمار آقای ۴۶ ساله‌ای بدون سابقه خونریزی جهت عمل جراحی با آزمایش PTT طولانی مراجعه کرده است. در آزمایش Mixing Study تست اصلاح می‌شود. کمبود کدام فاکتور مطرح نمی‌باشد؟",
+        "options": ["فاکتور دوازده", "HMWK", "Prekallikrein", "فاکتور یازده"],
+        "correctAnswer": 3,
+        "explanation": "کمبود فاکتور XII، HMWK و Prekallikrein باعث طولانی شدن PTT می‌شود ولی معمولاً خونریزی ایجاد نمی‌کند. کمبود فاکتور XI می‌تواند با خونریزی همراه باشد، بنابراین در بیمار بدون خونریزی کمتر مطرح است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-31",
+        "type": "mcq",
+        "question": "کدام فاکتورها در کبد جهت تولید نیاز به ویتامین K دارند؟",
+        "options": ["فاکتور II و فاکتور هشت", "فاکتور هفت و پروتئین C", "فاکتور ده و فاکتور یازده", "فاکتور هفت و فاکتور دوازده"],
+        "correctAnswer": 1,
+        "explanation": "فاکتورهای وابسته به ویتامین K شامل II، VII، IX، X و پروتئین‌های C و S هستند.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-32",
+        "type": "mcq",
+        "question": "خانم ۲۳ ساله‌ای بدون شرح حال خونریزی با آزمایش زیر مراجعه کرده است: WBC=4500, Hb=12.5, MCV=82, Plate=35000 [گزینه‌ها:]",
+        "options": ["بررسی لام خون محیطی", "تزریق سریع پلاکت", "سونوگرافی طحال", "آزمایش مغز استخوان"],
+        "correctAnswer": 0,
+        "explanation": "در ترومبوسیتوپنی بدون علامت، اولین قدم بررسی لام خون محیطی برای رد سودوترومبوسیتوپنی و بررسی مورفولوژی پلاکت‌ها است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-33",
+        "type": "mcq",
+        "question": "بیمار با آنمی همولیتیک مزمن ارثی، کدام‌یک از یافته‌های زیر دیده نمی‌شود؟",
+        "options": ["سنگ کیسه صفرا", "ایکتر", "بزرگی طحال", "بزرگی کبد"],
+        "correctAnswer": 3,
+        "explanation": "در همولیز مزمن ارثی، سنگ کیسه صفرا، یرقان و اسپلنومگالی شایع است. هپاتومگالی معمولاً دیده نمی‌شود مگر در عوارض دیگر.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-34",
+        "type": "mcq",
+        "question": "در هموستاز، نقش و عملکرد پروتئین S و C کدام‌یک از موارد زیر می‌باشد؟",
+        "options": ["فعال‌سازی پروترومبین", "فعال‌سازی پلاسمینوژن", "تخریب فیبرین", "غیرفعال کردن فاکتور پنج و هشت فعال"],
+        "correctAnswer": 3,
+        "explanation": "پروتئین C فعال‌شده به همراه پروتئین S، فاکتورهای Va و VIIIa را غیرفعال می‌کند و نقش ضدانعقادی دارد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-35",
+        "type": "mcq",
+        "question": "بیمار مرد ۶۷ ساله با دردهای استخوانی شدید از دو هفته گذشته، پتشی و پورپورا در پوست و مخاطات دارد. در لام خون محیطی سلول نارس گزارش شد. با توجه به شرح حال و احتمال نقش تولید مغز استخوان، کدام گزینه در مورد علت آنمی بیمار صحیح است؟",
+        "options": ["هیپوپرولیفراسیون", "انفیلتراسیون", "هیپوپلازی", "کمبود اریتروپوپینین"],
+        "correctAnswer": 1,
+        "explanation": "درد استخوانی، خونریزی و حضور سلول‌های نارس در خون محیطی به نفع انفیلتراسیون مغز استخوان (مثلاً لوسمی یا مولتیپل میلوما) است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-36",
+        "type": "mcq",
+        "question": "بیماری که به علت نارسایی کلیه تحت نظر نفرولوژیست است، در مورد آنمی ایشان کدام مورد صحیح است؟",
+        "options": [
+          "اریتروپوپیتین بالایی دارد",
+          "نوع آنمی نروموسیتیک نیست",
+          "مسمومیت با آلومینیوم یک علت آنمی است",
+          "آنمی بیمار در صورتی‌که GFR<40 mL/min/1.73m2 برسد شروع می‌شود"
+        ],
+        "correctAnswer": 2,
+        "explanation": "آنمی نارسایی کلیه معمولاً نروموسیتیک نروموکروم است، اریتروپوپیتین کم است و از GFR کمتر از ۶۰ شروع می‌شود. مسمومیت با آلومینیوم می‌تواند آنمی میکروسیتیک ایجاد کند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-37",
+        "type": "mcq",
+        "question": "بیمار خانم ۵۰ ساله که به علت ابتلا به ویروس هپاتیت B از سال پیش با استفراغ خونی به اورژانس مراجعه می‌کند. ۶ ماه پیش نیز به همین علت بستری و باند لیگاسپون واریس مری شده است. در خصوص علت آنمی ایشان گزینه نادرست کدام است؟",
+        "options": ["فقر آهن", "کمبود فولات", "هیپراسپلنیسم", "کمبود B12"],
+        "correctAnswer": 3,
+        "explanation": "در سیروز و پرفشاری پورت، آنمی می‌تواند به دلیل خونریزی (فقر آهن)، کمبود فولات و هیپراسپلنیسم باشد. کمبود B12 معمولاً علت شایع آنمی در این زمینه نیست.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-38",
+        "type": "mcq",
+        "question": "در فردی که به‌دنبال کانسر دچار آنمی می‌شود، کدام‌یک نمی‌تواند علت کاهش تولید گلبول‌های قرمز باشد؟",
+        "options": ["آنمی هیپوپلاستیک", "آنمی همولیتیک", "اشغال مغز استخوان", "کمبود اریتروپوپیتین"],
+        "correctAnswer": 1,
+        "explanation": "آنمی همولیتیک ناشی از افزایش تخریب گلبول‌های قرمز است، نه کاهش تولید آن‌ها. سایر گزینه‌ها می‌توانند تولید را کاهش دهند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-39",
+        "type": "mcq",
+        "question": "سندرم ورید اجوف فوقانی (SVC syndrome) با کدام‌یک از سرطان‌های زیر کمتر ایجاد می‌شود؟",
+        "options": [
+          "سرطان ریه از نوع Non-small cell",
+          "سرطان ریه از نوع Small cell",
+          "لنفوم با درجه بدخیمی بالا",
+          "سرطان ملانوما پوستی"
+        ],
+        "correctAnswer": 3,
+        "explanation": "SVC syndrome بیشتر با سرطان ریه (به‌ویژه small cell) و لنفوم‌ها دیده می‌شود. ملانوما به‌ندرت باعث آن می‌شود.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "bahman-95-q-40",
+        "type": "mcq",
+        "question": "در خصوص هیپرکلسمی در سرطان‌ها کدام‌یک به‌عنوان فیزیوپاتولوژی آن صحیح نمی‌باشد؟",
+        "options": ["ترشح ۲۵ هیدروکسی ویتامین D", "ترشح استروئید", "ترشح PTHrP", "ترشح ویتامین D"],
+        "correctAnswer": 1,
+        "explanation": "هیپرکلسمی بدخیم معمولاً از طریق PTHrP، متاستازهای استئولیتیک یا تولید ۱,۲۵-دی‌هیدروکسی ویتامین D ایجاد می‌شود. ترشح استروئید نقش فیزیوپاتولوژیک در هیپرکلسمی ندارد.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      }
+    ]
+  }
+}

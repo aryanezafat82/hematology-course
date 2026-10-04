@@ -1,0 +1,1679 @@
+{
+  "exam": {
+    "id": "hematology-exam-01",
+    "label": "نمونه سوال کورس خون",
+    "sourceFile": "نامشخص.txt",
+    "questionCount": 110,
+    "questions": [
+      {
+        "id": "hematology-exam-01-q-01",
+        "type": "mcq",
+        "question": "بیماری با تومور مغزی (brain tumor) مراجعه کرده است. تجویز کدام دارو مجاز نیست؟",
+        "options": [],
+        "correctAnswer": -1,
+        "explanation": "فنی‌توئین یک القاکننده قوی آنزیم‌های کبدی (CYP3A4) است و در بیماران مبتلا به تومور مغزی که تحت درمان با کورتیکواستروئیدها (مانند دگزامتازون) هستند، می‌تواند متابولیسم استروئید را تسریع کرده و اثربخشی درمان را کاهش دهد. همچنین در بیماران با افزایش فشار داخل جمجمه، فنی‌توئین ممکن است وضعیت را بدتر کند. بنابراین تجویز آن در این شرایط توصیه نمی‌شود. — پاسخ فایل: تجویز فنی‌توئین (Phenytoin)",
+        "sessionId": "session-14",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-02",
+        "type": "short_answer",
+        "question": "مقدار طبیعی TIBC (ظرفیت کل اتصال آهن) چقدر است؟",
+        "answerText": "۳۰۰ تا ۳۶۰",
+        "explanation": "TIBC نشان‌دهنده ظرفیت اتصال آهن به ترانسفرین است. در فقر آهن افزایش می‌یابد و در بیماری‌های مزمن و هموسیدروزیس کاهش می‌یابد. محدوده نرمال در بسیاری از منابع ۲۵۰–۴۰۰ یا ۲۵۰–۴۵۰ میکروگرم بر دسی‌لیتر است. مقدار ذکرشده در فایل (۳۰۰–۳۶۰) نیز در برخی منابع معتبر به‌عنوان محدوده نرمال گزارش شده است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-03",
+        "type": "mcq",
+        "question": "در DLBCL (لنفوم منتشر سلول B بزرگ) درمان علیه کدام هدف انجام می‌شود؟",
+        "options": [],
+        "correctAnswer": -1,
+        "explanation": "در درمان DLBCL، آنتی‌بادی‌های مونوکلونال و CAR-T cell therapy علیه CD19 (و همچنین CD20) هدف‌گیری می‌شوند. CD19 یک مارکر اختصاصی سلول‌های B است و در بیش از ۹۵٪ موارد DLBCL بیان می‌شود. داروهایی مانند تافاسیتاماب و لنکاستوکسیماب تسیرین علیه CD19 عمل می‌کنند. — پاسخ فایل: CD19",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-04",
+        "type": "short_answer",
+        "question": "چند سال بعد از رادیوتراپی، ماموگرافی باید شروع شود؟",
+        "answerText": "۷ سال",
+        "explanation": "بیمارانی که در سنین پایین رادیوتراپی قفسه سینه دریافت کرده‌اند، در معرض خطر بالای سرطان پستان هستند. گایدلاین‌های مختلف (مانند NCCN و ASCO) شروع غربالگری را ۸ سال پس از رادیوتراپی یا از سن ۲۵ سالگی (هر کدام که دیرتر باشد) توصیه می‌کنند. عدد ۷ سال ممکن است در برخی منابع یا پروتکل‌های خاص ذکر شده باشد.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-05",
+        "type": "mcq",
+        "question": "کدام مورد درست است؟",
+        "options": [],
+        "correctAnswer": -1,
+        "explanation": "فاکتور ۸ عمدتاً در سلول‌های اندوتلیال سینوزوئیدی کبد (LSECs) و همچنین در سلول‌های اندوتلیال سایر بافت‌ها ساخته می‌شود. این فاکتور در آبشار انعقادی نقش کوفاکتوری برای فاکتور ۹ دارد. کمبود آن باعث هموفیلی A می‌شود. — پاسخ فایل: تولید فاکتور ۸ در کبد و اندوتلیوم",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-06",
+        "type": "mcq",
+        "question": "کدام لنفوم غیر هوچکین درگیری معده (شکمی) می‌دهد؟",
+        "options": ["MALToma", "بورکیت", "مانتل"],
+        "correctAnswer": 0,
+        "explanation": "MALT lymphoma اغلب در معده رخ می‌دهد و با عفونت Helicobacter pylori ارتباط قوی دارد. در مراحل اولیه، درمان ریشه‌کنی H. pylori می‌تواند منجر به پسرفت تومور شود. لنفوم‌های بورکیت و مانتل نیز می‌توانند معده را درگیر کنند، اما MALT شایع‌ترین و اختصاصی‌ترین آن‌ها برای معده است.",
+        "sessionId": "session-11",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-07",
+        "type": "mcq",
+        "question": "بدترین پروگنوز در لنفوم غیر هوچکین کدام است؟",
+        "options": ["فولیکولار", "NK-cell"],
+        "correctAnswer": -1,
+        "explanation": "لنفوم NK/T-cell extranodal نوع بینی (nasal type) یکی از بدخیم‌ترین انواع لنفوم غیر هوچکین است و پیش‌آگهی بسیار ضعیفی دارد. لنفوم فولیکولار معمولاً پیش‌آگهی نسبتاً خوبی دارد و لنفوم مانتل نیز پیش‌آگهی متوسطی دارد. — پاسخ فایل: مشخص نشده است",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-08",
+        "type": "short_answer",
+        "question": "در هموفیلی A، برای بیمار با وزن ۶۰ کیلوگرم که می‌خواهیم فاکتور ۸ را به ۱۰۰٪ برسانیم، چند واحد فاکتور ۸ باید بدهیم؟",
+        "answerText": "۳۰۰۰ واحد",
+        "explanation": "فرمول محاسبه دوز فاکتور ۸: دوز (واحد) = وزن (kg) × افزایش مطلوب فاکتور ۸ (٪) × ۰.۵. وزن ۶۰ کیلوگرم × ۱۰۰٪ × ۰.۵ = ۳۰۰۰ واحد. به‌طور کلی، هر واحد فاکتور ۸ به ازای هر کیلوگرم وزن، سطح فاکتور ۸ را حدود ۲٪ افزایش می‌دهد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-09",
+        "type": "mcq",
+        "question": "۱۰ دقیقه بعد از تزریق خون، علائم تنگی نفس و رال ریوی دارد. کدام مورد نیست؟",
+        "options": ["TRALI", "Overload", "آلرژیک", "آنافیلاکسی"],
+        "correctAnswer": 2,
+        "explanation": "آلرژیک (واکنش آلرژیک ساده) معمولاً با کهیر و خارش همراه است و علائم اصلی آن تنگی نفس و رال ریوی نیست. TRALI: تنگی نفس، هیپوکسمی، رال ریوی. Overload: تنگی نفس، رال، افزایش فشار ورید ژوگولار. آنافیلاکسی: تنگی نفس، برونکواسپاسم، افت فشار خون. واکنش آلرژیک ساده: کهیر، خارش، بدون تنگی نفس و رال ریوی. تنگی نفس و رال ریوی در واکنش آلرژیک ساده معمولاً دیده نمی‌شود، مگر اینکه به آنافیلاکسی تبدیل شود.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-10",
+        "type": "mcq",
+        "question": "کدام مورد اورژانس دیالیز نیست؟",
+        "options": ["اوریک اسید ۸"],
+        "correctAnswer": -1,
+        "explanation": "اورژانس‌های دیالیز شامل: هیپرکالمی شدید، ادم ریوی، اسیدوز متابولیک شدید، و نارسایی حاد کلیه با اورمی است. هیپراوریکمی به‌تنهایی (حتی با مقدار ۸) معمولاً با داروهایی مانند راسبوریکاز یا آلوپورینول درمان می‌شود، نه دیالیز فوری. — پاسخ فایل: اوریک اسید ۸",
+        "sessionId": "session-14",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-11",
+        "type": "mcq",
+        "question": "اگر فردی با آلفا تالاسمی ۱ و فردی با آلفا تالاسمی ۲ ازدواج کنند، احتمال دارد فرزندشان چه شود؟",
+        "options": ["هموگلوبین H", "آلفا تالاسمی ۱", "آلفا تالاسمی ۲", "هیدروپس"],
+        "correctAnswer": -1,
+        "explanation": "آلفا تالاسمی ۱ (حذف دو ژن آلفا) × آلفا تالاسمی ۲ (حذف یک ژن آلفا): ۲۵٪ احتمال فرزند با حذف سه ژن (هموگلوبین H disease)، ۲۵٪ احتمال فرزند با حذف دو ژن (آلفا تالاسمی ۱)، ۲۵٪ احتمال فرزند با حذف یک ژن (آلفا تالاسمی ۲)، ۲۵٪ احتمال فرزند سالم. هیدروپس فتالیس زمانی رخ می‌دهد که هر دو والد آلفا تالاسمی ۱ داشته باشند و فرزند حذف چهار ژن (--/--) دریافت کند. بنابراین در این ازدواج، هیدروپس فتالیس احتمال بسیار کم دارد. — پاسخ فایل: مشخص نشده است",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-12",
+        "type": "short_answer",
+        "question": "هموگلوبین بارتز (Hemoglobin Bart’s) چیست؟",
+        "answerText": "گاما۴",
+        "explanation": "هموگلوبین بارتز (γ۴) در آلفا تالاسمی شدید (هیدروپس فتالیس) دیده می‌شود. در غیاب زنجیره‌های آلفا، زنجیره‌های گاما تترامر تشکیل می‌دهند که تمایل بالایی به اکسیژن دارد اما اکسیژن را به بافت‌ها نمی‌رساند و باعث هیپوکسی شدید می‌شود.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-13",
+        "type": "mcq",
+        "question": "کدام دارو در فاز S اثر می‌کند؟",
+        "options": ["سیکلوفسفامید", "تاکسل", "سیتارابین"],
+        "correctAnswer": 2,
+        "explanation": "سیتارابین یک آنتی‌متابولیت است که مختص فاز S چرخه سلولی است و سنتز DNA را مهار می‌کند. سیکلوفسفامید یک آلکیله‌کننده غیراختصاصی فاز است و تاکسل (پاکلیتاکسل) مختص فاز M است.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-14",
+        "type": "mcq",
+        "question": "کدام مورد پان‌سیتوپنی نمی‌دهد؟",
+        "options": ["میلوپرولیفراتیو"],
+        "correctAnswer": -1,
+        "explanation": "MPNها (مانند PV، ET، PMF) با افزایش تولید سلول‌های خونی مشخص می‌شوند. در مقابل، میلودیسپلاستیک سندرم (MDS) و لوسمی حاد معمولاً با پان‌سیتوپنی (کاهش هر سه رده) تظاهر می‌کنند. در PMF پیشرفته ممکن است سیتوپنی رخ دهد، اما پان‌سیتوپنی مشخصه بارز MPN نیست. — پاسخ فایل: میلوپرولیفراتیو",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-15",
+        "type": "mcq",
+        "question": "اطلاعاتی داده شده بود، سپس پرسیده بود کدام غلط است؟",
+        "options": [],
+        "correctAnswer": -1,
+        "explanation": "صورت سؤال ناقص است. به‌طور کلی، در بسیاری از بیماری‌های هماتولوژیک (مانند لوسمی‌ها، لنفوم‌ها، و عفونت‌ها) لکوسیتوز دیده می‌شود. اگر در اطلاعات داده‌شده شواهدی از لکوسیتوز وجود داشته باشد، گزینه «لکوسیتوز ندارد» نادرست خواهد بود. — پاسخ فایل: لکوسیتوز ندارد",
+        "sessionId": "session-07",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-16",
+        "type": "mcq",
+        "question": "فردی با لنفادنوپاتی گردن، تب و سرفه دارد و خانواده‌اش نیز همین علائم را دارند. کدام کار را انجام نمی‌دهیم؟",
+        "options": ["آنتی‌بیوتیک ۱۰ روز", "گرافی قفسه سینه", "۲ هفته بعد دوباره چک شود", "CBC"],
+        "correctAnswer": -1,
+        "explanation": "علائم ذکرشده (لنفادنوپاتی گردن، تب، سرفه، درگیری خانوادگی) شک به سل (به‌ویژه سل گره‌های لنفاوی) را برمی‌انگیزد. اقدامات مناسب شامل: گرافی قفسه سینه، تست پوستی PPD یا IGRA، و بررسی خلط است. تجویز آنتی‌بیوتیک تجربی ۱۰ روزه بدون رد سل می‌تواند خطرناک باشد و تشخیص را به تأخیر بیندازد. — پاسخ فایل: مشخص نشده است",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-17",
+        "type": "short_answer",
+        "question": "فردی با ژنوتیپ aa/_a (آلفا تالاسمی silent carrier) چه علائمی دارد؟",
+        "answerText": "بدون علامت + CBC نرمال",
+        "explanation": "ژنوتیپ aa/_a (حذف یک ژن آلفا) که به‌عنوان «ناقل خاموش» (silent carrier) شناخته می‌شود، معمولاً بدون علامت است و CBC نرمال دارد. گاهی MCV کمی کاهش می‌یابد اما کم‌خونی وجود ندارد.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-18",
+        "type": "short_answer",
+        "question": "فردی با لنفادنوپاتی گردن و زیر بغل دو طرفه، استیج چند است؟",
+        "answerText": "۲",
+        "explanation": "در سیستم استیجینگ Ann Arbor برای لنفوم هوچکین: استیج ۱: یک ناحیه لنفاوی. استیج ۲: دو یا بیشتر ناحیه لنفاوی در یک طرف دیافراگم. استیج ۳: درگیری دو طرف دیافراگم. استیج ۴: درگیری منتشر خارج لنفاوی. درگیری گردن و زیر بغل دو طرفه (هر دو در یک طرف دیافراگم) = استیج ۲.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-19",
+        "type": "short_answer",
+        "question": "لنفوم معده که به آنتی‌بیوتیک پاسخ داده است؟",
+        "answerText": "MALToma",
+        "explanation": "MALT lymphoma معده اغلب با عفونت H. pylori همراه است و درمان ریشه‌کنی H. pylori با آنتی‌بیوتیک می‌تواند منجر به پسرفت تومور در مراحل اولیه شود. این پاسخ درمانی اختصاصی MALT lymphoma است.",
+        "sessionId": "session-11",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-20",
+        "type": "short_answer",
+        "question": "نمونه خون با لنفوسیت ۴۵٪ — چه تفسیری دارد؟",
+        "answerText": "لنفوسیتوز دارد",
+        "explanation": "در بزرگسالان، لنفوسیتوز به لنفوسیت مطلق > ۴۰۰۰/میکرولیتر یا لنفوسیت نسبی > ۴۰٪ گفته می‌شود. لنفوسیت ۴۵٪ در نمونه خون محیطی نشان‌دهنده لنفوسیتوز است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-21",
+        "type": "short_answer",
+        "question": "جوان ۲۰ ساله با آنمی آپلاستیک (آناپلاستیک) — چه باید کرد؟",
+        "answerText": "پیوند مغز استخوان",
+        "explanation": "در بیماران جوان با آنمی آپلاستیک شدید (SAA)، پیوند مغز استخوان آلوژنیک از دهنده HLA-matched sibling درمان انتخابی و بالقوه شفابخش است. در صورت عدم وجود دهنده مناسب، درمان با ATG + سیکلوسپورین توصیه می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-22",
+        "type": "short_answer",
+        "question": "کدام داروی شیمی‌درمانی در فاز S اثر می‌گذارد؟",
+        "answerText": "مشخص نشده (تکراری با سؤال ۱۳)",
+        "explanation": "تکراری با سؤال ۱۳. سیتارابین مختص فاز S است.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-23",
+        "type": "short_answer",
+        "question": "اگر کسی با هموگلوبین بالا بیاید، اولین کار چیست؟",
+        "answerText": "Epo (اریتروپویتین)",
+        "explanation": "در بیمار با پلی‌سیتمی (هموگلوبین بالا)، ابتدا باید سطح Epo سرم اندازه‌گیری شود. در پلی‌سیتمی ورا (PV)، سطح Epo پایین یا نرمال-پایین است، در حالی که در پلی‌سیتمی ثانویه (مانند هیپوکسی مزمن) سطح Epo بالا است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-24",
+        "type": "short_answer",
+        "question": "بیمار با لنفادنوپاتی گردنی و سلول‌های smudged — تشخیص چیست؟",
+        "answerText": "CLL",
+        "explanation": "وجود سلول‌های smudge (لنفوسیت‌های شکسته) در اسمیر خون محیطی، به‌ویژه همراه با لنفادنوپاتی، مشخصه CLL است. این سلول‌ها به دلیل fragility لنفوسیت‌های CLL هنگام تهیه اسمیر ایجاد می‌شوند.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-25",
+        "type": "short_answer",
+        "question": "کیس با MCV نرمال — تشخیص؟",
+        "answerText": "آنمی مزمن",
+        "explanation": "آنمی بیماری مزمن شایع‌ترین علت آنمی نورموسیتیک (MCV نرمال) است. در این حالت، التهاب مزمن باعث افزایش هپسیدین و اختلال در استفاده از آهن می‌شود، بدون اینکه حجم گلبول‌های قرمز تغییر قابل‌توجهی کند.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-26",
+        "type": "short_answer",
+        "question": "بیمار با سابقه سرطان پستان که شیمی‌درمانی و رادیوتراپی کرده — تشخیص؟",
+        "answerText": "AML",
+        "explanation": "شیمی‌درمانی با آلکیله‌کننده‌ها و مهارکننده‌های توپوایزومراز II (مانند آنتراسیکلین‌ها) و رادیوتراپی، خطر AML ثانویه (t-AML) را افزایش می‌دهند. این عارضه معمولاً ۱–۵ سال پس از درمان رخ می‌دهد.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-27",
+        "type": "short_answer",
+        "question": "کدام بزرگی طحال بیش از ۱۰ سانتی‌متر نمی‌دهد؟",
+        "answerText": "میلودیسپلازی",
+        "explanation": "اسپلنومگالی در MDS معمولاً شایع نیست و به‌طور معمول اسپلنومگالی شدید (بیش از ۱۰ سانتی‌متر) در MDS دیده نمی‌شود، مگر در موارد نادر یا در سندرم‌های همپوشان MDS/MPN.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-28",
+        "type": "short_answer",
+        "question": "تصویر لکواریتروبلاستیک — تشخیص؟",
+        "answerText": "میلوفیبروز",
+        "explanation": "تصویر لکواریتروبلاستیک (وجود پیش‌سازهای میلوئید و اریتروئید در خون محیطی) همراه با آنیزوسیتوز و گلبول‌های اشک‌مانند (teardrop cells) مشخصه میلوفیبروز است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": true,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-29",
+        "type": "short_answer",
+        "question": "کیسی که تشخیصش CML بود — جواب؟",
+        "answerText": "الف و ج — یعنی BCR-ABL و فیلادلفیا",
+        "explanation": "CML با جابه‌جایی کروموزومی t(9;22) (کروموزوم فیلادلفیا) و تشکیل ژن fusion BCR-ABL مشخص می‌شود. تشخیص با FISH یا RT-PCR برای BCR-ABL تأیید می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-30",
+        "type": "short_answer",
+        "question": "کدام پروگنوز CLL را بدتر می‌کند؟",
+        "answerText": "حذف ۱۷ به همراه CD38 بروز",
+        "explanation": "حذف ۱۷p (که منجر به از دست رفتن TP53 می‌شود) بدترین عامل پیش‌آگهی در CLL است. بیان CD38 نیز یک عامل پیش‌آگهی منفی مستقل است. ترکیب این دو، پیش‌آگهی بسیار بدی را نشان می‌دهد.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-31",
+        "type": "short_answer",
+        "question": "کیس تالاسمی که HbF بالا بدون آنمی دارد — تشخیص؟",
+        "answerText": "HbF پایدار (HPFH — Hereditary Persistence of Fetal Hemoglobin)",
+        "explanation": "HPFH وضعیتی است که در آن HbF در بزرگسالی بالا می‌ماند اما کم‌خونی وجود ندارد. این حالت در مقابل بتا تالاسمی است که HbF بالا همراه با کم‌خونی دارد.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-32",
+        "type": "short_answer",
+        "question": "به فردی خون زدیم، لرز کرده — چه نوع واکنشی است؟",
+        "answerText": "آنتی‌نوتروفیل، ضد گروه خونی، واکنش التهابی",
+        "explanation": "لرز به‌تنهایی می‌تواند نشانه FNHTR (واکنش تب‌زای غیرهمولیتیک) باشد که معمولاً به دلیل آنتی‌بادی‌های ضد لکوسیت یا سیتوکین‌ها رخ می‌دهد. اگر همراه با تب، ادرار تیره، یا درد پهلو باشد، باید واکنش همولیتیک حاد را رد کرد. آنتی‌بادی ضد نوتروفیل و ضد گروه خونی از علل احتمالی هستند.",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-33",
+        "type": "short_answer",
+        "question": "فردی با کراتینین ۲.۲ و هموگلوبین ۹ — تشخیص؟",
+        "answerText": "مالتیپل میلومای علامت دار",
+        "explanation": "مالتیپل میلوم با علائم CRAB مشخص می‌شود: C: Calcium بالا، R: Renal failure (کراتینین ۲.۲)، A: Anemia (هموگلوبین ۹)، B: Bone lesions. وجود کراتینین بالا و آنمی در بیمار با میلوم، تشخیص میلوم علامت‌دار را مطرح می‌کند.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-34",
+        "type": "mcq",
+        "question": "سؤالی درباره vWF۳ بود",
+        "options": ["فون ویلبراند ۱", "فون ویلبراند ۲", "فون ویلبراند ۳", "برنارد سولیر"],
+        "correctAnswer": -1,
+        "explanation": "صورت سؤال ناقص است. به‌طور کلی: vWD نوع ۳: شدیدترین فرم، کمبود کامل vWF، خونریزی شدید. سندرم برنارد سولیر: نقص در کمپلکس GPIb-IX-V، با پلاکت‌های بزرگ و ترومبوسیتوپنی. vWD نوع ۱: کمبود نسبی vWF، معمولاً خفیف. vWD نوع ۲: نقص عملکردی vWF. — پاسخ فایل: مشخص نشده",
+        "sessionId": "session-06",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-35",
+        "type": "mcq",
+        "question": "تالاسمی که ژنوتیپش ۴ آلفا با یک t (--/-α) است — CBC چگونه است؟",
+        "options": ["CBC نرمال", "CBC نرمال با گلبول میکروسیت", "CBC مشکل‌دار", "CBC مشکل‌دار با گلبول میکروسیت"],
+        "correctAnswer": -1,
+        "explanation": "ژنوتیپ --/-α (حذف سه ژن آلفا) معادل هموگلوبین H disease است. در این حالت، کم‌خونی خفیف تا متوسط (Hb ۸–۱۰) با MCV پایین (میکروسیتوز) و MCH پایین وجود دارد. بنابراین CBC مشکل‌دار با گلبول میکروسیت (گزینه ۴) نیز قابل بحث است. گزینه «CBC نرمال با گلبول میکروسیت» ممکن است برای ناقلان خاموش (aa/-a) یا آلفا تالاسمی ۱ (aa/--) درست باشد، نه برای هموگلوبین H. — پاسخ فایل: مشخص نشده",
+        "sessionId": "session-09",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-36",
+        "type": "short_answer",
+        "question": "سؤال کیسی که کدام مورد غلط است؟ پلاکت ۴۴۰ هزار — ترومبوسیتوز نداریم",
+        "answerText": "ترومبوسیتوز نداریم",
+        "explanation": "محدوده نرمال پلاکت ۱۵۰,۰۰۰–۴۵۰,۰۰۰ در میکرولیتر است. پلاکت ۴۴۰,۰۰۰ در محدوده نرمال بالا قرار دارد و ترومبوسیتوز محسوب نمی‌شود (ترومبوسیتوز به پلاکت > ۴۵۰,۰۰۰ گفته می‌شود). بنابراین اگر صورت سؤال «کدام غلط است؟» باشد، این جمله صحیح است و نباید به‌عنوان پاسخ غلط انتخاب شود.",
+        "sessionId": "session-05",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-37",
+        "type": "short_answer",
+        "question": "محاسبه درصد سچوریشن: Fe serum = 40, TIBC = 400",
+        "answerText": "۱۰ درصد",
+        "explanation": "فرمول: درصد سچوریشن = (آهن سرم / TIBC) × ۱۰۰ = (۴۰ / ۴۰۰) × ۱۰۰ = ۱۰٪. مقدار نرمال سچوریشن ترانسفرین حدود ۲۰–۵۰٪ است. سچوریشن ۱۰٪ نشان‌دهنده کمبود آهن است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-38",
+        "type": "short_answer",
+        "question": "کدام درست است؟ کرایو حجمش ۱۰ تا ۱۵",
+        "answerText": "حجم کرایو ۱۰ تا ۱۵",
+        "explanation": "هر واحد کرایوپرسیپیتات (Cryoprecipitate) معمولاً ۱۰–۱۵ میلی‌لیتر حجم دارد و حاوی فاکتور ۸، فاکتور فون ویلبراند، فیبرینوژن و فاکتور XIII است.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-39",
+        "type": "short_answer",
+        "question": "گلبول‌های Teardrop و با هسته می‌بینیم — تشخیص؟",
+        "answerText": "میلوفیبروز اولیه",
+        "explanation": "گلبول‌های اشک‌مانند (dacrocytes/teardrop cells) همراه با سلول‌های هسته‌دار در خون محیطی، مشخصه میلوفیبروز اولیه است. این یافته‌ها به دلیل فیبروز مغز استخوان و خون‌سازی خارج مغز استخوان (extramedullary hematopoiesis) رخ می‌دهند.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-40",
+        "type": "short_answer",
+        "question": "مسئله داخل جزوه — رتیکولوسیت تصحیح‌شده چقدر می‌شود؟",
+        "answerText": "۲/۲۵",
+        "explanation": "فرمول رتیکولوسیت تصحیح‌شده: Corrected Reticulocyte Count = Reticulocyte % × (Hct بیمار / Hct نرمال). اگر Hct بیمار ۲۲.۵ و Hct نرمال ۴۵ باشد: = ۹٪ × (۲۲.۵ / ۴۵) = ۴.۵٪... اما مقدار ۲.۲۵ در فایل ذکر شده است. صورت سؤال کامل نیست. به‌طور کلی، در آنمی، رتیکولوسیت تصحیح‌شده برای ارزیابی پاسخ مغز استخوان استفاده می‌شود.",
+        "sessionId": "session-08",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-41",
+        "type": "short_answer",
+        "question": "کدام در هموستاز اولیه نقش ندارد؟",
+        "answerText": "فاکتور ۸",
+        "explanation": "هموستاز اولیه شامل انقباض عروق، چسبندگی پلاکت، و تشکیل پلاگ پلاکتی است. فاکتورهای دخیل: vWF، فیبرینوژن، GPIb/IX/V، GPIIb/IIIa. فاکتور ۸ بخشی از آبشار انعقادی (هموستاز ثانویه) است و در هموستاز اولیه نقشی ندارد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-42",
+        "type": "mcq",
+        "question": "ترومبوز در شریان و ورید — کدام عامل؟",
+        "options": ["فاکتور ۵ لیدن", "پروتئین S", "پروتئین C", "هموسیستئین"],
+        "correctAnswer": 3,
+        "explanation": "هیپرهموسیستئینمی با افزایش خطر ترومبوز در شریان و ورید هر دو همراه است. در مقابل، فاکتور ۵ لیدن، کمبود پروتئین C و S عمدتاً با ترومبوز وریدی مرتبط هستند.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-43",
+        "type": "short_answer",
+        "question": "کدام عارضه در GVHD بیشتر است؟",
+        "answerText": "خون محیطی",
+        "explanation": "مطالعات نشان داده‌اند که پیوند سلول‌های بنیادی خون محیطی (PBSC) در مقایسه با مغز استخوان (BM) با بروز بالاتر GVHD مزمن همراه است (۶۵٪ در مقابل ۳۶٪ در مطالعه‌ای).",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-44",
+        "type": "mcq",
+        "question": "خانمی که برای هوچکین درمان شده، بعد از چند سال باید ماموگرافی سالانه بکند؟",
+        "options": ["۳", "۷", "۱۲", "۱۰"],
+        "correctAnswer": -1,
+        "explanation": "بر اساس گایدلاین‌های NCCN و ASCO، در بیمارانی که رادیوتراپی قفسه سینه دریافت کرده‌اند، غربالگری ماموگرافی سالانه باید ۸ سال پس از اتمام رادیوتراپی یا از سن ۲۵ سالگی (هر کدام دیرتر) شروع شود. عدد ۷ سال در برخی منابع ذکر شده است. — پاسخ فایل: مشخص نشده",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-45",
+        "type": "mcq",
+        "question": "خانم آلفا۱ تالاسمی با آقای آلفا۲ تالاسمی — بچه‌شان کدام حالت آلفا تالاسمی نمی‌تواند باشد؟",
+        "options": [],
+        "correctAnswer": -1,
+        "explanation": "آلفا تالاسمی ۱ (حذف دو ژن) × آلفا تالاسمی ۲ (حذف یک ژن): فرزند می‌تواند حذف ۱، ۲، یا ۳ ژن داشته باشد. حذف ۴ ژن (هیدروپس فتالیس) نیازمند دریافت دو ژن معیوب از هر دو والد است که هر دو آلفا تالاسمی ۱ (--/--) باشند. بنابراین هیدروپس فتالیس در این ازدواج غیرممکن است. — پاسخ فایل: مشخص نشده",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-46",
+        "type": "short_answer",
+        "question": "استیج هوچکین: درگیری گره لنفاوی آگزیلا و مدیاستن دو طرفه — استیج چند؟",
+        "answerText": "استیج ۲",
+        "explanation": "درگیری آگزیلا و مدیاستن (هر دو در یک طرف دیافراگم) = استیج ۲. اگر درگیری دو طرف دیافراگم باشد، استیج ۳ می‌شود.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-47",
+        "type": "short_answer",
+        "question": "در درمان CAR-T cell، هدف کدام است؟",
+        "answerText": "CD19",
+        "explanation": "CAR-T cell therapy در لنفوم‌های سلول B (مانند DLBCL و ALL) علیه CD19 هدف‌گیری می‌کند. CD19 یک مارکر اختصاصی سلول‌های B است.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-48",
+        "type": "short_answer",
+        "question": "خانمی با هموگلوبین ۵ و رژیم گیاهخواری — ذخیره فولات چقدر است؟",
+        "answerText": "۳-۴ ماه",
+        "explanation": "ذخایر فولات بدن محدود است و در صورت قطع مصرف، کمبود فولات طی ۳–۴ ماه ایجاد می‌شود. در مقابل، ذخایر ویتامین B12 برای ۲–۵ سال کافی است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-49",
+        "type": "short_answer",
+        "question": "زوائد اطراف لنفوسیت — تشخیص؟",
+        "answerText": "Hairy cell",
+        "explanation": "در لوسمی سلول مویی، لنفوسیت‌ها زوائد سیتوپلاسمی موی‌مانند دارند. این بیماری با پان‌سیتوپنی، اسپلنومگالی و مغز استخوان خشک (dry tap) مشخص می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-50",
+        "type": "short_answer",
+        "question": "کدام در اندوتلیوم ساخته می‌شود؟",
+        "answerText": "vWF",
+        "explanation": "vWF عمدتاً در سلول‌های اندوتلیال و مگاکاریوسیت‌ها ساخته می‌شود. این فاکتور در چسبندگی پلاکت به کلاژن زیر اندوتلیوم نقش کلیدی دارد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-51",
+        "type": "short_answer",
+        "question": "آنمی ماکروسیتیک با تعویض دریچه فلزی آئورت — درمان؟",
+        "answerText": "تجویز فولات با آهن",
+        "explanation": "بیماران با دریچه مصنوعی فلزی در معرض همولیز مکانیکی مزمن هستند که می‌تواند منجر به کمبود آهن و فولات شود. آنمی ماکروسیتیک در این بیماران معمولاً به دلیل مصرف فولات در اثر همولیز مزمن است. درمان با فولات و آهن انجام می‌شود.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-52",
+        "type": "short_answer",
+        "question": "RDW رنج نرمال چقدر است؟",
+        "answerText": "۱۱-۱۴",
+        "explanation": "RDW (Red Cell Distribution Width) نشان‌دهنده تنوع اندازه گلبول‌های قرمز است. محدوده نرمال ۱۱–۱۴٪ است. افزایش RDW در آنمی‌های مختلط و کمبود آهن دیده می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-53",
+        "type": "short_answer",
+        "question": "کدام لنفادنوپاتی بدتر است؟",
+        "answerText": "سوپراکلاویکولار",
+        "explanation": "لنفادنوپاتی سوپراکلاویکولار (Virchow’s node) همیشه پاتولوژیک است و اغلب نشان‌دهنده بدخیمی (به‌ویژه سرطان معده، ریه، یا لنفوم) است. در مقابل، لنفادنوپاتی گردنی یا زیر بغل می‌تواند در عفونت‌های خوش‌خیم نیز دیده شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-54",
+        "type": "short_answer",
+        "question": "پسر ۱۶ ساله بعد سه روز از تروما دچار ترومبوز — کدام احتمال کمتر است؟",
+        "answerText": "گلینزمن (Glanzmann)",
+        "explanation": "سندرم گلینزمن یک اختلال خونریزی‌دهنده پلاکتی است (نقص GPIIb/IIIa) و با ترومبوز همراه نیست. ترومبوز در نوجوان پس از تروما بیشتر به‌دلیل ترومبوفیلی ارثی (مانند فاکتور ۵ لیدن، کمبود پروتئین C/S، یا آنتی‌فسفولیپید سندرم) مطرح است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-55",
+        "type": "short_answer",
+        "question": "تجویز برای خانم باردار که قبلاً بچه ناقص لوله عصبی آورده؟",
+        "answerText": "روزانه قرص ۴ میلی‌گرم فولات",
+        "explanation": "در زنانی که سابقه بارداری با نقص لوله عصبی (NTD) دارند، دوز بالای فولات (۴–۵ میلی‌گرم در روز) از حداقل یک ماه قبل از بارداری توصیه می‌شود. این دوز خطر عود NTD را به‌طور قابل‌توجهی کاهش می‌دهد.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-56",
+        "type": "mcq",
+        "question": "کسی با سرطان پستان، تومور مغزی، تشنج و کاهش هوشیاری — اقدام؟",
+        "options": ["دیورتیک", "دگزا", "مشاوره نوروسرجری", "رادیوتراپی"],
+        "correctAnswer": 1,
+        "explanation": "در بیمار با متاستاز مغزی و علائم افزایش فشار داخل جمجمه (تشنج، کاهش هوشیاری)، دگزامتازون برای کاهش ادم مغزی و علائم فوری تجویز می‌شود. این اقدام قبل از مشاوره نوروسرجری یا رادیوتراپی انجام می‌شود.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-57",
+        "type": "short_answer",
+        "question": "سندرم SVCS — کدام کمتر اثر دارد؟",
+        "answerText": "گلوکوکورتیکوئید",
+        "explanation": "در سندرم ورید اجوف فوقانی (SVCS)، گلوکوکورتیکوئیدها نقش محدودی دارند و معمولاً به‌عنوان درمان اصلی توصیه نمی‌شوند. درمان اصلی شامل رادیوتراپی، شیمی‌درمانی، و استنت‌گذاری وریدی است. کورتیکواستروئیدها ممکن است در لنفوم یا تیموما مؤثر باشند اما در تومورهای جامد اثر کمی دارند.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-58",
+        "type": "short_answer",
+        "question": "خانمی برای جراحی بینی تست داده، پلاکت کم — چه کار می‌کنیم؟",
+        "answerText": "مشاهده لام محیطی",
+        "explanation": "در بیمار با پلاکت پایین قبل از جراحی، ابتدا باید اسمیر خون محیطی بررسی شود تا ترومبوسیتوپنی کاذب (pseudothrombocytopenia) ناشی از تجمع پلاکت‌ها در EDTA رد شود. اگر پلاکت‌ها به‌صورت کلاستر دیده شوند، آزمایش با سیترات یا هپارین تکرار می‌شود.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-59",
+        "type": "short_answer",
+        "question": "اقدام تکمیلی به دنبال اختلال PT/PTT؟",
+        "answerText": "Mixed",
+        "explanation": "در بیمار با PT و PTT طولانی، تست Mixed انجام می‌شود: اگر با افزودن پلاسمای نرمال اصلاح شود → کمبود فاکتور. اگر اصلاح نشود → وجود مهارکننده (مانند آنتی‌بادی ضد فاکتور یا لوپوس آنتی‌کواگولانت).",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-60",
+        "type": "short_answer",
+        "question": "Auer rod در AML — تشخیص؟",
+        "answerText": "مشخص نشده",
+        "explanation": "Auer rod (میله‌های آئور) اجسام سیتوپلاسمی ائوزینوفیلیک هستند که در سلول‌های میلوئیدی نابالغ دیده می‌شوند و مشخصه AML هستند. وجود آن‌ها AML را از ALL افتراق می‌دهد.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-61",
+        "type": "short_answer",
+        "question": "نمونه سوال جواب می‌شد فاکتور هشت — بقیه در غیر خونریزی PTT بودند: PK، HMWK، ۱۲",
+        "answerText": "فاکتور ۸",
+        "explanation": "کمبود فاکتور ۸ (هموفیلی A) با PTT طولانی و PT نرمال مشخص می‌شود. کمبود PK، HMWK، و فاکتور ۱۲ نیز PTT را طولانی می‌کنند اما با خونریزی همراه نیستند.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-62",
+        "type": "short_answer",
+        "question": "هموگلوبین H — ساختار؟",
+        "answerText": "بتا ۴",
+        "explanation": "هموگلوبین H از چهار زنجیره بتا (β۴) تشکیل شده است و در آلفا تالاسمی شدید دیده می‌شود. این هموگلوبین تمایل بالایی به اکسیژن دارد و اکسیژن را به بافت‌ها نمی‌رساند.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-63",
+        "type": "short_answer",
+        "question": "رنگ‌آمیزی لام خون محیطی؟",
+        "answerText": "رایت گیمسا",
+        "explanation": "رنگ‌آمیزی استاندارد برای اسمیر خون محیطی، رایت-گیمسا است که ترکیبی از رنگ‌های اسیدی و بازی برای نمایش بهتر سلول‌های خونی است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-64",
+        "type": "short_answer",
+        "question": "ادرار پررنگ صبحگاهی همراه با پان‌سیتوپنی — تشخیص؟",
+        "answerText": "PNH",
+        "explanation": "PNH با همولیز داخل عروقی مزمن، هموگلوبینوری صبحگاهی (به دلیل تجمع مکمل در شب)، و پان‌سیتوپنی (به دلیل نقص GPI-anchored proteins) مشخص می‌شود.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-65",
+        "type": "short_answer",
+        "question": "حملات کولیک صفراوی همراه با بتا اسپکترین و آکنیرین — تشخیص؟",
+        "answerText": "اسفروسیتوز ارثی",
+        "explanation": "اسفروسیتوز ارثی با نقص در پروتئین‌های غشایی (spectrin، ankyrin، band 3) مشخص می‌شود. همولیز مزمن منجر به سنگ صفرا (bilirubin سنگ) و اسپلنومگالی می‌شود. تست حساسیت اسمزی (osmotic fragility) تشخیصی است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-66",
+        "type": "short_answer",
+        "question": "کیس: کم‌خونی داشت و هموگلوبین F بالا بود — تشخیص؟",
+        "answerText": "دلتا بتا تالاسمی",
+        "explanation": "در δβ-thalassemia، حذف ژن‌های دلتا و بتا منجر به افزایش جبرانی HbF (α۲γ۲) می‌شود. این حالت با کم‌خونی خفیف تا متوسط، MCV پایین، و HbF بالا (۲۰–۱۰۰٪) مشخص می‌شود.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-67",
+        "type": "mcq",
+        "question": "بیمار با WBC بالای ۵۰,۰۰۰ — کدام مؤثرتر است؟",
+        "options": ["دیورتیک", "rasburicase", "نرمال سالین روزانه", "دیالیز"],
+        "correctAnswer": -1,
+        "explanation": "در بیمار با WBC بسیار بالا (لوسمی)، خطر سندرم لیز تومور (TLS) و هیپراوریکمی وجود دارد. درمان شامل: هیدراتاسیون با نرمال سالین، راسبوریکاز (برای کاهش سریع اسید اوریک)، آلوپورینول. دیورتیک‌ها ممکن است خطر نارسایی کلیه را افزایش دهند. دیالیز در موارد مقاوم یا نارسایی کلیه استفاده می‌شود. — پاسخ فایل: مشخص نشده",
+        "sessionId": "session-14",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-68",
+        "type": "short_answer",
+        "question": "در مدت یک سال هدف ما چیست؟",
+        "answerText": "رسیدن به پاسخ سایتوژنتیک کامل",
+        "explanation": "در درمان CML با ایماتینیب، هدف درمانی دستیابی به پاسخ سایتوژنتیک کامل (CCyR) در ۱۲ ماه است. این به معنای عدم وجود کروموزوم فیلادلفیا در بررسی مغز استخوان است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-69",
+        "type": "short_answer",
+        "question": "جهش JAK2 در PV — چه چیزی است؟",
+        "answerText": "مشخص نشده",
+        "explanation": "جهش JAK2 V617F در حدود ۹۵٪ بیماران مبتلا به PV دیده می‌شود. این جهش منجر به فعال‌سازی مداوم مسیر JAK-STAT و تکثیر بیش‌ازحد سلول‌های خونی می‌شود.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-70",
+        "type": "short_answer",
+        "question": "هموستاز اولیه — کدام فاکتور نقش ندارد؟",
+        "answerText": "فاکتور ۸",
+        "explanation": "تکراری با سؤال ۴۱. فاکتور ۸ در هموستاز ثانویه (آبشار انعقادی) نقش دارد، نه هموستاز اولیه.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-71",
+        "type": "short_answer",
+        "question": "آنم ۲۳ ساله‌ای با شرح حال خونریزی مراجعه کرده — تشخیص؟",
+        "answerText": "vWD",
+        "explanation": "vWD شایع‌ترین اختلال خونریزی‌دهنده ارثی است و با خونریزی مخاطی (اپیستاکسی، منوراژی، خونریزی لثه) مشخص می‌شود. در خانم جوان با منوراژی، vWD باید در تشخیص افتراقی قرار گیرد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-72",
+        "type": "short_answer",
+        "question": "اختلالات ارثی ترومبوفیلی — کدام باعث افزایش ریسک ترومبوز در شریان و ورید هر دو می‌شود؟",
+        "answerText": "کمبود هموسیستین",
+        "explanation": "تکراری با سؤال ۴۲. هیپرهموسیستئینمی با ترومبوز شریانی و وریدی همراه است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-73",
+        "type": "short_answer",
+        "question": "پسر بچه ۲ ساله‌ای به دنبال تروما سه روز قبل — تشخیص؟",
+        "answerText": "سندرم گلانزمن",
+        "explanation": "تکراری با سؤال ۷ بخش دوم. سندرم گلانزمن یک اختلال خونریزی‌دهنده پلاکتی است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-74",
+        "type": "short_answer",
+        "question": "آقای ۱۶ ساله‌ای با آزمایش زیر — تشخیص؟",
+        "answerText": "دلتا بتا تالاسمی",
+        "explanation": "تکراری با سؤال ۱۹ بخش دوم. δβ-thalassemia با HbF بالا و کم‌خونی خفیف مشخص می‌شود.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-75",
+        "type": "short_answer",
+        "question": "خانم ۴۶ ساله‌ای با شرح حال ادرار پررنگ صبحگاهی — تشخیص؟",
+        "answerText": "PNH",
+        "explanation": "تکراری با سؤال ۱۷ بخش دوم. PNH با هموگلوبینوری صبحگاهی مشخص می‌شود.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-76",
+        "type": "short_answer",
+        "question": "دختر ۱۵ ساله‌ای با شرح حال کبودی گاه‌گاهی اندام تحتانی — تشخیص؟",
+        "answerText": "vWD type 1",
+        "explanation": "vWD نوع ۱ شایع‌ترین و خفیف‌ترین فرم vWD است. با کبودی آسان، اپیستاکسی، و منوراژی مشخص می‌شود. سطح vWF کمی کاهش می‌یابد.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-77",
+        "type": "short_answer",
+        "question": "خانم ۲۲ ساله با شرح حال خونریزی واژینال — تشخیص؟",
+        "answerText": "سندرم برنارد سولیر",
+        "explanation": "سندرم برنارد سولیر یک اختلال خونریزی‌دهنده پلاکتی نادر است که با نقص در کمپلکس GPIb-IX-V، پلاکت‌های بزرگ، و ترومبوسیتوپنی خفیف مشخص می‌شود. خونریزی مخاطی (منوراژی) شایع است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-78",
+        "type": "short_answer",
+        "question": "خانم ۲۳ ساله کاندید جراحی بینی با آزمایش پلاکت پایین — اقدام؟",
+        "answerText": "لام خون محیطی",
+        "explanation": "تکراری با سؤال ۱۱ بخش دوم. بررسی اسمیر خون محیطی برای رد ترومبوسیتوپنی کاذب.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-79",
+        "type": "short_answer",
+        "question": "منظور از هموگلوبین H چیست؟",
+        "answerText": "β۴",
+        "explanation": "تکراری با سؤال ۱۵ بخش دوم.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-80",
+        "type": "short_answer",
+        "question": "خانم ۱۹ ساله‌ای با شرح حال همولیز مزمن همراه با سنگ‌های صفراوی — تشخیص؟",
+        "answerText": "اسفروسیتوز ارثی",
+        "explanation": "تکراری با سؤال ۱۸ بخش دوم.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-81",
+        "type": "short_answer",
+        "question": "اندوتلیوم عروق محل سنتز کدام فاکتور انعقادی است؟",
+        "answerText": "فون ویلبراند",
+        "explanation": "تکراری با سؤال ۳ بخش دوم.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-82",
+        "type": "short_answer",
+        "question": "آقای ۳۵ ساله‌ای کاندید جراحی با تست انعقادی افزایش‌یافته PTT — تشخیص؟",
+        "answerText": "کمبود فاکتور ۸",
+        "explanation": "کمبود فاکتور ۸ با PTT طولانی و PT نرمال مشخص می‌شود. در بیمار با سابقه خونریزی و PTT طولانی، هموفیلی A باید بررسی شود.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-83",
+        "type": "short_answer",
+        "question": "آزمایش CBC یک شخص با طرح ژنتیک — نتیجه؟",
+        "answerText": "CBC نرمال",
+        "explanation": "صورت سؤال ناقص است. به‌طور کلی، برخی ژنوتیپ‌های تالاسمی (مانند ناقل خاموش آلفا) CBC نرمال دارند، در حالی که سایر ژنوتیپ‌ها (مانند هموگلوبین H) CBC غیرطبیعی دارند.",
+        "sessionId": "session-09",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-84",
+        "type": "short_answer",
+        "question": "آقای ۶۲ ساله‌ای با شرح حال تعویض دریچه آئورت — درمان؟",
+        "answerText": "درمان فولات همراه با ترکیبات آهن",
+        "explanation": "تکراری با سؤال ۴ بخش دوم.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-85",
+        "type": "short_answer",
+        "question": "آزمایش CBC بیمار آقای ۲۶ ساله — تشخیص؟",
+        "answerText": "HbF پایدار (HPFH)",
+        "explanation": "تکراری با سؤال ۳۱ بخش اول.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-86",
+        "type": "short_answer",
+        "question": "بیمار آقای ۳۰ ساله با تب و خستگی — تشخیص؟",
+        "answerText": "Acute myeloid leukemia (AML)",
+        "explanation": "تب و خستگی می‌تواند نشانه لوسمی حاد باشد. در AML، نارسایی مغز استخوان منجر به عفونت (تب) و آنمی (خستگی) می‌شود.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-87",
+        "type": "short_answer",
+        "question": "بیمار خانم ۴۰ ساله با شکایت منوراژی و ضعف شدید — تشخیص؟",
+        "answerText": "لوکمی پرومیلوسیتیک حاد (APL)",
+        "explanation": "APL (AML-M3) با t(15;17) و DIC مشخص می‌شود. خونریزی شدید (منوراژی، خونریزی مخاطی) شایع است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-88",
+        "type": "short_answer",
+        "question": "بیمار آقای ۳۰ ساله با تالاسمی ماژور — سایتوکاین التهابی؟",
+        "answerText": "مشخص نشده",
+        "explanation": "تالاسمی ماژور با همولیز مزمن و افزایش بار آهن همراه است که منجر به فعال‌سازی سیستم ایمنی و افزایش سایتوکاین‌های التهابی می‌شود. این التهاب مزمن به عوارضی مانند استئوپروز، تأخیر رشد، و بیماری‌های قلبی کمک می‌کند.",
+        "sessionId": "session-09",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-89",
+        "type": "short_answer",
+        "question": "فرآورده‌های خونی — جمله صحیح: حجم کرایوپرسیپیتات؟",
+        "answerText": "۱۰ تا ۱۵",
+        "explanation": "تکراری با سؤال ۳۸ بخش اول.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-90",
+        "type": "short_answer",
+        "question": "بیمار خانم ۷۵ ساله با شکایت درد کمر — تشخیص؟",
+        "answerText": "مولتیپل میلوما علامت‌دار",
+        "explanation": "درد کمر در سالمند با آنمی و نارسایی کلیه، شک به مولتیپل میلوما را برمی‌انگیزد. میلوما با ضایعات استئولیتیک، درد استخوان، و شکستگی پاتولوژیک همراه است.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-91",
+        "type": "short_answer",
+        "question": "بیمار آقای ۶۰ ساله که با ضعف و بی‌حالی — جواب؟",
+        "answerText": "الف و جیم",
+        "explanation": "مشابه سؤال ۲۹ بخش اول. CML با BCR-ABL و کروموزوم فیلادلفیا تشخیص داده می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-92",
+        "type": "short_answer",
+        "question": "خانم ۵۵ ساله‌ای که در چند ماه اخیر دچار احساس ناخوشی، بی‌اشتهایی — تشخیص؟",
+        "answerText": "bcr/abl",
+        "explanation": "علائم سیستمیک (ناخوشی، بی‌اشتهایی) همراه با اسپلنومگالی می‌تواند نشانه CML باشد. تشخیص با BCR-ABL تأیید می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-93",
+        "type": "short_answer",
+        "question": "ریک خانم مبتلا به لنفوم هوچکین — عارضه؟",
+        "answerText": "لوکمی میلویید حاد (AML)",
+        "explanation": "درمان لنفوم هوچکین با رژیم‌های شیمی‌درمانی (مانند MOPP، ABVD) و رادیوتراپی، خطر AML ثانویه را افزایش می‌دهد. این عارضه معمولاً ۳–۷ سال پس از درمان رخ می‌دهد.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-94",
+        "type": "short_answer",
+        "question": "پیوند آلوژن گرفتن سلول از کدام منبع با عارضه GVHD مزمن بیشتر؟",
+        "answerText": "خون محیطی",
+        "explanation": "تکراری با سؤال ۴۳ بخش اول. PBSC با بروز بالاتر GVHD مزمن همراه است.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-95",
+        "type": "short_answer",
+        "question": "بیمار آقای ۷۰ ساله که به علت آزمایش زیر ارجاع داده شده — تشخیص؟",
+        "answerText": "CLL",
+        "explanation": "مشابه سؤال ۲۴ بخش اول. CLL با لنفوسیتوز، smudge cells، و لنفادنوپاتی مشخص می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-96",
+        "type": "short_answer",
+        "question": "بیمار آقای ۶۰ ساله با شکایت درد شکم — تشخیص؟",
+        "answerText": "Hairy cell leukemia",
+        "explanation": "مشابه سؤال ۲ بخش دوم. لوسمی سلول مویی با اسپلنومگالی و پان‌سیتوپنی مشخص می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-97",
+        "type": "short_answer",
+        "question": "مقادیر نرمال RDW؟",
+        "answerText": "۱۱ تا ۱۴",
+        "explanation": "تکراری با سؤال ۵ بخش دوم.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-98",
+        "type": "short_answer",
+        "question": "تهیه اسمیر لام خون محیطی در حالت معمول از کدام رنگ‌آمیزی؟",
+        "answerText": "رایت گیمسا",
+        "explanation": "تکراری با سؤال ۱۶ بخش دوم.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-99",
+        "type": "short_answer",
+        "question": "مقدار اصلاح‌شده رتیکولوسیت در مردی با هموگلوبین ۷.۵ و رتیکولوسیت ۹",
+        "answerText": "۲.۲۵",
+        "explanation": "فرمول: Corrected Reticulocyte Count = Reticulocyte % × (Hct بیمار / Hct نرمال). اگر Hct بیمار = ۲۲.۵ و Hct نرمال = ۴۵: = ۹٪ × (۲۲.۵ / ۴۵) = ۹ × ۰.۵ = ۴.۵٪. اما مقدار ۲.۲۵ در فایل ذکر شده که ممکن است بر اساس Hct متفاوت باشد. صورت سؤال کامل نیست.",
+        "sessionId": "session-08",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-100",
+        "type": "short_answer",
+        "question": "خانمی با علائم کم‌خونی مراجعه — جواب؟",
+        "answerText": "۱۰ درصد",
+        "explanation": "صورت سؤال ناقص است. اگر منظور محاسبه سچوریشن ترانسفرین باشد: سچوریشن = (آهن سرم / TIBC) × ۱۰۰. اگر آهن ۴۰ و TIBC ۴۰۰ باشد، سچوریشن = ۱۰٪. مقدار ۱۰٪ نشان‌دهنده کمبود آهن است.",
+        "sessionId": "session-08",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-101",
+        "type": "short_answer",
+        "question": "خانم ۴۰ ساله با هموگلوبین ۱۰ — تشخیص؟",
+        "answerText": "آنمی بیماری مزمن",
+        "explanation": "مشابه سؤال ۲۵ بخش اول. آنمی بیماری مزمن با MCV نرمال مشخص می‌شود.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-102",
+        "type": "short_answer",
+        "question": "در بیماری که با هموگلوبین ۲۰ گرم بر دسی‌لیتر — اقدام؟",
+        "answerText": "اندازه‌گیری Epo",
+        "explanation": "مشابه سؤال ۲۳ بخش اول. در پلی‌سیتمی، اندازه‌گیری Epo اولین قدم است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-103",
+        "type": "short_answer",
+        "question": "در بیماری با آزمایش زیر کدام تعریف غلط است؟",
+        "answerText": "ترومبوسیتوز وجود دارد",
+        "explanation": "صورت سؤال ناقص است. اگر پلاکت < ۴۵۰,۰۰۰ باشد، ترومبوسیتوز وجود ندارد. اگر پلاکت > ۴۵۰,۰۰۰ باشد، ترومبوسیتوز وجود دارد.",
+        "sessionId": "session-05",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-104",
+        "type": "short_answer",
+        "question": "بیماری با اسپلنومگالی که ۱۰ سانتی‌متر زیر لبه دنده‌ای لمس می‌شود — تشخیص؟",
+        "answerText": "Myelodysplastic syndrome",
+        "explanation": "اسپلنومگالی شدید (۱۰ سانتی‌متر زیر لبه دنده‌ای) در MDS معمول نیست و بیشتر در MPN (مانند میلوفیبروز اولیه) دیده می‌شود. در MDS، اسپلنومگالی معمولاً خفیف است.",
+        "sessionId": "session-04",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-105",
+        "type": "short_answer",
+        "question": "وجود لنفادنوپاتی در کدام منطقه همیشه پاتولوژیک است؟",
+        "answerText": "سوپراکلاویکولار",
+        "explanation": "تکراری با سؤال ۶ بخش دوم.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-106",
+        "type": "short_answer",
+        "question": "آقای ۴۰ ساله با لنفادنوپاتی متعدد سرویکال — معیار؟",
+        "answerText": "نسبت طول به عرض",
+        "explanation": "در ارزیابی لنفادنوپاتی، نسبت طول به عرض (L/T) در سونوگرافی کمک‌کننده است. نسبت L/T < ۲ نشان‌دهنده بدخیمی احتمالی است، در حالی که نسبت بالاتر (≥ ۲) معمولاً خوش‌خیم است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-107",
+        "type": "short_answer",
+        "question": "بیماری با سابقه کانسر breast — درمان؟",
+        "answerText": "دگزامتازون",
+        "explanation": "مشابه سؤال ۹ بخش دوم. دگزامتازون برای متاستاز مغزی.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-108",
+        "type": "short_answer",
+        "question": "در بیماری با لوکمی میلوئیدی حاد و لکوسیتوز ۵۰ هزار — درمان؟",
+        "answerText": "سرم نرمال سالین ۳ لیتر روزانه",
+        "explanation": "در لوسمی حاد با WBC بالا، خطر سندرم لیز تومور (TLS) وجود دارد. درمان شامل هیدراتاسیون کافی (نرمال سالین)، راسبوریکاز، و آلوپورینول است. نرمال سالین ۳ لیتر روزانه بخشی از درمان است اما به‌تنهایی کافی نیست.",
+        "sessionId": "session-14",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-109",
+        "type": "short_answer",
+        "question": "خانم ۳۰ ساله با رژیم گیاهخواری — ذخیره فولات؟",
+        "answerText": "۳۶ تا ۴۸",
+        "explanation": "ذخایر فولات بدن برای ۳–۴ ماه کافی است. عدد ۳۶–۴۸ ماه (۳–۴ سال) مربوط به ذخایر ویتامین B12 است، نه فولات. اگر منظور فولات باشد، پاسخ صحیح ۳–۴ ماه است.",
+        "sessionId": "session-08",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "hematology-exam-01-q-110",
+        "type": "short_answer",
+        "question": "خانمی جهت مراقبت‌های قبل از بارداری مراجعه — تجویز؟",
+        "answerText": "فولیک اسید ۵ میلی‌گرم روزانه",
+        "explanation": "در زنان با سابقه بارداری همراه با نقص لوله عصبی، دوز بالای اسید فولیک (۴–۵ میلی‌گرم) توصیه می‌شود. در زنان کم‌خطر، دوز ۰.۴ میلی‌گرم کافی است.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1102 @@
+{
+  "exam": {
+    "id": "mehr-93",
+    "label": "مهر ۹۳",
+    "sourceFile": "مهر 93.txt",
+    "questionCount": 52,
+    "questions": [
+      {
+        "id": "mehr-93-q-01",
+        "type": "mcq",
+        "question": "مرد ۶۰ ساله‌ای به علت ضعف، بی‌حالی، رنگ‌پریدگی، اکیموز و پورپورا مراجعه کرده است. در معاینه فیزیکی تب و ارگانومگالی ندارد.  \nHb=6, PLT=10,000, WBC=900, PMN=20%, Lymph=80%  \nاز بیمار بیوپسی مغز استخوان به عمل می‌آید. سلولاریته مغز استخوان ۱۵٪ می‌باشد و بقیه با چربی اشغال شده است. اقدام درمانی مناسب چیست؟",
+        "options": [
+          "درمان با سیکلوسپورین + آنتی‌تیموسیت گلوبولین",
+          "درمان با دانازول و فولیک اسید",
+          "پیوند مغز استخوان آلوژنیک",
+          "درمان با فرس آهن + فولیک اسید"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — سیکلوسپورین + ATG\nپاسخ تشریحی کوتاه: تصویر بالینی و آزمایشگاهی با آنمی آپلاستیک شدید سازگار است: پان‌سیتوپنی، مغز استخوان کم‌سلولار و جایگزینی با چربی، بدون ارگانومگالی. در بیمار ۶۰ ساله، درمان استاندارد سرکوب ایمنی با ATG + سیکلوسپورین است؛ پیوند آلوژنیک بیشتر برای بیماران جوان‌تر و دارای دهنده مناسب مطرح می‌شود.\nمنبع: استانداردهای هماتولوژی، گایدلاین‌های Aplastic Anemia.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-02",
+        "type": "mcq",
+        "question": "منظور از Febrile Neutropenia (تب و نوتروپنی) چیست؟",
+        "options": [
+          "T>38.5° + ANC<1500/mL",
+          "T>38° + ANC<500/mL",
+          "T>38.3° + ANC<500/mL",
+          "T>39° + ANC<500/mL"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — T>38.3° + ANC<500/mL\nپاسخ تشریحی کوتاه: تعریف رایج تب نوتروپنی: تب ≥38.3°C یک‌باره یا ≥38.0°C پایدار به مدت یک ساعت، همراه با ANC کمتر از ۵۰۰/میکرولیتر یا کمتر از ۱۰۰۰ با پیش‌بینی کاهش. گزینه ج استانداردترین تعریف را نشان می‌دهد.\nمنبع: IDSA Guidelines for Febrile Neutropenia.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-03",
+        "type": "mcq",
+        "question": "در کدام یک از بیماری‌های زیر کاندید پیوند، حساسیت GVM (graft versus malignancy) کمتر است؟",
+        "options": [
+          "CML",
+          "CLL",
+          "low grade",
+          "ALL"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — ALL\nپاسخ تشریحی کوتاه: اثر پیوند علیه بدخیمی در CML بسیار قوی است. در لنفوم‌های کم‌درجه و CLL نیز نسبتاً مؤثر است. در ALL، اگرچه اثر GVL وجود دارد، اما نسبت به CML و برخی بدخیمی‌های لنفوپرولیفراتیو کند‌رشد، کمتر است.\nمنبع: Hematology: Basic Principles and Practice.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-04",
+        "type": "mcq",
+        "question": "کدام‌یک از ارگان‌های زیر در دوران جنین مسئول خون‌سازی هستند، به غیر از:",
+        "options": [
+          "کیسه زرده",
+          "کلیه",
+          "طحال",
+          "مغز استخوان"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — کلیه\nپاسخ تشریحی کوتاه: در دوران جنینی، خون‌سازی به‌ترتیب در کیسه زرده، طحال، کبد و سپس مغز استخوان رخ می‌دهد. کلیه در خون‌سازی جنینی نقش اصلی ندارد.\nمنبع: Williams Hematology.",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-05",
+        "type": "mcq",
+        "question": "در مورد واکنش ناشی از تزریق خون کدام جمله صحیح است؟",
+        "options": [
+          "قطع فوری تزریق خون",
+          "بازگذاشتن رگ با نرمال سالین",
+          "ارسال نمونه خون و ادرار بیمار از جهت بررسی همولیز",
+          "همه موارد"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — همه موارد\nپاسخ تشریحی کوتاه: در واکنش حاد تزریق خون، باید فوراً تزریق قطع شود، راه وریدی با نرمال سالین باز نگه داشته شود، و نمونه‌های خون و ادرار بیمار برای بررسی همولیز ارسال گردد.\nمنبع: AABB Technical Manual.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-06",
+        "type": "mcq",
+        "question": "بیمار آقای ۶۵ ساله‌ای که به علت طحال بزرگ (ماسیو اسپلنومگالی) و بی‌حالی بررسی شده، در خون محیطی واکنش لکوارینتروبلاستیک رویت می‌شود. کدام تشخیص مطرح می‌شود؟",
+        "options": [
+          "میلی‌فیبروز اولیه",
+          "لوکمی میلوئید حاد",
+          "لوکمی میلوئید مزمن",
+          "ترومبوسیتوز اولیه"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — میلی‌فیبروز اولیه\nپاسخ تشریحی کوتاه: وجود ماسیو اسپلنومگالی همراه با واکنش لکوارینتروبلاستیک در خون محیطی، تظاهر کلاسیک میلوفیبروز اولیه است.\nمنبع: WHO Classification of Myeloproliferative Neoplasms.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-07",
+        "type": "mcq",
+        "question": "کدام یک از ارگان‌های زیر در GVHD حاد درگیر نمی‌شود؟",
+        "options": [
+          "پوست",
+          "روده",
+          "کبد",
+          "ریه"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — ریه\nپاسخ تشریحی کوتاه: درگیری کلاسیک GVHD حاد شامل پوست، دستگاه گوارش و کبد است. ریه در GVHD حاد جزء ارگان‌های اصلی درگیر نیست.\nمنبع: NIH Consensus on GVHD.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-08",
+        "type": "mcq",
+        "question": "در کدام‌یک از علل زیر تست Bleeding time طولانی نمی‌شود؟",
+        "options": [
+          "هموفیلی",
+          "سندرم برنارد‌سولیر",
+          "سندرم گلانزمن",
+          "بیماری VWD"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — هموفیلی\nپاسخ تشریحی کوتاه: Bleeding time در اختلالات پلاکتی و فون ویلبراند طولانی می‌شود. هموفیلی اختلال فاکتور انعقادی است و معمولاً BT طبیعی دارد.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-09",
+        "type": "mcq",
+        "question": "در آزمایش خون WBC=20,000، درصد smudged cells ۷۵٪ و تعداد فراوان ... Hb=12 g/dl، PLT=170,000. کدام تشخیص بیشتر برای بیمار مطرح می‌باشد؟",
+        "options": [
+          "لوکمی لنفوسیتی مزمن",
+          "لوکمی لنفوسیتی حاد",
+          "منونوکلئوز عفونی",
+          "لوکمی میلوئیدی حاد"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — لوکمی لنفوسیتی مزمن\nپاسخ تشریحی کوتاه: وجود smudge cells فراوان در خون محیطی همراه با لکوسیتوز، تظاهر کلاسیک CLL است.\nمنبع: WHO Classification of Lymphoid Neoplasms.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-10",
+        "type": "mcq",
+        "question": "برای تشخیص PNH کدام مارکر در فلوسیتومتری کمک‌کننده است؟",
+        "options": [
+          "CD5، CD25",
+          "CD13، CD33",
+          "CD16، CD56",
+          "CD55، CD59"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — CD55، CD59\nپاسخ تشریحی کوتاه: در PNH، فقدان یا کاهش پروتئین‌های متصل به GPI مانند CD55 و CD59 در گلبول‌های قرمز و گرانولوسیت‌ها با فلوسیتومتری تشخیص داده می‌شود.\nمنبع: NIH PNH Guidelines.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-11",
+        "type": "mcq",
+        "question": "احتمال مثبت شدن موتاسیون JAK2 در کدام یک از اختلالات میلوپرولیفراتیو زیر بیشتر است؟",
+        "options": [
+          "ترومبوسیتمی اولیه",
+          "میلوفیبروز اولیه",
+          "CML",
+          "پلی‌سیتمی ورا"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — پلی‌سیتمی ورا\nپاسخ تشریحی کوتاه: موتاسیون JAK2 V617F در حدود ۹۵٪ بیماران پلی‌سیتمی ورا، ۵۰–۶۰٪ میلوفیبروز اولیه و ۵۰٪ ترومبوسیتمی اولیه دیده می‌شود.\nمنبع: WHO MPN.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-12",
+        "type": "mcq",
+        "question": "خانم بارداری ... اشباع اکسیژن ۹۷٪ ... هموگلوبین ... ۱۹ mg/dl ... کدام بررسی کمک‌کننده‌تر است؟",
+        "options": [
+          "بررسی موتاسیون JAK2",
+          "بررسی اسمز",
+          "بررسی اسید اوریک",
+          "بررسی O2 affinity"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — بررسی موتاسیون JAK2\nپاسخ تشریحی کوتاه: با توجه به متن بازسازی‌شده، احتمالاً بیمار با هموگلوبین بالا و اشباع اکسیژن طبیعی مطرح است که پلی‌سیتمی ورا را پیش می‌آورد؛ در این شرایط بررسی JAK2 کمک‌کننده است.\nمنبع: WHO MPN.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-13",
+        "type": "mcq",
+        "question": "آقای ۵۰ ساله با زردی؟ بررسی شد. سایر معاینه نرمال است.  \nHb=9 g/dl, MCV=78 fl, Fe=30 ↓, TIBC=450 ↓, Ferritin=10 ↓  \nچه بررسی نیاز دارد؟",
+        "options": [
+          "درمان با فرس آهن",
+          "درمان با آهن تزریقی",
+          "بررسی دستگاه گوارش",
+          "نمونه‌برداری مغز استخوان"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — بررسی دستگاه گوارش\nپاسخ تشریحی کوتاه: آزمایش‌ها کم‌خونی میکروسیتیک هیپوکروم با فریتین پایین را نشان می‌دهند؛ یعنی فقر آهن. در مرد ۵۰ ساله، باید منبع خونریزی گوارشی بررسی شود.\nمنبع: AGA Guidelines for Iron Deficiency Anemia.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-14",
+        "type": "mcq",
+        "question": "بیمار آقای ۲۵ ساله‌ای با شرح حال PTT طولانی بدون شرح حال خونریزی مراجعه کرده است. کمبود کدام فاکتور برای بیمار مطرح نمی‌باشد؟",
+        "options": [
+          "فاکتور هشت (VIII)",
+          "فاکتور دوازده (XII)",
+          "HMWK",
+          "پره‌کالیکرین (P.K)"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — فاکتور هشت (VIII)\nپاسخ تشریحی کوتاه: کمبود فاکتور XII، HMWK و پره‌کالیکرین باعث طولانی شدن PTT بدون خونریزی بالینی می‌شود. کمبود فاکتور VIII باعث هموفیلی A و خونریزی می‌شود.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-15",
+        "type": "mcq",
+        "question": "در کدام یک از گرافت‌های زیر در پیوند آلوژن احتمال عود بیشتر است؟",
+        "options": [
+          "acute and chronic GVHD",
+          "syngeneic BMT",
+          "acute GVHD",
+          "chronic GVHD"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — syngeneic BMT\nپاسخ تشریحی کوتاه: در پیوند سینژنیک (دوقلوی همسان) اثر GVL وجود ندارد؛ بنابراین احتمال عود بیشتر است. وجود GVHD مزمن با کاهش عود همراه است.\nمنبع: Thomas’ Hematopoietic Cell Transplantation.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-16",
+        "type": "mcq",
+        "question": "منظور از سمپتوم B در لنفوم بدخیم چیست؟",
+        "options": [
+          "تب که بیش از یک ماه تداوم داشته باشد",
+          "تعریق شبانه drenching",
+          "کاهش وزن بیش از ۱۰٪ وزن بدن طی ۶ ماه اخیر",
+          "همه گزینه‌ها"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — همه گزینه‌ها\nپاسخ تشریحی کوتاه: سمپتوم‌های B شامل تب غیرقابل توضیح، تعریق شبانه شدید و کاهش وزن بیش از ۱۰٪ در ۶ ماه است.\nمنبع: Lugano Classification.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-17",
+        "type": "mcq",
+        "question": "سلول ریدشتنبرگ در لنفوم هوجکین از چه دودمانی است؟",
+        "options": [
+          "B-cell",
+          "T-cell",
+          "NK-cell",
+          "Macrophage"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — B-cell\nپاسخ تشریحی کوتاه: سلول‌های ریدشتنبرگ در لنفوم هوجکین کلاسیک منشأ B-cell دارند.\nمنبع: WHO Classification of Hodgkin Lymphoma.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-18",
+        "type": "mcq",
+        "question": "تنها فراورده خونی که در دمای اتاق نگهداری می‌شود کدام است؟",
+        "options": [
+          "پلاکت",
+          "FFP",
+          "Packed Cell",
+          "Whole Blood"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — پلاکت\nپاسخ تشریحی کوتاه: پلاکت‌ها در دمای اتاق (۲۰–۲۴°C) با agitation نگهداری می‌شوند. سایر فراورده‌ها یخچالی یا فریز هستند.\nمنبع: AABB Technical Manual.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-19",
+        "type": "mcq",
+        "question": "کدام‌یک از گزینه‌های زیر در آنمی مگالوبلاستیک دیده نمی‌شود؟",
+        "options": [
+          "هیپرسگمانتاسیون نوتروفیل‌ها",
+          "افزایش LDH",
+          "کاهش سلولاریته مغز استخوان",
+          "پان‌سیتوپنی"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — کاهش سلولاریته مغز استخوان\nپاسخ تشریحی کوتاه: در آنمی مگالوبلاستیک، مغز استخوان معمولاً هیپرپلاستیک است، نه کم‌سلولار.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-20",
+        "type": "mcq",
+        "question": "در افتراق همولیز داخل عروقی از همولیز خارج عروقی کدام فاکتور کمک‌کننده است؟",
+        "options": [
+          "سطح هاپتوگلوبین",
+          "سطح LDH",
+          "میزان رتیکولوسیت خون",
+          "میزان هموسیدرین ادرار"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — میزان هموسیدرین ادرار\nپاسخ تشریحی کوتاه: هموسیدرین ادرار در همولیز داخل عروقی مثبت می‌شود و در همولیز خارج عروقی معمولاً منفی است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-21",
+        "type": "mcq",
+        "question": "کدام لنفوم Highly Aggressive می‌باشد؟",
+        "options": [
+          "MALToma",
+          "Burkitt",
+          "Follicular grade 3",
+          "Small cell lymphoma"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — Burkitt\nپاسخ تشریحی کوتاه: لنفوم بورکیت از لنفوم‌های بسیار تهاجمی (highly aggressive) است.\nمنبع: WHO Classification.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-22",
+        "type": "mcq",
+        "question": "همه شواهد زیر در افتراق خونریزی ناشی از اختلال پلاکتی و فاکتورهای انعقادی به نفع اختلال پلاکتی می‌باشد بجز:",
+        "options": [
+          "شروع خونریزی با تأخیر پس از تروما",
+          "سابقه خونریزی مفاصل در بیمار",
+          "بندآمدن خونریزی با فشار موضعی",
+          "خونریزی مفاصل و اکیموز"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — شروع خونریزی با تأخیر پس از تروما\nپاسخ تشریحی کوتاه: خونریزی با تأخیر پس از تروما و هِمارتروز به نفع اختلال انعقادی است، نه اختلال پلاکتی.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-23",
+        "type": "mcq",
+        "question": "ازدواج کدام‌یک از زوج‌های زیر مشکل خونی چندانی برای فرزندشان ایجاد نمی‌کند؟",
+        "options": [
+          "هر دو ناقل آلفا تالاسمی",
+          "هر دو ناقل بتا تالاسمی",
+          "یکی ناقل آلفا تالاسمی و دیگری ناقل بتا تالاسمی",
+          "یکی ناقل آلفا تالاسمی و یکی HbH باشد"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — یکی ناقل آلفا و دیگری ناقل بتا\nپاسخ تشریحی کوتاه: آلفا و بتا تالاسمی ژن‌های متفاوتی دارند؛ ناقل بودن یکی برای آلفا و دیگری برای بتا معمولاً بیماری شدید در فرزند ایجاد نمی‌کند.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-24",
+        "type": "mcq",
+        "question": "بیمار پس از نیم‌ساعت از شروع تزریق پلاکت دچار تب و لرز شده است. کدام اقدام صحیح است؟",
+        "options": [
+          "قطع تزریق و تجویز استامینوفن و با قطع تب، شروع مجدد تزریق پلاکت",
+          "قطع تزریق و ارسال نمونه از bag و خون بیمار برای آزمایشگاه",
+          "تجویز استامینوفن و ادامه تزریق پلاکت",
+          "قطع تزریق، تزریق نرمال سالین، ارسال نمونه خون بیمار و نمونه bag به آزمایشگاه"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د\nپاسخ تشریحی کوتاه: در واکنش تب‌دار غیرهمولیتیک، تزریق قطع، راه وریدی با نرمال سالین باز، و نمونه‌ها برای بررسی ارسال می‌شوند.\nمنبع: AABB Technical Manual.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-25",
+        "type": "mcq",
+        "question": "اولین Hb که در دوران جنینی ساخته می‌شود کدام است؟",
+        "options": [
+          "HbA1",
+          "Hb F",
+          "HbA2",
+          "Hb Zeta"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — Hb Zeta\nپاسخ تشریحی کوتاه: اولین هموگلوبین‌های جنینی شامل زتا گلوبین هستند (Gower 1: ζ2ε2).\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-26",
+        "type": "mcq",
+        "question": "مردی ۸۰ ساله با پان‌سیتوپنی و MCV=100, LDH=3000, WBC=2600, PLT=57000, Hb=8, Retic=3% و افزایش سرمی متیل‌مالونیک اسید و هموسیستئین مراجعه کرده است. کدام تشخیص مطرح است؟",
+        "options": [
+          "کمبود Vit B12",
+          "آنمی آپلاستیک",
+          "میلودیسپلازی",
+          "PNH"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — کمبود Vit B12\nپاسخ تشریحی کوتاه: افزایش متیل‌مالونیک اسید و هموسیستئین همراه با ماکروسیتوز و پان‌سیتوپنی، کمبود B12 را مطرح می‌کند.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-27",
+        "type": "mcq",
+        "question": "یافتن کدام اختلال سیتوژنتیک زیر در بیمار با AML با پروگنوز بدتر همراه است؟",
+        "options": [
+          "t(15,17)",
+          "t(16,16)",
+          "t(8,21)",
+          "inv(3)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — inv(3)\nپاسخ تشریحی کوتاه: inv(3) در AML یک ناهنجاری با پروگنوز نامطلوب است. t(15,17), t(8,21), t(16,16) پروگنوز مطلوب‌تری دارند.\nمنبع: WHO/ELN AML Guidelines.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-28",
+        "type": "mcq",
+        "question": "طول عمر نوتروفیل در خون چقدر است؟",
+        "options": [
+          "۱۴ روز",
+          "۷ روز",
+          "۴۸ ساعت",
+          "۸ ساعت"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — ۸ ساعت\nپاسخ تشریحی کوتاه: نوتروفیل‌ها پس از ورود به خون حدود ۶–۱۰ ساعت در گردش باقی می‌مانند و سپس به بافت‌ها مهاجرت می‌کنند.\nمنبع: Williams Hematology.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-29",
+        "type": "mcq",
+        "question": "آقای ۴۲ ساله با تشخیص CML در فاز ... جهت پیگیری درمان مراجعه می‌کند. ۶ ماه ... Imatinib 400 mg شروع شد. در حال حاضر مطالعه مولکولی BCR/ABL معادل ۱٪ گزارش شده است. وضعیت پاسخ به درمان کدام است؟",
+        "options": [
+          "major molecular response",
+          "complete cytogenetic response",
+          "بیمار پاسخ نداده است",
+          "complete molecular response"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — complete cytogenetic response\nپاسخ تشریحی کوتاه: BCR-ABL1 ≤1% در مقیاس بین‌المللی معادل پاسخ سیتوژنتیک کامل (CCyR) است. MMR معادل ≤0.1% است.\nمنبع: ELN CML Guidelines.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-30",
+        "type": "mcq",
+        "question": "بیمار با علائم آنمی همولیتیک داخل عروقی مراجعه کرده است. در آزمایشات بیمار کدام‌یک دیده نمی‌شود؟",
+        "options": [
+          "افزایش هاپتوگلوبین",
+          "افزایش LDH",
+          "افزایش هموسیدرین ادرار",
+          "افزایش بیلی‌روبین غیرمستقیم"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — افزایش هاپتوگلوبین\nپاسخ تشریحی کوتاه: در همولیز داخل عروقی، هاپتوگلوبین کاهش می‌یابد، نه افزایش. LDH، بیلی‌روبین غیرمستقیم و هموسیدرین ادرار افزایش می‌یابند.\nمنبع: Williams Hematology.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-31",
+        "type": "mcq",
+        "question": "کدام علامت در بیماران با همولیز مزمن معمولاً دیده نمی‌شود؟",
+        "options": [
+          "بزرگی کبد",
+          "بزرگی طحال",
+          "ایکتر",
+          "سنگ‌های صفراوی"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — بزرگی کبد\nپاسخ تشریحی کوتاه: در همولیز مزمن، اسپلنومگالی، ایکتر و سنگ صفراوی شایع‌اند. هپاتومگالی معمولاً جزء تظاهرات شاخص نیست.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-32",
+        "type": "mcq",
+        "question": "در پیوند مغز استخوان آلوژن کدام‌یک از سلول‌ها زودتر engraft می‌شود؟",
+        "options": [
+          "T-cell",
+          "PMN",
+          "B-cell",
+          "Stem cell"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — PMN\nپاسخ تشریحی کوتاه: پس از پیوند، نوتروفیل‌ها (PMN) معمولاً زودتر از پلاکت و گلبول قرمز engraft می‌شوند و معیار اصلی پیوند موفق هستند.\nمنبع: Thomas’ Hematopoietic Cell Transplantation.",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-33",
+        "type": "mcq",
+        "question": "Marked Eosinophilia کدام است؟",
+        "options": [
+          "AEC>1500/μL",
+          "AEC>500/μL",
+          "AEC>5000/μL",
+          "AEC>1000/μL"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — AEC>5000/μL\nپاسخ تشریحی کوتاه: ائوزینوفیلی خفیف ۵۰۰–۱۵۰۰، متوسط ۱۵۰۰–۵۰۰۰ و marked/sever بیش از ۵۰۰۰ در میکرولیتر تعریف می‌شود.\nمنبع: WHO Eosinophilia Guidelines.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-34",
+        "type": "mcq",
+        "question": "در مورد نقش و عملکرد پروتئین C در هموستاز کدام عبارت زیر صحیح است؟",
+        "options": [
+          "فعال‌سازی پلاسمینوژن",
+          "فعال‌سازی پروترومبین",
+          "تخریب منوفیبرین",
+          "غیرفعال کردن فاکتور پنج و هشت فعال‌شده"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — غیرفعال کردن فاکتور Va و VIIIa\nپاسخ تشریحی کوتاه: پروتئین C فعال‌شده (APC) با پروتئین S، فاکتورهای Va و VIIIa را غیرفعال می‌کند و اثر ضد انعقادی دارد.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-35",
+        "type": "mcq",
+        "question": "خانم حامله‌ای در آزمایشات زمان حاملگی با آزمایشات زیر مراجعه کرده است (طبیعی تا ۳۵): PTT=55s, PT=Normal, PLATE=Normal. بیمار هیچ‌گونه سابقه خونریزی را ذکر نمی‌کند. چه توصیه‌ای می‌کنید؟",
+        "options": [
+          "اندازه‌گیری سطح فاکتور هشت",
+          "اندازه‌گیری سطح فاکتور نه",
+          "تجویز ویتامین K به مدت ۳ روز",
+          "انجام Mixed test PTT"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — انجام Mixed test PTT\nپاسخ تشریحی کوتاه: در PTT طولانی منفرد بدون خونریزی، ابتدا باید تست مخلوط (mixing study) انجام شود تا وجود مهارکننده مانند لوپوس آنتی‌کواگولان یا کمبود فاکتور بررسی شود.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-36",
+        "type": "mcq",
+        "question": "ساخته شدن همه فاکتورهای انعقادی زیر وابسته به ویتامین K می‌باشد بجز:",
+        "options": [
+          "فاکتور نه (IX)",
+          "فاکتور هشت (VIII)",
+          "فاکتور دو (II)",
+          "فاکتور هفت (VII)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — فاکتور هشت (VIII)\nپاسخ تشریحی کوتاه: فاکتورهای II, VII, IX, X و پروتئین‌های C و S وابسته به ویتامین K هستند. فاکتور VIII وابسته به ویتامین K نیست.\nمنبع: Williams Hematology.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-37",
+        "type": "mcq",
+        "question": "کدام یک از داروهای شیمی‌درمانی زیر در فاز میتوز اثر می‌کند؟",
+        "options": [
+          "دکسوروبیسین",
+          "فلورواوراسیل",
+          "پکلی‌تاکسل",
+          "سیتارابین"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — پکلی‌تاکسل\nپاسخ تشریحی کوتاه: پکلی‌تاکسل با پایدار کردن میکروتوبول‌ها و اختلال در میتوز عمل می‌کند.\nمنبع: Cancer Chemotherapy Guidelines.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-38",
+        "type": "mcq",
+        "question": "WBC=4200, Hb=12.5, MCV=70, MCH=23, PLT=230000, Ferritin=89, HbA=83.5%, HbF=14.5%, HbA2=2.4%  \nتشخیص بیمار چیست؟",
+        "options": [
+          "فقر آهن",
+          "بتا تالاسمی مینور",
+          "هموگلوبین جنینی پایدار",
+          "آزمایش طبیعی است"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — هموگلوبین جنینی پایدار (HPFH) یا دلتا-بتا تالاسمی\nپاسخ تشریحی کوتاه: HbA2 طبیعی و HbF بالا با MCV پایین، به نفع HPFH یا دلتا-بتا تالاسمی است. در بتا تالاسمی مینور معمولاً HbA2 بالاست.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-39",
+        "type": "mcq",
+        "question": "در کدام یک از اختلالات میلوپرولیفراتیو زیر اسپلنومگالی شیوع کمتری دارد؟",
+        "options": [
+          "پلی‌سیتمی ورا",
+          "میلوفیبروز اولیه",
+          "CML",
+          "ترومبوسیتمی اولیه"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — ترومبوسیتمی اولیه\nپاسخ تشریحی کوتاه: اسپلنومگالی در میلوفیبروز اولیه و CML شایع است؛ در ترومبوسیتمی اولیه معمولاً خفیف یا absent است.\nمنبع: WHO MPN.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-40",
+        "type": "mcq",
+        "question": "بیمار آقای ۶۰ ساله‌ای به علت ضعف و بی‌حالی مراجعه کرده است. در آزمایش‌ها Hb=10.2, PLT=450000، پروسیولوسیت حدود ۵٪ و رده‌های مختلف میلوئید رویت می‌شود. در معاینه طحال حدود ۸ سانتی‌متر زیر لبه دنده به دست می‌خورد. احتمال یافتن کدام یک از موارد زیر بیشتر است؟",
+        "options": [
+          "BCR/ABL",
+          "PML/RARA",
+          "کروموزوم فیلادلفیا",
+          "الف و ج"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — الف و ج\nپاسخ تشریحی کوتاه: تصویر بالینی CML است؛ در CML هم BCR/ABL و هم کروموزوم فیلادلفیا (t9;22) دیده می‌شود.\nمنبع: WHO MPN.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-41",
+        "type": "mcq",
+        "question": "با کدام روش وجود بتا تالاسمی مینور قابل اثبات است؟",
+        "options": [
+          "معاینه بالینی",
+          "سابقه فامیلی",
+          "الکتروفورز هموگلوبین",
+          "آزمایش CBC"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — الکتروفورز هموگلوبین\nپاسخ تشریحی کوتاه: در بتا تالاسمی مینور، HbA2 معمولاً بالای ۳.۵٪ است که با الکتروفورز هموگلوبین قابل اثبات است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-42",
+        "type": "mcq",
+        "question": "متن کامل سؤال در فایل ناخوانا است. فقط عبارت «...مین باشد» و گزینه‌ها دیده می‌شود.",
+        "options": [
+          "PML/RARA",
+          "BCR/ABL",
+          "NPM1",
+          "FLT3-ITD"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ صحیح علمی: بسته به متن کامل؛ در AML، PML/RARA و NPM1 پروگنوز مطلوب و FLT3-ITD پروگنوز نامطلوب دارند.\nپاسخ تشریحی کوتاه: سؤال ناقص است. اگر پرسش درباره «پروگنوز خوب» باشد، PML/RARA یا NPM1؛ اگر «پروگنوز بد» باشد، FLT3-ITD.\nمنبع: ELN AML Guidelines.",
+        "sessionId": "session-03",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-43",
+        "type": "mcq",
+        "question": "شایع‌ترین نوع لنفوم غیر هوچکین کدام است؟",
+        "options": [
+          "Diffuse Large B-cell",
+          "Burkitts",
+          "Follicular lym",
+          "Mantle cell"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — Diffuse Large B-cell\nپاسخ تشریحی کوتاه: شایع‌ترین لنفوم غیرهوچکین، DLBCL است.\nمنبع: WHO Classification.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-44",
+        "type": "mcq",
+        "question": "آقای ۲۵ ساله‌ای در آزمایش قبل از ازدواج با آنمی زیر مراجعه کرده است. هیچ علامت بالینی ندارد. معاینات طبیعی است.  \nHb=13, MCV=70, Ferritin=65  \nمحتمل‌ترین تشخیص کدام است؟",
+        "options": [
+          "تالاسمی مینور",
+          "آنمی فقر آهن",
+          "آنمی مگالوبلاستیک",
+          "آنمی همولیتیک"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — تالاسمی مینور\nپاسخ تشریحی کوتاه: MCV پایین با فریتین نرمال و Hb طبیعی، در فرد بدون علامت، به نفع تالاسمی مینور است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-45",
+        "type": "mcq",
+        "question": "کدام‌یک از علل آنمی میکروسیتوز می‌باشد؟",
+        "options": [
+          "کمبود فولیک اسید",
+          "میلودیسپلازی",
+          "بیماری کبدی",
+          "آنمی ناشی از مسمومیت سرب"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — مسمومیت سرب\nپاسخ تشریحی کوتاه: مسمومیت سرب می‌تواند آنمی میکروسیتیک یا نورموسیتیک ایجاد کند. کمبود فولات و بیماری کبدی معمولاً ماکروسیتیک هستند.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-46",
+        "type": "mcq",
+        "question": "آقای ۲۶ ساله‌ای بدون علایم بالینی در آزمایشات:  \nWBC=4600, Hb=14, MCV=80, PLT=65000  \nچه اقدامی لازم است؟",
+        "options": [
+          "سونوگرافی از طحال",
+          "بیوپسی مغز استخوان",
+          "لام خون محیطی",
+          "تزریق سریع پلاکت"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — لام خون محیطی\nپاسخ تشریحی کوتاه: ترومبوسیتوپنی منفرد و بدون علامت ابتدا نیاز به بررسی لام خون محیطی برای رد کلامپینگ یا سودوترومبوسیتوپنی دارد.\nمنبع: Williams Hematology.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-47",
+        "type": "mcq",
+        "question": "بالاترین مقدار آهن در کدام قسمت بدن وجود دارد؟",
+        "options": [
+          "میوگلوبین",
+          "آنزیم سیتوکروم",
+          "ترانسفرین",
+          "هموگلوبین"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — هموگلوبین\nپاسخ تشریحی کوتاه: بیشترین مقدار آهن بدن در هموگلوبین گلبول‌های قرمز است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-48",
+        "type": "mcq",
+        "question": "منظور هموگلوبین H کدام‌یک است؟",
+        "options": [
+          "β4",
+          "γ4",
+          "α/α",
+          "α/α"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — β4\nپاسخ تشریحی کوتاه: HbH از چهار زنجیره بتا (β4) تشکیل شده و در آلفا تالاسمی دیده می‌شود.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-49",
+        "type": "mcq",
+        "question": "کدام‌یک از علل زیر عامل کمبود فولات نمی‌باشد؟",
+        "options": [
+          "بیماری سلیاک",
+          "آنمی پرنیسیوز",
+          "آنمی همولیتیک مزمن",
+          "درماتیت مزمن"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ صحیح علمی: گزینه ب — آنمی پرنیسیوز\nپاسخ تشریحی کوتاه: آنمی پرنیسیوز باعث کمبود ویتامین B12 می‌شود، نه فولات.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-50",
+        "type": "mcq",
+        "question": "تظاهر بالینی آلفا تالاسمی یک (αα/-α یا αα/--) کدام‌یک از موارد زیر است؟",
+        "options": [
+          "بدون علامت بالینی + آنمی هیپوکروم میکروسینر",
+          "بدون علامت بالینی + CBC طبیعی",
+          "تغییر قیافه مختصر بیمار + آنمی هیپوکروم میکروسینر",
+          "بدون علامت بالینی + آنمی نورموکروم نورموسینر"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ صحیح علمی: گزینه الف — بدون علامت + آنمی هیپوکروم میکروسینر\nپاسخ تشریحی کوتاه: در آلفا تالاسمی مینور، فرد بدون علامت است اما MCV/MCH پایین و آنمی هیپوکروم میکروسیتیک خفیف دارد.\nمنبع: Williams Hematology.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-51",
+        "type": "mcq",
+        "question": "در کدام نوع میلوم مولتیپل شانس سندرم هیپرویسکوزیته زیادتر است؟",
+        "options": [
+          "IgM",
+          "IgG",
+          "IgA",
+          "Light chain"
+        ],
+        "correctAnswer": 2,
+        "explanation": "پاسخ صحیح علمی: گزینه ج — IgA\nپاسخ تشریحی کوتاه: در مولتیپل میلوما، هیپرویسکوزیته بیشتر با IgA و IgG3 همراه است. IgM مربوط به ماکروگلوبولینمی والدنشتروم است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "mehr-93-q-52",
+        "type": "mcq",
+        "question": "پروتئین کلیدی در تنظیم متابولیسم آهن کدام است؟",
+        "options": [
+          "ترانسفرین",
+          "آلبومین",
+          "فریتین",
+          "هپسیدین"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ صحیح علمی: گزینه د — هپسیدین\nپاسخ تشریحی کوتاه: هپسیدین هورمون اصلی تنظیم‌کننده جذب آهن و آزادسازی آن از ماکروفاژها است.\nمنبع: Williams Hematology.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      }
+    ]
+  }
+}

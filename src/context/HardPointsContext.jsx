@@ -7,25 +7,17 @@ import {
   useState,
 } from 'react';
 
-/**
- * Hard Points = USER STATE. Never stored inside content JSON.
- *
- * Storage shape (single key):
- * {
- *   "session-01/section-02/card-05": {
- *     "sessionId": "session-01",
- *     "sectionId": "section-02",
- *     "cardId": "session-01-section-02-card-05"
- *   },
- *   ...
- * }
- */
 const STORAGE_KEY = 'hematology-hard-points';
+const QUESTION_PREFIX = '__q__';
 
 const HardPointsContext = createContext(null);
 
-function keyOf(sessionId, sectionId, cardId) {
+function cardKey(sessionId, sectionId, cardId) {
   return `${sessionId}/${sectionId}/${cardId}`;
+}
+
+function questionKey(examId, questionId) {
+  return `${QUESTION_PREFIX}/${examId}/${questionId}`;
 }
 
 function readInitial() {
@@ -33,31 +25,40 @@ function readInitial() {
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (!raw) return {};
-
     const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
-      return {};
-    }
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
 
     const cleaned = {};
-    for (const value of Object.values(parsed)) {
-      if (
-        value &&
-        typeof value === 'object' &&
-        typeof value.sessionId === 'string' &&
-        typeof value.sectionId === 'string' &&
-        typeof value.cardId === 'string'
-      ) {
-        cleaned[keyOf(value.sessionId, value.sectionId, value.cardId)] = {
-          sessionId: value.sessionId,
-          sectionId: value.sectionId,
-          cardId: value.cardId,
-        };
+    for (const [key, value] of Object.entries(parsed)) {
+      if (!value || typeof value !== 'object') continue;
+      if (key.startsWith(QUESTION_PREFIX)) {
+        if (
+          typeof value.examId === 'string' &&
+          typeof value.questionId === 'string'
+        ) {
+          cleaned[key] = {
+            kind: 'question',
+            examId: value.examId,
+            questionId: value.questionId,
+          };
+        }
+      } else {
+        if (
+          typeof value.sessionId === 'string' &&
+          typeof value.sectionId === 'string' &&
+          typeof value.cardId === 'string'
+        ) {
+          cleaned[key] = {
+            kind: 'card',
+            sessionId: value.sessionId,
+            sectionId: value.sectionId,
+            cardId: value.cardId,
+          };
+        }
       }
     }
     return cleaned;
   } catch {
-    // Corrupt JSON → empty collection, never crash.
     return {};
   }
 }
@@ -69,26 +70,32 @@ export function HardPointsProvider({ children }) {
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
     } catch {
-      /* quota / private mode — silently ignore */
+      /* noop */
     }
   }, [map]);
 
+  /* ---------- Card APIs (existing) ---------- */
+
   const isHardPoint = useCallback(
     (sessionId, sectionId, cardId) =>
-      Boolean(map[keyOf(sessionId, sectionId, cardId)]),
+      Boolean(map[cardKey(sessionId, sectionId, cardId)]),
     [map]
   );
 
-  const addHardPoint = useCallback((sessionId, sectionId, cardId) => {
-    const k = keyOf(sessionId, sectionId, cardId);
+  const toggleHardPoint = useCallback((sessionId, sectionId, cardId) => {
+    const k = cardKey(sessionId, sectionId, cardId);
     setMap((prev) => {
-      if (prev[k]) return prev;
-      return { ...prev, [k]: { sessionId, sectionId, cardId } };
+      if (prev[k]) {
+        const next = { ...prev };
+        delete next[k];
+        return next;
+      }
+      return { ...prev, [k]: { kind: 'card', sessionId, sectionId, cardId } };
     });
   }, []);
 
   const removeHardPoint = useCallback((sessionId, sectionId, cardId) => {
-    const k = keyOf(sessionId, sectionId, cardId);
+    const k = cardKey(sessionId, sectionId, cardId);
     setMap((prev) => {
       if (!prev[k]) return prev;
       const next = { ...prev };
@@ -97,20 +104,49 @@ export function HardPointsProvider({ children }) {
     });
   }, []);
 
-  const toggleHardPoint = useCallback((sessionId, sectionId, cardId) => {
-    const k = keyOf(sessionId, sectionId, cardId);
+  /* ---------- Question APIs (new) ---------- */
+
+  const isQuestionHardPoint = useCallback(
+    (examId, questionId) => Boolean(map[questionKey(examId, questionId)]),
+    [map]
+  );
+
+  const toggleQuestionHardPoint = useCallback((examId, questionId) => {
+    const k = questionKey(examId, questionId);
     setMap((prev) => {
       if (prev[k]) {
         const next = { ...prev };
         delete next[k];
         return next;
       }
-      return { ...prev, [k]: { sessionId, sectionId, cardId } };
+      return { ...prev, [k]: { kind: 'question', examId, questionId } };
     });
   }, []);
 
-  const getHardPoints = useCallback(() => Object.values(map), [map]);
-  const getHardPointCount = useCallback(() => Object.keys(map).length, [map]);
+  const removeQuestionHardPoint = useCallback((examId, questionId) => {
+    const k = questionKey(examId, questionId);
+    setMap((prev) => {
+      if (!prev[k]) return prev;
+      const next = { ...prev };
+      delete next[k];
+      return next;
+    });
+  }, []);
+
+  /* ---------- Queries ---------- */
+
+  const getHardPoints = useCallback(
+    (opts = {}) => {
+      const { kind = 'all' } = opts;
+      return Object.values(map).filter((it) => kind === 'all' || it.kind === kind);
+    },
+    [map]
+  );
+
+  const getHardPointCount = useCallback(
+    (opts = {}) => getHardPoints(opts).length,
+    [getHardPoints]
+  );
 
   const clearHardPoints = useCallback(() => {
     setMap({});
@@ -123,19 +159,26 @@ export function HardPointsProvider({ children }) {
 
   const value = useMemo(
     () => ({
+      // cards
       isHardPoint,
-      addHardPoint,
-      removeHardPoint,
       toggleHardPoint,
+      removeHardPoint,
+      // questions
+      isQuestionHardPoint,
+      toggleQuestionHardPoint,
+      removeQuestionHardPoint,
+      // shared
       getHardPoints,
       getHardPointCount,
       clearHardPoints,
     }),
     [
       isHardPoint,
-      addHardPoint,
-      removeHardPoint,
       toggleHardPoint,
+      removeHardPoint,
+      isQuestionHardPoint,
+      toggleQuestionHardPoint,
+      removeQuestionHardPoint,
       getHardPoints,
       getHardPointCount,
       clearHardPoints,
@@ -143,16 +186,12 @@ export function HardPointsProvider({ children }) {
   );
 
   return (
-    <HardPointsContext.Provider value={value}>
-      {children}
-    </HardPointsContext.Provider>
+    <HardPointsContext.Provider value={value}>{children}</HardPointsContext.Provider>
   );
 }
 
 export function useHardPoints() {
   const ctx = useContext(HardPointsContext);
-  if (!ctx) {
-    throw new Error('useHardPoints must be used within <HardPointsProvider>');
-  }
+  if (!ctx) throw new Error('useHardPoints must be used within <HardPointsProvider>');
   return ctx;
 }

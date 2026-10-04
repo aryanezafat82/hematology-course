@@ -1,44 +1,52 @@
 import { useEffect, useState } from 'react';
 import {
   BookOpen,
+  Calendar,
+  HelpCircle,
+  MessageSquare,
   Star,
   Repeat,
-  BarChart3,
-  Moon,
-  Hand,
-  Smartphone,
+  Eye,
   ChevronLeft,
   ChevronRight,
   X,
-  Droplet,
-  HelpCircle,
+  Sparkles,
+  Filter,
+  PlayCircle,
 } from 'lucide-react';
-import { useOnboarding } from '../../context/OnboardingContext.jsx';
 
 const STEPS = [
   {
-    icon: Droplet,
+    icon: Sparkles,
     iconBg: 'bg-rose-50 dark:bg-rose-950/60',
     iconColor: 'text-rose-600 dark:text-rose-400',
-    title: 'به هماتولوژی خوش آمدید',
+    title: 'به بخش نمونه سوالات خوش آمدید',
     description:
-      'دوره‌ی هماتولوژی به‌صورت کارت‌های کوتاه ارائه می‌شود. هر بخش را در چند دقیقه می‌خوانید و بعد به بخش بعدی می‌روید.',
+      'اینجا می‌توانید سوالات امتحانی ادوار گذشته را ببینید و خودتان را برای امتحان آماده کنید. سوالات از منابع مختلف گردآوری شده‌اند.',
   },
   {
-    icon: BookOpen,
+    icon: Filter,
     iconBg: 'bg-sky-50 dark:bg-sky-950/60',
     iconColor: 'text-sky-600 dark:text-sky-400',
-    title: 'جلسات و بخش‌ها',
+    title: 'دو روش دسته‌بندی',
     description:
-      'از منوی «جلسات» وارد می‌شوید، جلسه را انتخاب می‌کنید و بخش‌ها را به ترتیب می‌خوانید. بعد از هر بخش، روی «تکمیل بخش» بزنید تا پیشرفت ثبت شود.',
+      'سوالات به دو روش دسته‌بندی شده‌اند: «بر اساس جلسه» یعنی می‌توانید همه‌ی سوالات مربوط به یه مبحث خاص را ببینید (مثلاً همه‌ی سوالات AML از تمام دوره‌ها)، و «بر اساس دوره امتحان» یعنی می‌توانید سوالات یک دوره‌ی خاص را کامل مرور کنید.',
   },
   {
-    icon: Hand,
+    icon: HelpCircle,
     iconBg: 'bg-emerald-50 dark:bg-emerald-950/60',
     iconColor: 'text-emerald-600 dark:text-emerald-400',
-    title: 'جابه‌جایی بین کارت‌ها',
+    title: 'دو نوع سوال',
     description:
-      'می‌توانید با کشیدن انگشت روی کارت به راست یا چپ، بین کارت‌ها جابه‌جا شوید؛ یا از دکمه‌های «قبلی» و «بعدی» پایین صفحه استفاده کنید.',
+      'سوالات چهارگزینه‌ای (MCQ) دارید که باید یه گزینه رو انتخاب کنید و روی «بررسی پاسخ» بزنید، و سوالات کوتاه‌پاسخ که خودتان فکر می‌کنید و بعد روی «نمایش پاسخ» می‌زنید.',
+  },
+  {
+    icon: Eye,
+    iconBg: 'bg-amber-50 dark:bg-amber-950/60',
+    iconColor: 'text-amber-600 dark:text-amber-400',
+    title: 'حالت «نمایش پاسخ از ابتدا»',
+    description:
+      'با فعال کردن این گزینه (توگل بالای صفحه)، همه‌ی پاسخ‌ها از همون اول نمایش داده می‌شن و نیازی به پاسخ دادن ندارید. مناسب برای وقتی که فقط می‌خواهید یه مرور سریع بکنید. هر وقت خواستید، خاموشش کنید تا از حالت تست استفاده کنید.',
   },
   {
     icon: Star,
@@ -46,7 +54,7 @@ const STEPS = [
     iconColor: 'text-amber-600 dark:text-amber-400',
     title: '⭐ سخت بود',
     description:
-      'بالای هر کارت یا سوال، دکمه‌ی «سخت بود» هست. هر چیزی که برایتان دشوار است را علامت بزنید تا بعداً راحت پیدایش کنید.',
+      'اگه سوالی برایتان دشوار بود، روی دکمه‌ی «سخت بود» بالای سوال بزنید. همه‌ی این‌ها در صفحه‌ی «نکات سخت» جمع می‌شن و می‌تونید اونجا مرور کنید.',
   },
   {
     icon: Repeat,
@@ -54,49 +62,25 @@ const STEPS = [
     iconColor: 'text-indigo-600 dark:text-indigo-400',
     title: '🔄 مرور',
     description:
-      'در کنار «سخت بود»، دکمه‌ی «مرور» هست. با زدنش، کارت یا سوال وارد سیستم مرور می‌شود و در فواصل مناسب (۱، ۳، ۷، ۱۴ و ۳۰ روز) دوباره به شما نشان داده می‌شود.',
+      'با زدن دکمه‌ی «مرور»، سوال وارد سیستم مرور می‌شه و در فواصل زمانی مناسب (۱، ۳، ۷، ۱۴ و ۳۰ روز) دوباره به شما نشون داده می‌شه. اینطوری می‌تونید مطالب رو در حافظه‌ی بلندمدت خودتون تثبیت کنید.',
   },
   {
-    icon: HelpCircle,
-    iconBg: 'bg-cyan-50 dark:bg-cyan-950/60',
-    iconColor: 'text-cyan-600 dark:text-cyan-400',
-    title: 'نمونه سوالات',
-    description:
-      'در بخش «نمونه سوالات»، سوالات ادوار گذشته را به تفکیک جلسه یا دوره‌ی امتحان می‌بینید. می‌توانید پاسخ‌ها را از ابتدا ببینید یا اول خودتان جواب بدهید.',
-  },
-  {
-    icon: BarChart3,
-    iconBg: 'bg-violet-50 dark:bg-violet-950/60',
-    iconColor: 'text-violet-600 dark:text-violet-400',
-    title: 'پیشرفت و آمار',
-    description:
-      'در صفحه‌ی «پیشرفت» می‌بینید چقدر از دوره را خوانده‌اید، چند کارت و سوال در صف مرور دارید و چند نکته‌ی سخت ذخیره کرده‌اید.',
-  },
-  {
-    icon: Moon,
+    icon: MessageSquare,
     iconBg: 'bg-slate-100 dark:bg-slate-800',
     iconColor: 'text-slate-700 dark:text-slate-300',
-    title: 'حالت تاریک و نصب اپ',
+    title: 'توضیح پاسخ',
     description:
-      'از پایین منو، حالت تاریک را روشن کنید. روی موبایل هم می‌توانید اپ را به صفحه‌ی اصلی اضافه کنید تا مثل اپ واقعی باز شود.',
+      'بعد از هر سوال، توضیح کاملی ارائه شده که کمکتون می‌کنه بفهمید چرا یه گزینه درسته. حتی اگه پاسخ رو درست داده باشید، خوندن توضیح به یادگیری کمک می‌کنه.',
   },
 ];
 
-export default function WelcomeTour() {
-  const { hasSeen, markSeen } = useOnboarding();
-  const [visible, setVisible] = useState(false);
+export default function SampleQuestionsGuide({ onDismiss, onDismissForever }) {
   const [step, setStep] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    if (hasSeen('welcome-tour')) return;
-    const t = setTimeout(() => setVisible(true), 500);
-    return () => clearTimeout(t);
-  }, [hasSeen]);
-
-  useEffect(() => {
-    if (!visible) return;
     function onKey(e) {
-      if (e.key === 'Escape') dismiss(false);
+      if (e.key === 'Escape') onDismiss();
       else if (e.key === 'ArrowLeft') next();
       else if (e.key === 'ArrowRight') prev();
     }
@@ -108,16 +92,17 @@ export default function WelcomeTour() {
       document.body.style.overflow = prevOverflow;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [visible, step]);
+  }, [step]);
 
-  function dismiss(permanently) {
+  function handleClose(permanently) {
     setVisible(false);
-    if (permanently) markSeen('welcome-tour');
+    if (permanently) onDismissForever?.();
+    else onDismiss?.();
   }
 
   function next() {
     if (step < STEPS.length - 1) setStep((s) => s + 1);
-    else dismiss(true);
+    else handleClose(true);
   }
 
   function prev() {
@@ -135,7 +120,7 @@ export default function WelcomeTour() {
     <div
       role="dialog"
       aria-modal="true"
-      aria-label="آموزش شروع"
+      aria-label="راهنمای نمونه سوالات"
       dir="rtl"
       className="fixed inset-0 z-50 flex items-end justify-center bg-slate-900/50 p-0 backdrop-blur-sm sm:items-center sm:p-4 animate-fade-in"
     >
@@ -143,7 +128,7 @@ export default function WelcomeTour() {
         {/* Close */}
         <button
           type="button"
-          onClick={() => dismiss(false)}
+          onClick={() => handleClose(false)}
           aria-label="بستن"
           className="absolute top-3 left-3 z-10 inline-flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-500 dark:text-slate-500 dark:hover:bg-slate-800 dark:hover:text-slate-200"
         >
@@ -219,7 +204,7 @@ export default function WelcomeTour() {
 
           <button
             type="button"
-            onClick={() => dismiss(true)}
+            onClick={() => handleClose(true)}
             className="mt-2 w-full text-center text-[11px] font-medium text-slate-400 transition-colors hover:text-slate-700 dark:text-slate-500 dark:hover:text-slate-300"
           >
             متوجه شدم، دیگر نشان نده

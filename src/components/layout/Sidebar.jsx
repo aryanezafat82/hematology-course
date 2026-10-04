@@ -6,6 +6,7 @@ import {
   BarChart3,
   Droplet,
   Repeat,
+  HelpCircle,
 } from 'lucide-react';
 import ThemeToggle from '../common/ThemeToggle.jsx';
 
@@ -14,6 +15,7 @@ const navItems = [
   { to: '/sessions', label: 'جلسات', icon: BookOpen },
   { to: '/review', label: 'مرور', icon: Repeat },
   { to: '/hard-points', label: 'نکات سخت', icon: Star },
+  { to: '/sample-questions', label: 'نمونه سوالات', icon: HelpCircle },
   { to: '/progress', label: 'پیشرفت', icon: BarChart3 },
 ];
 
@@ -27,7 +29,7 @@ export default function Sidebar() {
         </span>
       </div>
 
-      <nav className="flex-1 space-y-1 px-3 py-4">
+      <nav className="flex-1 space-y-1 overflow-y-auto px-3 py-4">
         {navItems.map((item) => {
           const Icon = item.icon;
           return (

@@ -1,0 +1,928 @@
+{
+  "exam": {
+    "id": "bahman-1400",
+    "label": "بهمن ۱۴۰۰",
+    "sourceFile": "بهمن 1400.txt",
+    "questionCount": 57,
+    "questions": [
+      {
+        "id": "bahman-1400-q-01",
+        "type": "mcq",
+        "question": "شایع‌ترین عاملی که موجب ترومبوز هم در ورید و هم در شریان می‌شود؟",
+        "options": [
+          "کمبود فاکتور ۵ لیدن",
+          "کمبود هموسیستئین",
+          "کمبود پروتئین C",
+          "کمبود پروتئین S"
+        ],
+        "correctAnswer": 1,
+        "explanation": "کمبود فاکتور V لیدن، پروتئین C و پروتئین S بیشتر با ترومبوز وریدی مرتبط‌اند. هایپرهموسیستئینمی هم ترومبوز وریدی و هم شریانی را افزایش می‌دهد. بنابراین منظور طراح «افزایش هموسیستئین» بوده، نه کمبود آن.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-02",
+        "type": "short_answer",
+        "question": "بیمار با هموگلوبین و هماتوکریت بالا مراجعه کرده است؛ اولین اقدام؟",
+        "answerText": "Epo",
+        "explanation": "در پلی‌سیتمی، نخست باید پلی‌سیتمی اولیه مانند پلی‌سیتمی ورا را از پلی‌سیتمی ثانویه افتراق داد. EPO پایین به نفع پلی‌سیتمی ورا و EPO بالا به نفع پلی‌سیتمی ثانویه است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-03",
+        "type": "short_answer",
+        "question": "بیمار سیگاری با داده‌های آزمایشگاهی از جمله اشباع اکسیژن ۹۴٪ و EPO=۲؛ کدام موتاسیون؟",
+        "answerText": "JAK2",
+        "explanation": "EPO پایین همراه با پلی‌سیتمی به نفع پلی‌سیتمی ورا است. موتاسیون شایع در پلی‌سیتمی ورا، JAK2 V617F است.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-04",
+        "type": "short_answer",
+        "question": "بیمار با MCV نرمال، HGB پایین، فریتین بالا و TIBC پایین؛ کدام نوع آنمی؟",
+        "answerText": "آنمی بیماری مزمن",
+        "explanation": "در آنمی بیماری مزمن، آهن سرم و TIBC پایین و فریتین بالا یا نرمال است؛ MCV معمولاً نرمال یا کمی کاهش می‌یابد.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-05",
+        "type": "short_answer",
+        "question": "داده‌های آزمایشگاهی تأییدکننده لوسمی میلوئید حاد همراه با PT و PTT بالا (تأییدکننده DIC) به کدام مورد اشاره دارد؟",
+        "answerText": "t(15,17)",
+        "explanation": "APL با ترانسلوکاسیون t(15;17) و ژن PML-RARA مشخص می‌شود و یکی از تظاهرات مهم آن DIC و خونریزی است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-06",
+        "type": "short_answer",
+        "question": "داده‌ها شامل لکوسیتوز، ترومبوسیت نرمال، HGB پایین، حضور همه رده‌های میلوسیت و ۱٪ بلاست در مغز استخوان؛ کدام موتاسیون؟",
+        "answerText": "BCR-ABL",
+        "explanation": "این تصویر بالینی-آزمایشگاهی به نفع لوسمی میلوئید مزمن (CML) است. نشانگر مولکولی اصلی CML، BCR-ABL است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-07",
+        "type": "short_answer",
+        "question": "بیمار با سابقه تعویض دریچه آئورت و کبودی‌های زیاد؛ شایع‌ترین اختلال در این افراد؟",
+        "answerText": "VWD اکتسابی",
+        "explanation": "در بیماران با دریچه مصنوعی، تنش برشی و مکانیسم‌های ایمنی می‌توانند به اختلال اکتسابی فون‌ویلبراند منجر شوند.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-08",
+        "type": "short_answer",
+        "question": "کدام دارو بهتر سندروم لیز تومور را کنترل می‌کند؟",
+        "answerText": "راسبوریکاز",
+        "explanation": "راسبوریکاز آنزیم اورات‌اکسیداز نوترکیب است و اسید اوریک را سریع‌تر تجزیه می‌کند؛ در کنترل هیپراورسمی سندروم لیز تومور نقش دارد.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-09",
+        "type": "mcq",
+        "question": "با توجه به داده‌های آزمایشگاهی کدام مورد غلط است؟ PLT=440000، Neutrophil=45%، Lymphocyte=40%",
+        "options": [
+          "لنفوسیتوز ندارد.",
+          "ترومبوسیتوز دارد."
+        ],
+        "correctAnswer": 1,
+        "explanation": "پلاکت ۴۴۰٬۰۰۰ معمولاً در محدوده نرمال یا مرزی است و ترومبوسیتوز معمولاً به پلاکت بالای ۴۵۰٬۰۰۰ گفته می‌شود. لنفوسیت ۴۰٪ بدون دانستن WBC و شمارش مطلق لنفوسیت، به‌تنهایی قضاوت قطعی درباره لنفوسیتوز نمی‌دهد.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-10",
+        "type": "mcq",
+        "question": "داده‌ها: HGB پایین، MCV پایین، فریتین نرمال، HbA2=۲٪ در محدوده نرمال؛ کدام مورد است؟",
+        "options": [
+          "آلفا تالاسمی",
+          "بتا تالاسمی",
+          "آنمی فقر آهن",
+          "آنمی سیدروبلاستیک"
+        ],
+        "correctAnswer": 0,
+        "explanation": "فریتین نرمال فقر آهن را کمتر مطرح می‌کند. HbA2 نرمال، بتا تالاسمی ماژور/تریت را کمتر مطرح می‌کند. در آلفا تالاسمی، MCV پایین با HbA2 نرمال دیده می‌شود.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-11",
+        "type": "short_answer",
+        "question": "تومور قله ریه با فشار به وناکاوا با کدام مورد کمتر کنترل می‌شود؟",
+        "answerText": "گلوکوکورتیکوئید",
+        "explanation": "در انسداد ورید کاوا و سندرم ورید اجوف فوقانی، گلوکوکورتیکوئید درمان اصلی و قطعی نیست؛ درمان بر اساس علت زمینه‌ای و کنترل تومور است.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-12",
+        "type": "short_answer",
+        "question": "برای جلوگیری از GVHD کدام نوع فراورده را می‌زنیم؟",
+        "answerText": "irradiated",
+        "explanation": "تابش فراورده، لنفوسیت‌های T دهنده را غیرفعال می‌کند و از GVHD ناشی از تزریق خون جلوگیری می‌کند.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-13",
+        "type": "short_answer",
+        "question": "بیماری که چند سال پیش به‌خاطر سرطان پستان رادیوتراپی کرده است، الان شانس کدام مورد بیشتر است؟",
+        "answerText": "AML",
+        "explanation": "رادیوتراپی و شیمی‌درمانی قبلی می‌توانند لوسمی ثانویه ایجاد کنند؛ AML شایع‌ترین لوسمی ثانویه است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-14",
+        "type": "short_answer",
+        "question": "در بیمار مبتلا به AML مصرف‌کننده اتوپوزاید کدام نوع اختلال وجود دارد؟",
+        "answerText": "اختلال کروموزوم ۱۱",
+        "explanation": "اتوپوزاید از مهارکننده‌های توپوایزومراز II است و با لوسمی‌های ثانویه و بازآرایی 11q23 مرتبط است.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-15",
+        "type": "short_answer",
+        "question": "پسری با احتمال آنمی آپلاستیک در بیمارستان بستری شده است؛ کدام مورد به ضرر این تشخیص است؟",
+        "answerText": "طحال بزرگ/فارنژیت",
+        "explanation": "آنمی آپلاستیک با پان‌سیتوپنی و مغز استخوان هیپوسلولار مشخص می‌شود و معمولاً اسپلنومگالی ندارد.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-16",
+        "type": "short_answer",
+        "question": "داده‌های آزمایشگاهی همراه با طحال بزرگ و نمای لکواریتروبلاستیک؛ تشخیص؟",
+        "answerText": "میلوفیبروز اولیه",
+        "explanation": "طحال بزرگ، نمای لکواریتروبلاستیک و فیبروز مغز استخوان از ویژگی‌های کلاسیک میلوفیبروز اولیه هستند.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-17",
+        "type": "short_answer",
+        "question": "بیمار با کمبود B12 و فولات تحت درمان بوده که پلاکتش خیلی افزایش یافته؛ کدام درمان؟",
+        "answerText": "آسپرین",
+        "explanation": "پس از درمان کمبود B12/فولات، ممکن است ترومبوسیتوز واکنشی رخ دهد. در موارد شدید و پرخطر، آسپرین برای پیشگیری از ترومبوز مطرح می‌شود.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-18",
+        "type": "mcq",
+        "question": "کدام مورد بزرگی طحال بالای ۱۰ سانتی‌متر نمی‌دهد؟",
+        "options": [
+          "MDS",
+          "PMF",
+          "CML",
+          "CLL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "MDS معمولاً اسپلنومگالی چشمگیر ایجاد نمی‌کند، در حالی که PMF، CML و CLL می‌توانند طحال بزرگ ایجاد کنند.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-19",
+        "type": "short_answer",
+        "question": "استفاده از فراورده washed برای جلوگیری از کدام مورد است؟",
+        "answerText": "کهیر",
+        "explanation": "شست‌وشوی گلبول قرمز، پلاسما و پروتئین‌های پلاسمایی را کاهش می‌دهد و برای پیشگیری از واکنش‌های آلرژیک شدید یا کهیر مکرر استفاده می‌شود.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-20",
+        "type": "short_answer",
+        "question": "همون مسئله رتیک ایندکس؟",
+        "answerText": "۲.۲۵",
+        "explanation": "رتیک ایندکس = درصد رتیکولوسیت × (هماتوکریت بیمار/۴۵) ÷ فاکتور اصلاح. بدون داده‌های کامل، صحت عدد ۲.۲۵ قابل بازبینی نیست، ولی پاسخ فایل همان ۲.۲۵ است.",
+        "sessionId": "session-09",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-21",
+        "type": "short_answer",
+        "question": "شایع‌ترین عارضه بعد از تزریق خون؟",
+        "answerText": "FNHTR",
+        "explanation": "FNHTR شایع‌ترین واکنش تزریق خون است و با تب و لرز بدون همولیز مشخص می‌شود.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-22",
+        "type": "short_answer",
+        "question": "خانم مسن با شکم بزرگ و ادرار خونی؛ تشخیص؟",
+        "answerText": "PNH",
+        "explanation": "PNH با همولیز، هموگلوبینوری، ترومبوز و درد شکمی/بزرگی شکم به‌علت ترومبوز وریدی مانند سندرم باد-کیاری همراه است.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-23",
+        "type": "mcq",
+        "question": "کدام مورد به ضرر مالتیپل میلوما است؟",
+        "options": [
+          "ضایعات بلاستیک مغز استخوان",
+          "هایپرکلسمی",
+          "نفروپاتی",
+          "نوروپاتی"
+        ],
+        "correctAnswer": 0,
+        "explanation": "مالتیپل میلوما با ضایعات لیتیک، هایپرکلسمی، نارسایی کلیه و نوروپاتی همراه است؛ ضایعات بلاستیک به نفع لوسمی است، نه میلوما.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-24",
+        "type": "short_answer",
+        "question": "پلاسماسل مغز استخوان ۷٪، آنمی ندارد، عملکرد کلیه نرمال؛ تشخیص؟",
+        "answerText": "MGUS",
+        "explanation": "پلاسماسل مغز استخوان کمتر از ۱۰٪، عدم وجود CRAB و بیماری اندام انتهایی، تشخیص MGUS را مطرح می‌کند.",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-25",
+        "type": "mcq",
+        "question": "بیمار با لنفادنوپاتی متعدد سرویکال و طول و عرض ۲ سانتی‌متر؛ کدام ویژگی مهم‌تر است؟",
+        "options": [
+          "نسبت طول به عرض",
+          "سایز لنفادنوپاتی",
+          "محل",
+          "سن بیمار"
+        ],
+        "correctAnswer": 0,
+        "explanation": "گره‌های خوش‌خیم معمولاً بیضی‌شکل با نسبت طول به عرض بالاتر هستند؛ گره‌های بدخیم تمایل به گرد شدن و کاهش نسبت طول به عرض دارند.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-26",
+        "type": "short_answer",
+        "question": "بیمار با ترومبوسیتوپنی، اولین اقدام؟",
+        "answerText": "دیدن لام خون محیطی",
+        "explanation": "لام خون محیطی برای رد سودوترومبوسیتوپنی، بررسی مورفولوژی پلاکت و افتراق علل ترومبوسیتوپنی کمک‌کننده است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-27",
+        "type": "mcq",
+        "question": "شایع‌ترین علت ترومبوسیتوپنی در بارداری؟",
+        "options": [
+          "Gestational",
+          "ITP",
+          "HELLP"
+        ],
+        "correctAnswer": 0,
+        "explanation": "ترومبوسیتوپنی حاملگی شایع‌ترین علت ترومبوسیتوپنی در بارداری است و معمولاً خفیف و بدون عارضه است.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-28",
+        "type": "short_answer",
+        "question": "کدام دارو لنفادنوپاتی نمی‌دهد؟",
+        "answerText": "لابتالول",
+        "explanation": "داروهایی مانند فنی‌توئین، کاربامازپین و آلوپورینول می‌توانند لنفادنوپاتی دارویی ایجاد کنند؛ لابتالول در این گروه شایع نیست.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-29",
+        "type": "short_answer",
+        "question": "SI=40، TIBC=400؛ TS؟",
+        "answerText": "۱۰٪",
+        "explanation": "TS = (SI / TIBC) × 100 = (40 / 400) × 100 = 10%.",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-30",
+        "type": "short_answer",
+        "question": "کدام لنفادنوپاتی همواره پاتولوژیک است؟",
+        "answerText": "سوپراکلاویکولار",
+        "explanation": "لنفادنوپاتی سوپراکلاویکولار، به‌ویژه سمت چپ، به‌طور کلاسیک بدخیم در نظر گرفته می‌شود و نیاز به بررسی دارد.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-31",
+        "type": "short_answer",
+        "question": "کدام تومور نمی‌تواند موجب پلی‌سیتمی شود؟",
+        "answerText": "سارکوم",
+        "explanation": "تومورهایی مانند کارسینوم سلول کلیه، هپاتوسلولار و همانژیوبلاستوما می‌توانند EPO تولید کنند و پلی‌سیتمی ثانویه بدهند؛ سارکوم معمولاً چنین نیست.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-32",
+        "type": "short_answer",
+        "question": "عدم خونریزی، PTT مختل، اصلاح می‌شود؛ کمبود همه فاکتورها محتمل است به‌جز؟",
+        "answerText": "فاکتور ۸",
+        "explanation": "کمبود فاکتور VIII معمولاً با خونریزی همراه است؛ در بیمار بدون خونریزی با PTT مختل و اصلاح‌شونده، کمبود فاکتور VIII کمتر محتمل است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-33",
+        "type": "short_answer",
+        "question": "PT و PTT مختل است؛ کمبود همه فاکتورها مد نظر است به‌جز؟",
+        "answerText": "گزینه غیر از (۲ و ۵ و ۱۰)",
+        "explanation": "اگر PT و PTT هر دو طولانی باشند، باید کمبود مسیر مشترک یا اختلال متعدد فاکتورها را در نظر گرفت. یادداشت فایل درباره «۲ و ۵ و ۱۰» نیازمند متن کامل گزینه‌ها است.",
+        "sessionId": "session-06",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-34",
+        "type": "short_answer",
+        "question": "در کمبود ویتامین K تولید کدام فاکتور دچار اختلال نمی‌شود؟",
+        "answerText": "فاکتور ۸",
+        "explanation": "فاکتورهای وابسته به ویتامین K شامل II، VII، IX، X و پروتئین C و S هستند؛ فاکتور VIII وابسته به ویتامین K نیست.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-35",
+        "type": "short_answer",
+        "question": "در همولیز کدام مورد غلط است؟",
+        "answerText": "افزایش هاپتوگلوبین",
+        "explanation": "در همولیز، هاپتوگلوبین به‌دلیل اتصال به هموگلوبین آزاد کاهش می‌یابد، نه افزایش.",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-36",
+        "type": "short_answer",
+        "question": "در اسفروسیتوز کدام اختلال وجود دارد؟",
+        "answerText": "اختلال بتااسپکترین و آنکیرین",
+        "explanation": "اسفروسیتوز ارثی به‌علت نقص پروتئین‌های غشای گلبول قرمز مانند بتا-اسپکترین، آنکیرین، بند ۳ و پروتئین ۴.۲ رخ می‌دهد.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-37",
+        "type": "short_answer",
+        "question": "بیمار با لنفوم هوچکین، چند لنفادنوپاتی در سرویکال و آگزیلاری و پاراآئورت؛ کدام استیج؟",
+        "answerText": "۳",
+        "explanation": "درگیری هم‌زمان طرفین دیافراگم (مثلاً سرویکال/آگزیلاری بالا و پاراآئورت پایین) استیج III محسوب می‌شود.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-38",
+        "type": "mcq",
+        "question": "کدام مورد پروگنوز بدتر است؟",
+        "options": [
+          "Angioimmunoblastic T cell",
+          "فولیکولار",
+          "DLBCL",
+          "MZL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "لنفوم‌های T محیطی، به‌ویژه AITL، معمولاً پروگنوز بدتری نسبت به لنفوم‌های فولیکولار، DLBCL و MZL دارند.",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-39",
+        "type": "mcq",
+        "question": "کدام مورد جزء موارد آنمی آپلاستیک شدید نیست؟",
+        "options": [
+          "HGB<8",
+          "نوتروفیل<500",
+          "پلاکت<20000",
+          "رتیک<1٪"
+        ],
+        "correctAnswer": 0,
+        "explanation": "معیارهای آنمی آپلاستیک شدید شامل نوتروفیل <۵۰۰، پلاکت <۲۰٬۰۰۰ و رتیکولوسیت اصلاح‌شده <۱٪ همراه با هیپوسلولاریتی مغز استخوان است؛ HGB<8 به‌تنهایی معیار نیست.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-40",
+        "type": "short_answer",
+        "question": "درمان آنمی آپلاستیک برای دختر جوان؟",
+        "answerText": "BMT",
+        "explanation": "در بیمار جوان با آنمی آپلاستیک شدید و دهنده مناسب، پیوند سلول‌های بنیادی خون‌ساز درمان انتخابی است.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-41",
+        "type": "short_answer",
+        "question": "بیمار با طحال بزرگ، لنفوسیت زوائدی اطراف خود دارد؛ کدام درست است؟",
+        "answerText": "دارای CD25 محلول",
+        "explanation": "سلول‌های مویی دارای زوائد سیتوپلاسمی هستند و مارکرهایی مانند CD25 و CD103 را بیان می‌کنند.",
+        "sessionId": "session-07",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-42",
+        "type": "short_answer",
+        "question": "کدام مورد GVHD بیشتری می‌دهد؟",
+        "answerText": "خون محیطی",
+        "explanation": "پیوند از خون محیطی نسبت به مغز استخوان، میزان بیشتری لنفوسیت T دارد و خطر GVHD مزمن بالاتر است.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-43",
+        "type": "short_answer",
+        "question": "در اندوتلیوم کدام فاکتور تولید می‌شود؟",
+        "answerText": "فاکتور ۸",
+        "explanation": "فاکتور VIII عمدتاً در سلول‌های اندوتلیال سینوزوئیدی کبد و اندوتلیوم تولید می‌شود؛ فون‌ویلبراند نیز در اندوتلیوم ساخته می‌شود.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-44",
+        "type": "short_answer",
+        "question": "رنج RDW؟",
+        "answerText": "۱۱ تا ۱۴",
+        "explanation": "RDW شاخص پراکندگی حجم گلبول‌های قرمز است و محدوده طبیعی معمولاً حدود ۱۱–۱۴٪ گزارش می‌شود.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-45",
+        "type": "mcq",
+        "question": "پسری چند روز بعد از تروم trauma دچار خونریزی شده؛ کدام تشخیص کمتر محتمل است؟",
+        "options": [
+          "گلانزمن",
+          "هموفیلی A",
+          "هموفیلی B",
+          "هموفیلی C"
+        ],
+        "correctAnswer": 0,
+        "explanation": "هموفیلی‌ها با خونریزی تأخیری پس از ترومای جزئی مشخص می‌شوند. گلانزمن ترومباستنی معمولاً از بدو تولد با خونریزی مخاطی و پوستی بروز می‌کند.",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-46",
+        "type": "mcq",
+        "question": "کسی با سرطان پستان، تومور مغزی، تشنج و کاهش هوشیاری.",
+        "options": [
+          "دیورتیک",
+          "دگزامتازون",
+          "مشاوره نوروسرجری",
+          "رادیوتراپی"
+        ],
+        "correctAnswer": 1,
+        "explanation": "در متاستاز مغزی همراه با ادم و علائم افزایش فشار داخل جمجمه، کورتیکواستروئید مانند دگزامتازون برای کاهش ادم استفاده می‌شود.",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-47",
+        "type": "short_answer",
+        "question": "اقدام تکمیلی به دنبال اختلال PT/PTT؟",
+        "answerText": "Mixed",
+        "explanation": "در اختلال PT/PTT، آزمایش مخلوط انجام می‌شود؛ اصلاح شدن به نفع کمبود فاکتور و اصلاح نشدن به نفع مهارکننده است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-48",
+        "type": "short_answer",
+        "question": "هموگلوبین H؟",
+        "answerText": "بتا ۴",
+        "explanation": "در آلفا تالاسمی، تجمع زنجیره‌های بتا تترامر β4 تشکیل Hb H می‌دهد. Hb Bart’s از گاما۴ تشکیل می‌شود.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-49",
+        "type": "short_answer",
+        "question": "رنگ‌آمیزی لام خون محیطی؟",
+        "answerText": "رایت گیمسا",
+        "explanation": "رنگ‌آمیزی استاندارد لام خون محیطی برای بررسی مورفولوژی سلول‌های خونی، رایت-گیمسا است.",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-50",
+        "type": "short_answer",
+        "question": "در مدت یک سال هدف درمان CML؟",
+        "answerText": "رسیدن به پاسخ سیتوژنیک کامل و BCR-ABL کمتر از ۱٪",
+        "explanation": "در درمان CML با TKI، هدف در ۳ ماه BCR-ABL ≤10%، در ۶ ماه ≤1% و در ۱۲ ماه ≤0.1% است. پاسخ فایل بر اساس تعریف قدیمی‌تر CCyR قابل قبول است.",
+        "sessionId": "session-04",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "bahman-1400-q-51",
+        "type": "short_answer",
+        "question": "نحوه تشخیص بتا تالاسمی؟",
+        "answerText": "افزایش HbA2 در الکتروفورز",
+        "explanation": "در بتا تالاسمی مینور/تریت، HbA2 معمولاً افزایش می‌یابد و این یافته کلیدی تشخیص است.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-52",
+        "type": "short_answer",
+        "question": "باز هم سؤال دیگر: هموگلوبین بالا، اولین اقدام؟",
+        "answerText": "EPO",
+        "explanation": "مانند سؤال ۲، در پلی‌سیتمی ابتدا سطح EPO برای افتراق پلی‌سیتمی اولیه از ثانویه بررسی می‌شود.",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-53",
+        "type": "short_answer",
+        "question": "یک سؤال دیگر هم با کبودی؟",
+        "answerText": "vwd",
+        "explanation": "بیماری فون‌ویلبراند شایع‌ترین اختلال خونریزی‌دهنده ارثی است و با کبودی و خونریزی مخاطی همراه است.",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-54",
+        "type": "short_answer",
+        "question": "بیمار با آنمی همولیتیک مزمن ارثی؛ کدام یافته دیده نمی‌شود؟",
+        "answerText": "بزرگی کبد",
+        "explanation": "در آنمی همولیتیک مزمن ارثی، اسپلنومگالی، سنگ کیسه صفرا و زخم پا شایع‌تر است؛ هپاتومگالی یافته شاخصی نیست.",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-55",
+        "type": "short_answer",
+        "question": "مهم‌ترین عامل پروگنوز AML؟",
+        "answerText": "سیتوژنتیک",
+        "explanation": "در AML، یافته‌های سیتوژنتیک مهم‌ترین عامل پیش‌آگهی مستقل محسوب می‌شوند.",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-56",
+        "type": "short_answer",
+        "question": "دهنده عمومی در FFP؟",
+        "answerText": "AB",
+        "explanation": "افراد با گروه AB پلاسمای فاقد آنتی‌بادی علیه A و B دارند و به‌عنوان دهنده عمومی پلاسما/FFP شناخته می‌شوند.",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "bahman-1400-q-57",
+        "type": "short_answer",
+        "question": "در کدام مورد شکنندگی کروموزومی بررسی می‌شود؟",
+        "answerText": "آنمی فانکونی",
+        "explanation": "در آنمی فانکونی، تست شکنندگی کروموزومی با دی‌اپوکسی‌بوتان یا میتومایسین C برای تشخیص انجام می‌شود.",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      }
+    ]
+  }
+}

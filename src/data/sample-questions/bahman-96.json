@@ -1,0 +1,902 @@
+{
+  "exam": {
+    "id": "khun-bahman-96",
+    "label": "بهمن ۹۶",
+    "sourceFile": "خون بهمن ۹۶.pdf",
+    "questionCount": 43,
+    "questions": [
+      {
+        "id": "khun-bahman-96-q-01",
+        "type": "mcq",
+        "question": "در کدام یک از موارد زیر در پیوند، احتمال عود بیشتر است؟",
+        "options": [
+          "acute and chronic GVHD",
+          "syngeneic BMT",
+          "acute GVHD",
+          "chronic GVHD"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ب — syngeneic BMT\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست (پاسخی در فایل مشخص نشده است)\n\nپاسخ تشریحی کوتاه:\nدر پیوند مغز استخوان سینژنئیک (از دوقلوی همسان)، به دلیل عدم وجود تفاوت‌های ژنتیکی بین اهداکننده و گیرنده، اثر پیوند علیه بدخیمی (GVL) رخ نمی‌دهد و احتمال عود بیماری به‌طور قابل‌توجهی بالاتر است. در مقابل، وجود GVHD حاد و مزمن با کاهش احتمال عود همراه است.\n\nمنبع / مرجع علمی: PubMed — Influence of Acute and Chronic GVHD on Relapse and Survival After Bone Marrow Transplantation",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-02",
+        "type": "mcq",
+        "question": "در بیمار مبتلا به ترومبوسیتمی اساسی (Essential Thrombocythemia) در کدام یک از موارد زیر پیش‌آگهی بهتر است؟",
+        "options": [
+          "وجود JAK2 موتاسیون",
+          "وجود MPL موتاسیون",
+          "وجود CALR موتاسیون",
+          "عدم وجود موتاسیون"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ج — وجود CALR موتاسیون\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nبیماران مبتلا به ET با موتاسیون CALR نسبت به بیماران با موتاسیون JAK2 یا MPL و همچنین بیماران Triple-Negative (بدون موتاسیون) بقای کلی طولانی‌تری دارند و پیش‌آگهی بهتری دارند. مطالعات نشان می‌دهند که بقای median در بیماران CALR-mutated حدود ۲۰ سال است، در حالی که در بیماران MPL-mutated کوتاه‌تر است.\n\nمنبع / مرجع علمی: Blood Cancer Journal; Mayo Clinic — Calreticulin mutations and long-term survival in essential thrombocythemia",
+        "sessionId": "session-15",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-03",
+        "type": "mcq",
+        "question": "آقای ۳۰ ساله به علت تب و لرز، ضعف و بی‌حالی، و از داروی هیدروکسی‌اوره استفاده شده است به علت پان‌سیتوپنی بررسی شده و تشخیص AML گذشته شده است. محتمل‌ترین اختلال کروموزومی همراه کدام است؟",
+        "options": [
+          "کروموزوم ۱۱",
+          "کروموزوم ۷",
+          "کروموزوم ۲۱",
+          "کروموزوم ۱۳"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ب — کروموزوم ۷ (مونوزومی ۷ یا del(7q))\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nسابقه مصرف هیدروکسی‌اوره (یک عامل آلکیله‌کننده) با ایجاد AML ثانویه مرتبط است. AML ثانویه اغلب با ناهنجاری‌های کروموزومی خاص مانند مونوزومی ۷ یا حذف بازوی بلند کروموزوم ۷ (del(7q)) همراه است و پیش‌آگهی بدی دارد.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues",
+        "sessionId": "session-03",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-04",
+        "type": "mcq",
+        "question": "خانم ۲۶ ساله‌ای با آزمایش قبل از ازدواج زیر مراجعه کرده است:\n\nWBC=4200 (400-11000), Hb=12.5 (12-14), MCV=70 (80-100), MCH=23 (27-36)\nPLAT=230000 (150-400×10³)\nFERITIN=89 (10-150)\n{Hb-A=83.5 (97-98), Hb F=%14.5 (<1%), Hb A2 = 2.4% (1.5-3.5)}\n\nتشخیص بیمار چیست؟",
+        "options": [
+          "آنمی فقر آهن",
+          "بتا تالاسمی مینور"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — بتا تالاسمی مینور\n\nپاسخ صحیح علمی: گزینه ب — بتا تالاسمی مینور\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nبیمار دارای MCV و MCH پایین (میکروسیتیک هیپوکروم) با فریتین نرمال است که فقر آهن را رد می‌کند. الکتروفورز هموگلوبین نشان‌دهنده HbA2 در محدوده نرمال بالا و HbF کمی افزایش‌یافته است که مشخصه بتا تالاسمی مینور است. در فقر آهن، HbA2 کاهش می‌یابد.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-05",
+        "type": "mcq",
+        "question": "در کدام یک از ژنوتیپ‌های زیر بیماری بالینی اختلال هموگلوبین شدیدتر است؟",
+        "options": [
+          "β⁰/β⁺",
+          "β⁺/β⁺",
+          "β/β⁺",
+          "β/β"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — β⁰/β⁺\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nشدیدترین فرم بتا تالاسمی ماژور معمولاً در بیماران با ژنوتیپ β⁰/β⁰ یا β⁰/β⁺ دیده می‌شود. در ژنوتیپ β⁰/β⁺، یک آلل هیچ زنجیره بتا تولید نمی‌کند و آلل دیگر تولید کاهش‌یافته دارد، که منجر به عدم تعادل شدید زنجیره‌ها و آنمی شدید می‌شود. β⁺/β⁺ و β/β⁺ فرم‌های خفیف‌تر (تالاسمی اینترمدیا یا مینور) هستند.\n\nمنبع / مرجع علمی: Europe PMC — Primary HBB gene mutation severity and long-term outcomes",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": true,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-06",
+        "type": "mcq",
+        "question": "خانم ۶۰ ساله به شکایت کمر درد مراجعه می‌کند. در آزمایشات انجام شده هموگلوبین ۹ میلی‌گرم در دسی‌لیتر (MCV=89) و الکتروفورز پیک مونوکلونال دارد و بقیه نرمال می‌باشند. در بررسی مغز استخوان پانزده درصد پلاسما سل دارد. کدام تشخیص بیشتر مطرح می‌باشد؟",
+        "options": [
+          "multiple myeloma",
+          "SMOLDERING MULTIPLE MYELOMA",
+          "اطلاعات داده شده برای تشخیص کافی نمی باشد",
+          "پلاسموسیتوما"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ب — SMOLDERING MULTIPLE MYELOMA\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nمعیارهای تشخیصی Smoldering Multiple Myeloma (SMM) شامل وجود پروتئین مونوکلونال سرم ≥۳ گرم در دسی‌لیتر و/یا ≥۱۰٪ تا ۵۹٪ پلاسما سل کلونال در مغز استخوان است، بدون وجود علائم CRAB (هایپرکلسمی، نارسایی کلیه، آنمی، ضایعات استخوانی). بیمار با Hb=9 آنمی دارد اما معیارهای دیگر MM را احراز نمی‌کند. با پلاسما سل ۱۵٪ و پیک مونوکلونال، تشخیص SMM مطرح‌تر است.\n\nمنبع / مرجع علمی: UpToDate — Smoldering multiple myeloma",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-07",
+        "type": "mcq",
+        "question": "مرد ۶۰ ساله به علت ضعف، بی‌حالی، رنگ‌پریدگی، اکیموز و پورپورا مراجعه کرده است. در معاینه فیزیکی تب و ارگانومگالی ندارد.\nHb=6, PLT=10000, WBC=900 / PMN=20% / Lymph=80%\nبیوپسی مغز استخوان به عمل می‌آید. سلولاریته مغز استخوان ۱۵٪ می‌باشد و بقیه یا چربی اشغال شده است. اقدام درمانی مناسب چیست؟",
+        "options": [
+          "درمان با سیکلوسپورین + آنتی‌تیموسیت گلوبولین",
+          "درمان با دانازول و فولیک اسید",
+          "پیوند مغز استخوان آلوژنیک",
+          "درمان با قرص آهن + فولیک اسید"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — درمان با دانازول و فولیک اسید\n\nپاسخ صحیح علمی: گزینه الف — درمان با سیکلوسپورین + آنتی‌تیموسیت گلوبولین\n\nوضعیت پاسخ فایل: ❌ نادرست\n\nپاسخ تشریحی کوتاه:\nبیمار با پان‌سیتوپنی شدید، تب و مغز استخوان هیپوسلولار (سلولاریته ۱۵٪ همراه با جایگزینی چربی) به نفع آنمی آپلاستیک است. در بیماران مسن با آنمی آپلاستیک که کاندید پیوند نیستند، درمان سرکوبگر ایمنی با آنتی‌تیموسیت گلوبولین (ATG) و سیکلوسپورین استاندارد است. دانازول در پورپورای ترومبوسیتوپنیک ایمنی (ITP) کاربرد دارد.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology; Harrison's Principles of Internal Medicine",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-08",
+        "type": "mcq",
+        "question": "همه شواهد زیر در افتراق خونریزی ناشی از اختلال پلاکتی و فاکتورهای انعقادی به نفع اختلال پلاکتی می‌باشد بجز:",
+        "options": [
+          "شروع خونریزی با تاخیر پس از تروما",
+          "سابقه خونریزی مفاصل در پدر بیمار",
+          "بندآمدن خونریزی با فشار موضعی",
+          "خونریزی مفاصل و اکیموز"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه الف — شروع خونریزی با تاخیر پس از تروما (تیک خورده)\n\nپاسخ صحیح علمی: گزینه ب — سابقه خونریزی مفاصل در پدر بیمار\n\nوضعیت پاسخ فایل: ❌ نادرست\n\nپاسخ تشریحی کوتاه:\nخونریزی با تأخیر پس از تروما مشخصه اختلالات فاکتورهای انعقادی است نه اختلال پلاکتی. سابقه خونریزی مفاصل (همارتروز) نیز بیشتر به نفع اختلال فاکتور انعقادی است. در اختلالات پلاکتی، خونریزی معمولاً فوری پس از تروما، سطحی (پتشی، اکیموز) و با فشار موضعی بند می‌آید. بنابراین گزینه ب شاهد به نفع اختلال فاکتور است، نه اختلال پلاکتی.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-06",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-09",
+        "type": "mcq",
+        "question": "شایع‌ترین اختلال خونریزی‌دهنده ارثی کدامیک می‌باشد؟",
+        "options": [
+          "ون ویلبراند تایپ I",
+          "هموفیلی A",
+          "هموفیلی B",
+          "برنارد سولیر"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — بیماری ون ویلبراند\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nبیماری ون ویلبراند (VWD) شایع‌ترین اختلال خونریزی‌دهنده ارثی است و حدود ۱٪ از جمعیت را مبتلا می‌کند. هموفیلی A (کمبود فاکتور VIII) شایع‌ترین اختلال انعقادی شدید ارثی است اما از VWD شیوع کمتری دارد.\n\nمنبع / مرجع علمی: WHO — Haemophilia; دانش پایه هماتولوژی",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-10",
+        "type": "mcq",
+        "question": "در کدام یک از بیماری‌های زیر کاندید پیوند حساسیت GVM (graft versus malignancy) کمتر است؟",
+        "options": [
+          "CML",
+          "CLL",
+          "لنفوم low grade",
+          "ALL"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه الف — CML (تیک خورده)\n\nپاسخ صحیح علمی: گزینه ج — لنفوم low grade\n\nوضعیت پاسخ فایل: ⚠️ قابل بحث\n\nپاسخ تشریحی کوتاه:\nاثر GVL در لوسمی‌های حاد (ALL و AML) و CML بسیار قوی است. در لنفوم‌های Low-Grade (مانند لنفوم فولیکولار)، اگرچه پیوند آلوژنیک انجام می‌شود، اما این لنفوم‌ها ماهیتاً در حال رشد کند دارند و اثر GVL ممکن است کمتر بروز کند. در CLL نیز اثر GVL مهم است اما کمتر از CML و لوسمی‌های حاد است. با این حال، انتخاب گزینه CML در فایل با شواهد علمی موجود درباره اثربخشی قوی GVL در CML همخوانی ندارد.\n\nمنبع / مرجع علمی: Thomas' Hematopoietic Cell Transplantation",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-11",
+        "type": "mcq",
+        "question": "کدام یک از موارد زیر هدف، ذخایر اصلی CML است و با بهبود بقا همراه می‌باشد:",
+        "options": [
+          "رسیدن به پاسخ سیتوژنتیک کامل (CCyR)",
+          "رسیدن به پاسخ مولکولی بزرگ (MMR)",
+          "رسیدن به پاسخ هماتولوژیک کامل (CHR)",
+          "رسیدن به پاسخ مولکولی کامل (CMR)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — رسیدن به پاسخ مولکولی بزرگ (MMR)\n\nپاسخ صحیح علمی: گزینه ب — رسیدن به پاسخ مولکولی بزرگ (MMR)\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nدر درمان CML با مهارکننده‌های تیروزین کیناز (TKI)، رسیدن به پاسخ مولکولی بزرگ (Major Molecular Response یا MMR) که معادل کاهش ≥۳ log در سطح BCR-ABL1 است، با بهبود قابل‌توجه بقای بدون پیشرفت و بقای کلی همراه است.\n\nمنبع / مرجع علمی: NCCN Guidelines — Chronic Myeloid Leukemia",
+        "sessionId": "session-04",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-12",
+        "type": "mcq",
+        "question": "کدام یک از ارگان‌های زیر در GVHD حاد درگیر نمی‌شود؟",
+        "options": [
+          "پوست",
+          "روده",
+          "کبد",
+          "ریه"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — ریه\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nدر GVHD حاد، سه ارگان اصلی درگیر می‌شوند: پوست (راش ماکولوپاپولار)، دستگاه گوارش (اسهال، تهوع، استفراغ) و کبد (افزایش بیلی‌روبین، افزایش آنزیم‌های کبدی). درگیری ریوی در GVHD حاد کلاسیک نادر است و بیشتر در GVHD مزمن دیده می‌شود.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Thomas' Hematopoietic Cell Transplantation",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-13",
+        "type": "mcq",
+        "question": "منظور از Febrile Neutropenia (تب و نوتروپنی) چیست؟",
+        "options": [
+          "T>38.5⁰ + ANC<1500/ML",
+          "T>38⁰ + ANC<500/ML",
+          "T>38.3⁰ + ANC<500/ML",
+          "T>39⁰ + ANC<500/ML"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ج — T>38.3⁰ + ANC<500/ML\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nتب نوتروپنیک به صورت یک بار اندازه‌گیری دمای دهانی ≥۳۸.۳ درجه سانتی‌گراد یا دمای ≥۳۸.۰ درجه سانتی‌گراد که به مدت یک ساعت پایدار باشد، همراه با تعداد مطلق نوتروفیل (ANC) ≤۵۰۰ سلول در میکرولیتر تعریف می‌شود.\n\nمنبع / مرجع علمی: BMJ Best Practice — Febrile neutropenia; IDSA Guidelines",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-14",
+        "type": "mcq",
+        "question": "بیمار مبتلا به لنفوم بورکیت به دنبال شیمی‌درمانی دچار کاهش حجم ادرار و افزایش کراتینین شده است. کدام یافته در ایشان دیده می‌شود؟",
+        "options": [
+          "افزایش پتاسیم سرم",
+          "افزایش کلسیم سرم",
+          "کاهش فسفر سرم",
+          "کاهش اسید اوریک سرم"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — افزایش پتاسیم سرم\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nسندرم لیز تومور (Tumor Lysis Syndrome) در لنفوم بورکیت پس از شیمی‌درمانی شایع است و با هایپرکالمی، هایپرفسفاتمی، هایپوکلسمی و هایپراوریسمی مشخص می‌شود. نارسایی کلیه به دلیل رسوب اسید اوریک و فسفات کلسیم در tubules ایجاد می‌شود. بنابراین افزایش پتاسیم سرم یافته مورد انتظار است.\n\nمنبع / مرجع علمی: دانش پایه انکولوژی — DeVita, Hellman, and Rosenberg's Cancer: Principles & Practice of Oncology",
+        "sessionId": "session-14",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-15",
+        "type": "short_answer",
+        "question": "در پیوند مغز استخوان آلوژن کدام یک از سلول‌ها زودتر engraft می‌شود؟",
+        "answerText": "ندارد",
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: نوتروفیل‌ها\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nپس از پیوند مغز استخوان آلوژنیک، نوتروفیل‌ها معمولاً اولین سلول‌هایی هستند که engraft می‌شوند (حدود ۱۰-۱۴ روز پس از پیوند). پس از آن پلاکت‌ها (۱۴-۲۱ روز) و در نهایت گلبول‌های قرمز (چند هفته تا چند ماه) بازسازی می‌شوند.\n\nمنبع / مرجع علمی: Thomas' Hematopoietic Cell Transplantation",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-16",
+        "type": "mcq",
+        "question": "اولین Hb که در دوران جنینی ساخته می‌شود کدام است؟",
+        "options": [
+          "HbA1",
+          "Hb F",
+          "HbA2",
+          "Hb Zeta"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — Hb Zeta (ζ₂ε₂) یا Hb Gower-1\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nاولین هموگلوبین جنینی که در کیسه زرده ساخته می‌شود، Hb Gower-1 است که از دو زنجیره زتا (ζ) و دو زنجیره اپسیلون (ε) تشکیل شده است. Hb Gower-2 (α₂ε₂) و Hb Portland (ζ₂γ₂) در مراحل بعدی ظاهر می‌شوند و سپس HbF (α₂γ₂) جایگزین می‌شود.\n\nمنبع / مرجع علمی: دانش پایه جنین‌شناسی — Langman's Medical Embryology",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-17",
+        "type": "mcq",
+        "question": "خانم ۳۲ ساله با پتشی و اکیموز از یک هفته قبل، در معاینه لنفادنوپاتی و اسپلنومگالی ندارد. در آزمایشات:\nWBC:6000/mm normal Diff / Hb:13g/dl platelets: 20000\nاولین اقدام تشخیصی شما چیست؟",
+        "options": [
+          "بررسی لام خون محیطی",
+          "بیوپسی مغز استخوان",
+          "مطالعه مولکولی خون محیطی",
+          "مطالعه کارکرد پلاکت"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه الف — بررسی لام خون محیطی (تیک خورده)\n\nپاسخ صحیح علمی: گزینه الف — بررسی لام خون محیطی\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nبیمار با ترومبوسیتوپنی شدید ایزوله (پلاکت ۲۰۰۰۰) و بدون ارگانومگالی، به نفع پورپورای ترومبوسیتوپنیک ایمنی (ITP) است. اولین اقدام تشخیصی بررسی لام خون محیطی برای رد سایر علل ترومبوسیتوپنی (مانند TTP، DIC، یا ترومبوسیتوپنی کاذب ناشی از EDTA) است.\n\nمنبع / مرجع علمی: ASH Guidelines — Immune Thrombocytopenia (ITP)",
+        "sessionId": "session-05",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-18",
+        "type": "mcq",
+        "question": "در پیوند آلوژن، گرفتن سلول از کدام منبع با عارضه GVHD مزمن بیشتری همراهی دارد؟",
+        "options": [
+          "خون محیطی",
+          "مغز استخوان",
+          "بند ناف",
+          "تفاوتی نمی‌کند"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — مغز استخوان (تیک خورده)\n\nپاسخ صحیح علمی: گزینه الف — خون محیطی\n\nوضعیت پاسخ فایل: ❌ نادرست\n\nپاسخ تشریحی کوتاه:\nاستفاده از سلول‌های بنیادی خون محیطی (PBSC) برای پیوند آلوژنیک با بروز بالاتر GVHD مزمن در مقایسه با مغز استخوان همراه است. بنابراین گزینه «خون محیطی» پاسخ صحیح است.\n\nمنبع / مرجع علمی: Thomas' Hematopoietic Cell Transplantation; NEJM",
+        "sessionId": "session-13",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-19",
+        "type": "mcq",
+        "question": "خانم حامله‌ای در آزمایشات زمان حاملگی با آزمایشات زیر مراجعه کرده است:\nPT=55s (طبیعی تا ۳۵) ، PT=Normal ، PLATE=Normal\nبیمار هیچ گونه سابقه خونریزی را ذکر نمی‌کند. چه توصیه‌ای می‌کنید؟",
+        "options": [
+          "اندازه‌گیری سطح فاکتور هشت",
+          "اندازه‌گیری سطح فاکتور نه",
+          "تجویز ویتامین K به مدت ۳ روز",
+          "انجام Mixed test PTT"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — انجام Mixed test PTT\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nدر بیمار بدون سابقه خونریزی با PTT طولانی ایزوله، ابتدا باید وجود آنتی‌بادی ضد فسفولیپید (لوپوس آنتی‌کواگولانت) بررسی شود که با انجام Mixed test PTT (مخلوط کردن پلاسمای بیمار با پلاسمای نرمال) قابل تشخیص است. اگر PTT پس از مخلوط اصلاح نشود، به نفع وجود مهارکننده است.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-20",
+        "type": "mcq",
+        "question": "کدام یک از حالات زیر آنمی هیپوکروم میکروسیتیک ایجاد نمی‌کند؟",
+        "options": [
+          "بیماری التهابی مزمن",
+          "آنمی فقر آهن",
+          "تالاسمی مینور",
+          "اسفروسیتوز ارثی"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — اسفروسیتوز ارثی\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nاسفروسیتوز ارثی باعث آنمی نورموسیتیک نورموکروم می‌شود، نه میکروسیتیک هیپوکروم. در مقابل، فقر آهن، تالاسمی مینور و بیماری التهابی مزمن همگی می‌توانند آنمی میکروسیتیک هیپوکروم ایجاد کنند.\n\nمنبع / مرجع علمی: MSD Manual — Differential Diagnosis of Microcytic Anemia",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-21",
+        "type": "mcq",
+        "question": "کدامیک از ارگان‌های زیر در دوران جنین مسئول خونسازی هستند به غیر از:",
+        "options": [
+          "کلیه",
+          "طحال",
+          "مغز استخوان"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — کلیه\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nدر دوران جنینی، خونسازی در کیسه زرده، کبد، طحال و در نهایت مغز استخوان انجام می‌شود. کلیه در خونسازی جنینی نقشی ندارد.\n\nمنبع / مرجع علمی: دانش پایه جنین‌شناسی — Langman's Medical Embryology",
+        "sessionId": "session-09",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-22",
+        "type": "mcq",
+        "question": "مردی ۸۰ ساله با پان‌سیتوپنی و MCV=100، LDH=3000، WBC=2600، PLT=57000، Hb:8، Retic=3% و افزایش سرمی متیل مالونیک اسید و هوموسیستئین مراجعه کرده است. کدام یک از تشخیص‌های زیر مطرح است؟",
+        "options": [
+          "کمبود B12",
+          "آنمی آپلاستیک",
+          "میلودیسپلازی",
+          "PNH"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — کمبود B12\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nآنمی ماکروسیتیک (MCV=100) همراه با پان‌سیتوپنی، افزایش LDH (نشانه همولیز داخل مغز استخوان)، و افزایش متیل مالونیک اسید و هوموسیستئین، به نفع کمبود ویتامین B12 است. کمبود B12 و فولات باعث آنمی مگالوبلاستیک می‌شوند.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-23",
+        "type": "mcq",
+        "question": "در کدامیک از علل زیر تست Bleeding time طولانی نمی‌شود؟",
+        "options": [
+          "هموفیلی A",
+          "سندرم برنارد سولیر",
+          "سندرم گلانزمن",
+          "بیماری VWD"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — هموفیلی A\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nBleeding time (BT) عملکرد پلاکت را ارزیابی می‌کند. در هموفیلی A (کمبود فاکتور VIII)، تعداد و عملکرد پلاکت‌ها طبیعی است و BT طولانی نمی‌شود. در سندرم برنارد سولیر، سندرم گلانزمن و VWD، BT به دلیل اختلال عملکرد پلاکت یا فاکتور von Willebrand طولانی می‌شود.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-24",
+        "type": "mcq",
+        "question": "کدامیک از علل آنمی میکروسیتوز می‌باشد؟",
+        "options": [
+          "کمبود فولیک اسید",
+          "میلودیسپلازی",
+          "بیماری کبدی",
+          "آنمی ناشی از مسمومیت سرب"
+        ],
+        "correctAnswer": 3,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه د — آنمی ناشی از مسمومیت سرب (تیک خورده)\n\nپاسخ صحیح علمی: گزینه د — آنمی ناشی از مسمومیت سرب\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nمسمومیت با سرب با مهار آنزیم‌های دخیل در سنتز هِم، باعث آنمی میکروسیتیک هیپوکروم می‌شود. کمبود فولیک اسید و بیماری کبدی معمولاً آنمی ماکروسیتیک ایجاد می‌کنند. میلودیسپلازی می‌تواند انواع مختلف آنمی از جمله ماکروسیتیک ایجاد کند.\n\nمنبع / مرجع علمی: MSD Manual — Microcytic Anemia",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-25",
+        "type": "mcq",
+        "question": "طول عمر نوتروفیل در خون چقدر است؟",
+        "options": [
+          "۱۴ روز",
+          "۷ روز",
+          "۴۸ ساعت",
+          "۸ ساعت"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — ۸ ساعت\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nنوتروفیل‌ها پس از خروج از مغز استخوان، حدود ۶ تا ۸ ساعت در گردش خون باقی می‌مانند و سپس به بافت‌ها مهاجرت می‌کنند.\n\nمنبع / مرجع علمی: دانش پایه ایمونولوژی — Janeway's Immunobiology",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-26",
+        "type": "mcq",
+        "question": "طحال بزرگ در بیمار بالغ با کدام بیماری زیر دیده نمی‌شود؟",
+        "options": [
+          "آنمی سیکل سل",
+          "بتا تالاسمی اینترمدیا",
+          "بتا تالاسمی مینور",
+          "بیماری هموگلوبین H"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ج — بتا تالاسمی مینور\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nبتا تالاسمی مینور (تالاسمی ترایت) معمولاً با آنمی خفیف و بدون اسپلنومگالی قابل توجه همراه است. در مقابل، آنمی سیکل سل، تالاسمی اینترمدیا و بیماری هموگلوبین H می‌توانند باعث اسپلنومگالی شوند.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-27",
+        "type": "mcq",
+        "question": "کدام یک از داروهای شیمی‌درمانی زیر در فاز میتوز اثر می‌کند؟",
+        "options": [
+          "دکسوروبیسین",
+          "فلورواوراسل",
+          "کلک تاکسل",
+          "سیتارابین"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ج — کلک تاکسل\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nکلک تاکسل (پاکلیتاکسل) یک مهارکننده میتوز است که با تثبیت میکروتوبول‌ها و جلوگیری از دپلیمریزاسیون آن‌ها، سلول‌ها را در فاز M متوقف می‌کند. دکسوروبیسین (آنتراسیکلین) و سیتارابین (آنتی‌متابولیت) در فازهای دیگر اثر می‌کنند.\n\nمنبع / مرجع علمی: دانش پایه فارماکولوژی — Katzung's Basic & Clinical Pharmacology",
+        "sessionId": "session-01",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-28",
+        "type": "mcq",
+        "question": "آقای ۲۲ ساله‌ای بدنبال مصرف باقلا با آنمی حاد و همولیز بستری می‌شود. در لام خون محیطی بیمار Heinz body, Bite cell دارد. G6PD اندازه‌گیری شده طبیعی است. محتمل‌ترین تشخیص کدام می‌باشد؟",
+        "options": [
+          "کمبود G6PD",
+          "اسفروسیتوز ارثی",
+          "PNH",
+          "هموگلوبینوری حمله‌ای سرد"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه الف — کمبود G6PD (تیک خورده)\n\nپاسخ صحیح علمی: گزینه الف — کمبود G6PD\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nبیمار با همولیز حاد پس از مصرف باقلا (فاویسم)، همراه با Heinz body و Bite cell در لام خون محیطی، به نفع کمبود G6PD است. اندازه‌گیری G6PD در فاز حاد ممکن است طبیعی باشد (به دلیل تخریب گلبول‌های پیر و باقی ماندن گلبول‌های جوان با فعالیت آنزیمی بالاتر) و باید پس از فروکش حمل حاد تکرار شود.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-29",
+        "type": "mcq",
+        "question": "کدامیک از علل زیر عامل کمبود فولات نمی‌باشد؟",
+        "options": [
+          "بیماری سلیاک",
+          "آنمی پرنیسیوز",
+          "آنمی همولیتیک مزمن",
+          "درماتیت مزمن"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ب — آنمی پرنیسیوز\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nآنمی پرنیسیوز (کمبود ویتامین B12) ناشی از کمبود فاکتور داخلی است، نه کمبود فولات. بیماری سلیاک (سوءجذب)، آنمی همولیتیک مزمن (مصرف بیش از حد فولات) و درماتیت مزمن (افزایش نیاز) می‌توانند باعث کمبود فولات شوند.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-30",
+        "type": "mcq",
+        "question": "بیماری پس از نیم‌ساعت از شروع تزریق پلاک دچار تب و لرز شده است. کدام اقدام صحیح است؟",
+        "options": [
+          "قطع تزریق و تجویز استامینوفن و با قطع تب، شروع مجدد تزریق پلاک",
+          "قطع تزریق و ارسال نمونه bag و خون بیمار برای آزمایشگاه، تجویز استامینوفن و ادامه تزریق پلاک",
+          "قطع تزریق، تزریق نرمال سالین، ارسال نمونه خون بیمار و نمونه bag به آزمایشگاه"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — قطع تزریق و ارسال نمونه bag و خون بیمار برای آزمایشگاه، تجویز استامینوفن و ادامه تزریق پلاک (تیک خورده)\n\nپاسخ صحیح علمی: گزینه ج — قطع تزریق، تزریق نرمال سالین، ارسال نمونه خون بیمار و نمونه bag به آزمایشگاه\n\nوضعیت پاسخ فایل: ❌ نادرست\n\nپاسخ تشریحی کوتاه:\nواکنش تب و لرز در حین تزریق پلاک می‌تواند ناشی از واکنش تب‌زا یا عفونت باشد. اقدام صحیح، قطع تزریق، حفظ خط وریدی با نرمال سالین، ارسال نمونه خون بیمار و کیسه (bag) به آزمایشگاه برای بررسی عفونت (کشت) و تعیین علت است. ادامه تزریق پلاک در صورت وجود تب توصیه نمی‌شود.\n\nمنبع / مرجع علمی: AABB Technical Manual",
+        "sessionId": "session-13",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-31",
+        "type": "mcq",
+        "question": "بیمار خانم ۵۵ ساله به علت پان‌سیتوپنی بررسی می‌شود. در معاینه ماسیو اسپلنومگالی دارد و در بررسی لام خون محیطی لنفوسیت با زائده سیتوپلاسمی رویت شد. گزینه درست را انتخاب کنید:",
+        "options": [
+          "در شمارش خون محیطی مونوسیتوز دارد",
+          "اسپیراسیون مغزاستخوان رقیق می‌باشد",
+          "این بیمار مستعد عفونت مایکوباکتریوم آتیپیک می‌باشد",
+          "در این بیمار BCR/ABL مثبت است"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — اسپیراسیون مغزاستخوان رقیق می‌باشد\n\nپاسخ صحیح علمی: گزینه ب — اسپیراسیون مغزاستخوان رقیق می‌باشد\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nبیمار با پان‌سیتوپنی، اسپلنومگالی ماسیو و لنفوسیت با زائده سیتوپلاسمی (Hairy cell) به نفع لوسمی سلول مویی (Hairy Cell Leukemia) است. در این بیماری، اسپیراسیون مغز استخوان اغلب «خشک» یا رقیق (dry tap) است به دلیل فیبروز مغز استخوان.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-32",
+        "type": "mcq",
+        "question": "در کدام نوع مولتیپل میلوما شانس سندرم هیپرویسکوزیته زیادتر است؟",
+        "options": [
+          "IgM",
+          "IgG",
+          "IgA",
+          "Light chain"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — IgM\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nسندرم هیپرویسکوزیته بیشتر با IgM (ماکروگلوبولینمی والدنشتروم) مرتبط است، زیرا IgM دارای وزن مولکولی بالا و ساختار پنتامری است. در مولتیپل میلوما، IgA و IgG3 نیز می‌توانند باعث هیپرویسکوزیته شوند اما شیوع کمتری دارند.\n\nمنبع / مرجع علمی: ScienceDirect — Hyperviscosity Syndrome",
+        "sessionId": "session-16",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-33",
+        "type": "mcq",
+        "question": "آقای ۵۰ ساله با رنگ‌پریدگی بررسی شد. سایر معاینه نرمال است.\nHb=9 g/dl , MCV=78fl , Fe=30 , TIBC=450 , Ferritin=10\nچه بررسی نیاز دارد؟",
+        "options": [
+          "درمان با قرص آهن",
+          "درمان با آهن تزریقی",
+          "نمونه برداری مغز استخوان"
+        ],
+        "correctAnswer": 1,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه ب — درمان با آهن تزریقی (تیک خورده)\n\nپاسخ صحیح علمی: گزینه ج — نمونه‌برداری مغز استخوان\n\nوضعیت پاسخ فایل: ⚠️ قابل بحث\n\nپاسخ تشریحی کوتاه:\nبیمار با آنمی میکروسیتیک (MCV=78) و فریتین پایین (۱۰) به نفع فقر آهن است. در آقای ۵۰ ساله، طبق گایدلاین‌ها باید بررسی برای یافتن منبع خونریزی گوارشی (آندوسکوپی و کولونوسکوپی) انجام شود، نه لزوماً نمونه‌برداری مغز استخوان. درمان با آهن خوراکی معمولاً اولین خط است مگر در موارد سوءجذب یا عدم تحمل. نمونه‌برداری مغز استخوان در آنمی فقر آهن معمولاً اندیکاسیون ندارد.\n\nمنبع / مرجع علمی: AGA Guidelines — Evaluation of Iron Deficiency Anemia",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": true,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "uncertain"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-34",
+        "type": "mcq",
+        "question": "شایع‌ترین نوع لنفوم غیر هوچکین کدام است؟",
+        "options": [
+          "Diffuse Large B-cell",
+          "Burkitts",
+          "Follicular lym",
+          "Mantle cell"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — Diffuse Large B-cell Lymphoma (DLBCL)\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nDLBCL شایع‌ترین نوع لنفوم غیر هوچکین است و حدود ۳۰-۴۰٪ از تمام موارد NHL را تشکیل می‌دهد.\n\nمنبع / مرجع علمی: WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues",
+        "sessionId": "unknown",
+        "confidence": "low",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-35",
+        "type": "mcq",
+        "question": "کدامیک از گزینه‌های زیر در آنمی ماگالوبلاستیک دیده نمی‌شود؟",
+        "options": [
+          "هیپرسگمانتاسیون نوتروفیل‌ها",
+          "افزایش LDH",
+          "کاهش سلولاریته مغز استخوان",
+          "پان‌سیتوپنی"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ج — کاهش سلولاریته مغز استخوان\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nآنمی ماگالوبلاستیک (ناشی از کمبود B12 یا فولات) با مغز استخوان هیپرپلاستیک (افزایش سلولاریته) همراه است، نه کاهش سلولاریته. سایر یافته‌ها شامل هیپرسگمانتاسیون نوتروفیل‌ها، افزایش LDH (به دلیل همولیز داخل مغز استخوان) و پان‌سیتوپنی هستند.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-36",
+        "type": "mcq",
+        "question": "بیمار آقای ۲۵ ساله‌ای با شرح حال PTT طولانی بدون شرح حال خونریزی مراجعه کرده است. کمبود کدام فاکتور برای بیمار مطرح نمی‌باشد؟",
+        "options": [
+          "فاکتور هشت",
+          "فاکتور دوازده",
+          "HMWK",
+          "پره‌کالیکرین (P.K)"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — فاکتور هشت\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nکمبود فاکتور XII، HMWK و پره‌کالیکرین باعث طولانی شدن PTT می‌شوند اما با خونریزی بالینی همراه نیستند. کمبود فاکتور VIII (هموفیلی A) باعث طولانی شدن PTT و خونریزی بالینی می‌شود. بنابراین کمبود فاکتور هشت در بیماری که خونریزی ندارد، مطرح نیست.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-37",
+        "type": "mcq",
+        "question": "خانم ۴۵ ساله‌ای با علایم درد شکم مراجعه کرده است. در معاینه کبد بزرگ و دردناک است. بیمار زردی خفیف دارد و سونوگرافی ترومبوز ورید فوق کبدی (Budd-Chiari) مشاهده می‌شود. آزمایش خون بیمار به قرار زیر است:\nWBC=1100 (4000-11000), Hb=10 (12-14), Plate=80000 (150000-400000)\nکدام تشخیص برای بیمار مطرح است؟",
+        "options": [
+          "هموگلوبینوری حمله‌ای شبانه (PNH)",
+          "آنمی مگالوبلاستیک",
+          "آنمی آپلاستیک",
+          "سندرم میلودیسپلاستیک"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — هموگلوبینوری حمله‌ای شبانه (PNH)\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nPNH با همولیز مزمن، ترومبوز (به ویژه ترومبوز ورید کبدی یا Budd-Chiari) و سیتوپنی (به دلیل نارسایی مغز استخوان) مشخص می‌شود. این تریاد کلاسیک PNH است.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-10",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-38",
+        "type": "mcq",
+        "question": "خانم ۲۴ ساله‌ای با سابقه طولانی مدت اکیموزهای پوستی خفیف مراجعه کرده است. در آزمایشات:\nPT:12 INR:1 PTT:80(normal=30-39) BT>15 (NL=2-9)\nکدام بیماری محتمل‌تر است؟",
+        "options": [
+          "VWD",
+          "برنارد سولیر",
+          "هموفیلی B",
+          "ترومباستنی گلانزمن"
+        ],
+        "correctAnswer": 0,
+        "explanation": "پاسخ مشخص‌شده در فایل: گزینه الف — VWD\n\nپاسخ صحیح علمی: گزینه الف — VWD\n\nوضعیت پاسخ فایل: ✅ صحیح\n\nپاسخ تشریحی کوتاه:\nبیمار با BT طولانی و PTT طولانی دارد. در VWD، هم عملکرد پلاکت (BT طولانی) و هم فاکتور VIII (PTT طولانی) مختل می‌شود. در هموفیلی B فقط PTT طولانی است و BT طبیعی است. در برنارد سولیر و گلانزمن، BT طولانی است اما PTT معمولاً طبیعی است.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-06",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "correct"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-39",
+        "type": "mcq",
+        "question": "منظور از مونوسیتوز (Monocytosis) چیست؟ (AMC=absolute monocyte count)",
+        "options": [
+          "AMC>100",
+          "AMC>1000",
+          "AMC>1500",
+          "AMC>5000"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه ب — AMC>1000\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nمونوسیتوز به افزایش تعداد مطلق مونوسیت‌ها (AMC) به بیش از ۱۰۰۰ سلول در میکرولیتر اطلاق می‌شود.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": true,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-40",
+        "type": "mcq",
+        "question": "Marked Eosinophilia کدام است؟",
+        "options": [
+          "AEC>1500/μL",
+          "AEC>500/μL",
+          "AEC>5000/μL",
+          "AEC>1000/μL"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — AEC>1500/μL\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nائوزینوفیلی شدید (Marked Eosinophilia) به تعداد مطلق ائوزینوفیل (AEC) بیش از ۱۵۰۰ سلول در میکرولیتر اطلاق می‌شود.\n\nمنبع / مرجع علمی: دانش پایه هماتولوژی — Wintrobe's Clinical Hematology",
+        "sessionId": "session-07",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-41",
+        "type": "mcq",
+        "question": "منظور هموگلوبین پورتلند کدامیک می‌باشد؟",
+        "options": [
+          "ζ₂γ₂",
+          "ζ₂ε₂",
+          "α₂γ₂",
+          "α₂β₂"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه الف — ζ₂γ₂\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nهموگلوبین پورتلند از دو زنجیره زتا (ζ) و دو زنجیره گاما (γ) تشکیل شده است و در اوایل جنینی (حدود هفته ۵-۶) تولید می‌شود.\n\nمنبع / مرجع علمی: دانش پایه جنین‌شناسی — Langman's Medical Embryology",
+        "sessionId": "session-09",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-42",
+        "type": "mcq",
+        "question": "منظور سمپتوم B در لنفوم بدخیم چیست؟",
+        "options": [
+          "تب که بیش از یک‌ماه تداوم داشته باشد",
+          "تعریق شبانه drenching",
+          "کاهش وزن بیش از ۱۰% وزن بدن طی ۶ ماه اخیر",
+          "همه گزینه‌ها"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — همه گزینه‌ها\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nسمپتوم B در لنفوم شامل تب (دمای >۳۸ درجه سانتی‌گراد به مدت ۳ روز متوالی)، تعریق شبانه (drenching night sweats) و کاهش وزن بیش از ۱۰٪ وزن بدن در ۶ ماه اخیر است.\n\nمنبع / مرجع علمی: Ann Arbor Staging System for Lymphoma",
+        "sessionId": "session-01",
+        "confidence": "medium",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      },
+      {
+        "id": "khun-bahman-96-q-43",
+        "type": "mcq",
+        "question": "بالاترین مقدار آهن در کدام قسمت بدن وجود دارد؟",
+        "options": [
+          "میوگلوبین",
+          "آنزیم سیتوکروم",
+          "ترانسفرین",
+          "هموگلوبین"
+        ],
+        "correctAnswer": -1,
+        "explanation": "پاسخ مشخص‌شده در فایل: ندارد\n\nپاسخ صحیح علمی: گزینه د — هموگلوبین\n\nوضعیت پاسخ فایل: ❓ قابل تعیین نیست\n\nپاسخ تشریحی کوتاه:\nحدود ۶۵-۷۰٪ از آهن بدن در هموگلوبین (گلبول‌های قرمز) ذخیره شده است. میوگلوبین حدود ۱۰٪، سیتوکروم‌ها و آنزیم‌های حاوی آهن حدود ۵-۱۰٪ و ترانسفرین بخش بسیار کوچکی از آهن بدن را حمل می‌کند.\n\nمنبع / مرجع علمی: دانش پایه بیوشیمی — Harper's Illustrated Biochemistry",
+        "sessionId": "session-08",
+        "confidence": "high",
+        "flags": {
+          "hasIncompleteOptions": false,
+          "requiresImage": false,
+          "isDuplicate": false,
+          "fileAnswerStatus": "unanswered"
+        }
+      }
+    ]
+  }
+}

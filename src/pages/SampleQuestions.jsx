@@ -33,7 +33,7 @@ export default function SampleQuestions() {
 
   if (exams.length === 0) {
     return (
-      <div className="space-y-6">
+      <div className="w-full overflow-x-hidden space-y-6">
         <header>
           <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
             نمونه سوالات
@@ -48,7 +48,7 @@ export default function SampleQuestions() {
   }
 
   return (
-    <div className="space-y-8">
+    <div className="w-full overflow-x-hidden space-y-8">
       <header>
         <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
           نمونه سوالات
@@ -59,12 +59,12 @@ export default function SampleQuestions() {
       </header>
 
       {/* By session */}
-      <section>
+      <section className="w-full">
         <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-slate-900 dark:text-slate-100">
           <BookOpen className="h-5 w-5 text-slate-500" />
           بر اساس جلسه
         </h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid w-full gap-3 sm:grid-cols-2">
           {sessions.map((session, i) => {
             const sessionData = getSessionData(session.id);
             const realTitle = sessionData?.title ?? session.title;
@@ -76,17 +76,17 @@ export default function SampleQuestions() {
                 key={session.id}
                 to={disabled ? '#' : `/sample-questions/session/${session.id}`}
                 className={[
-                  'group flex items-center justify-between gap-3 rounded-xl border p-4 transition-all',
+                  'group flex w-full min-w-0 items-center justify-between gap-3 rounded-xl border p-4 transition-all',
                   disabled
                     ? 'pointer-events-none cursor-not-allowed border-slate-100 bg-slate-50/50 opacity-50 dark:border-slate-800 dark:bg-slate-900/40'
                     : 'border-slate-200 bg-white hover:border-rose-300 hover:bg-rose-50/40 active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900 dark:hover:border-rose-800 dark:hover:bg-rose-950/30',
                 ].join(' ')}
               >
-                <div className="flex min-w-0 items-center gap-3">
+                <div className="flex w-full min-w-0 items-center gap-3">
                   <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-slate-100 text-sm font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300">
                     {i + 1}
                   </span>
-                  <div className="min-w-0">
+                  <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-semibold text-slate-900 dark:text-slate-100">
                       جلسه {i + 1} — {realTitle}
                     </p>
@@ -106,20 +106,20 @@ export default function SampleQuestions() {
 
       {/* Uncategorized questions */}
       {unknownCount > 0 && (
-        <section>
+        <section className="w-full">
           <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-amber-800 dark:text-amber-300">
             <HelpCircle className="h-5 w-5" />
             سوالات بدون دسته
           </h2>
           <Link
             to="/sample-questions/session/unknown"
-            className="group flex items-center justify-between gap-3 rounded-xl border border-amber-200 bg-amber-50/60 p-4 transition-all hover:border-amber-300 hover:bg-amber-50 active:scale-[0.99] dark:border-amber-900/60 dark:bg-amber-950/30 dark:hover:border-amber-800 dark:hover:bg-amber-950/50"
+            className="group flex w-full min-w-0 items-center justify-between gap-3 rounded-xl border border-amber-200 bg-amber-50/60 p-4 transition-all hover:border-amber-300 hover:bg-amber-50 active:scale-[0.99] dark:border-amber-900/60 dark:bg-amber-950/30 dark:hover:border-amber-800 dark:hover:bg-amber-950/50"
           >
-            <div className="flex min-w-0 items-center gap-3">
+            <div className="flex w-full min-w-0 items-center gap-3">
               <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-700 dark:bg-amber-900/60 dark:text-amber-300">
                 <HelpCircle className="h-4 w-4" />
               </span>
-              <div className="min-w-0">
+              <div className="min-w-0 flex-1">
                 <p className="truncate text-sm font-semibold text-amber-900 dark:text-amber-100">
                   سوالات دسته‌بندی‌نشده
                 </p>
@@ -134,23 +134,23 @@ export default function SampleQuestions() {
       )}
 
       {/* By exam */}
-      <section>
+      <section className="w-full">
         <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-slate-900 dark:text-slate-100">
           <Calendar className="h-5 w-5 text-slate-500" />
           بر اساس دوره امتحان
         </h2>
-        <ul className="space-y-2">
+        <ul className="w-full space-y-2">
           {exams.map((exam) => (
-            <li key={exam.id}>
+            <li key={exam.id} className="w-full">
               <Link
                 to={`/sample-questions/exam/${exam.id}`}
-                className="group flex items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4 transition-all hover:border-rose-300 hover:bg-rose-50/40 active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900 dark:hover:border-rose-800 dark:hover:bg-rose-950/30"
+                className="group flex w-full min-w-0 items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white p-4 transition-all hover:border-rose-300 hover:bg-rose-50/40 active:scale-[0.99] dark:border-slate-800 dark:bg-slate-900 dark:hover:border-rose-800 dark:hover:bg-rose-950/30"
               >
-                <div className="flex min-w-0 items-center gap-3">
+                <div className="flex w-full min-w-0 items-center gap-3">
                   <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-rose-50 text-rose-600 dark:bg-rose-950/60 dark:text-rose-400">
                     <Calendar className="h-4 w-4" />
                   </span>
-                  <div className="min-w-0">
+                  <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-semibold text-slate-900 dark:text-slate-100">
                       {exam.label}
                     </p>
